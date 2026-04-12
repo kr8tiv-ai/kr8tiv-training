@@ -1,0 +1,173 @@
+# Forge Training Configuration
+# 4-stage pipeline: SFT → SimPO → GRPO → KTO
+# All stages use Unsloth QLoRA on Gemma 4 E4B
+
+# ============================================================================
+# Base Model
+# ============================================================================
+base_model:
+  name: "unsloth/gemma-4-E4B-it-bnb-4bit"
+  family: gemma
+  parameters: 4500000000  # ~4.5B effective
+  context_window: 4096    # 6GB VRAM safe
+  quantization: Q4_K_M    # Best quality-to-size at 4-bit
+
+# ============================================================================
+# LoRA Configuration (Shared across stages)
+# ============================================================================
+lora:
+  rank: 32
+  alpha: 64                # 2x ratio — optimal for code/debugging tasks
+  target_modules: all-linear  # q/k/v/o_proj + gate/up/down_proj
+  dropout: 0.0             # Zero dropout with abundant data
+  bias: none
+  use_rslora: false        # Standard LoRA at r=32 is sufficient
+  use_gradient_checkpointing: unsloth  # Unsloth optimized
+
+# ============================================================================
+# Stage 1: Supervised Fine-Tuning (SFT)
+# ============================================================================
+sft:
+  data:
+    paths:
+      - training/stage1-sft/data/debugging-sessions.jsonl       # Real debug walkthroughs with reasoning
+      - training/stage1-sft/data/persona-conversations.jsonl    # Forge voice and personality examples
+      - training/stage1-sft/data/tool-calling-examples.jsonl    # Structured tool invocations
+      - training/stage1-sft/data/code-reviews.jsonl             # Full review conversations
+      - training/stage1-sft/data/tdd-walkthroughs.jsonl         # Red-green-refactor sessions
+      - training/stage1-sft/data/architecture-discussions.jsonl # System design conversations
+    format: chatml            # ChatML format for Gemma 4
+    max_seq_length: 4096
+    mask_user_turns: true     # Loss on response tokens only
+  training:
+    learning_rate: 2.0e-4
+    batch_size: 2
+    gradient_accumulation_steps: 8  # Effective batch: 16
+    epochs: 2
+    warmup_ratio: 0.03
+    lr_scheduler: cosine
+    weight_decay: 0.01
+    max_grad_norm: 1.0
+    seed: 42
+  output:
+    dir: training/output/forge/sft
+    merge_lora: true          # Merge LoRA into base for next stage
+
+# ============================================================================
+# Stage 2: Simple Preference Optimization (SimPO)
+# ============================================================================
+simpo:
+  data:
+    path: training/stage2-simpo/data/preference-pairs.jsonl
+    # Chosen: responses that find root cause, write regression test, explain the bug
+    # Rejected: responses that patch symptoms, skip tests, or give vague explanations
+    format: preference        # {chosen, rejected} pairs
+    max_seq_length: 4096
+  training:
+    beta: 2.5                 # Much larger than DPO (prevents verbose code)
+    gamma: 1.0                # Target reward margin
+    learning_rate: 5.0e-7
+    batch_size: 2
+    gradient_accumulation_steps: 4
+    epochs: 1
+    warmup_ratio: 0.1
+    loss_type: simpo          # Via TRL CPOTrainer
+  reference_model: none       # SimPO is reference-free
+  output:
+    dir: training/output/forge/simpo
+    merge_lora: true
+
+# ============================================================================
+# Stage 3: Group Relative Policy Optimization (GRPO)
+# ============================================================================
+grpo:
+  data:
+    path: training/stage3-grpo/data/grpo-problems.jsonl
+    # Prompts: "Here is a bug report / code review request / failing test. Debug it."
+    format: prompt            # Single prompts for rollout generation
+    max_prompt_length: 2048
+    max_completion_length: 4096
+  training:
+    group_size: 2             # 2-GRPO variant (70% faster)
+    batch_size: 256           # Prompts per batch
+    clip_epsilon_low: 0.2     # DAPO lower clip
+    clip_epsilon_high: 0.28   # DAPO upper clip
+    learning_rate: 8.0e-6
+    kl_coefficient: 0.001
+    epochs: 1
+  rewards:
+    # Composite reward function weights — tuned for debugging/code quality domain
+    root_cause_found: 0.35        # Did the response identify the actual bug source?
+    test_written: 0.25            # Did it write a regression test?
+    explanation_quality: 0.20     # Is the debugging reasoning explained clearly?
+    fix_correctness: 0.15         # Does the fix actually work (static analysis / test pass)?
+    format_bonus: 0.05            # Valid JSON tool calls, correct markdown structure
+  verification_loop:
+    engine: subprocess            # Run tests in isolated subprocess
+    languages:
+      - javascript
+      - typescript
+      - python
+    test_runners:
+      - jest
+      - vitest
+      - pytest
+    static_analysis:
+      - typescript: "tsc --noEmit"
+      - python: "pyright --outputjson"
+    timeout_seconds: 30
+  output:
+    dir: training/output/forge/grpo
+    merge_lora: true
+
+# ============================================================================
+# Stage 4: Kahneman-Tversky Optimization (KTO)
+# ============================================================================
+kto:
+  data:
+    path: training/stage4-kto/data/user-feedback.jsonl
+    # Desirable: found root cause, wrote test, explained clearly, celebrated the win
+    # Undesirable: guessed without reasoning, skipped test, vague explanation, missed the bug
+    format: binary            # {input, output, label: "desirable"|"undesirable"}
+  training:
+    beta: 0.1
+    learning_rate: 5.0e-7
+    batch_size: 2
+    gradient_accumulation_steps: 4
+    epochs: 1
+    lambda_ratio: 1.0         # lambda_D * n_D / (lambda_U * n_U)
+  output:
+    dir: training/output/forge/kto
+    merge_lora: true
+
+# ============================================================================
+# GGUF Export
+# ============================================================================
+export:
+  formats:
+    - Q4_K_M                  # ~5GB — balanced quality/size
+    - Q4_K_S                  # ~4.8GB — low VRAM
+    - Q5_K_M                  # ~5.5GB — higher quality
+  output_dir: training/output/forge/gguf
+  hf_repo: kr8tiv/kin-forge-GGUF
+  ollama_model: kin-forge
+
+# ============================================================================
+# Evaluation
+# ============================================================================
+evaluation:
+  benchmarks:
+    - debug-bench             # Bug localization and fix quality
+    - swe-bench               # Real GitHub issues (subset)
+    - tdd-bench               # Red-green-refactor task completion
+    - code-review-bench       # Correctness of review feedback
+    - persona                 # Big Five personality adherence (Forge profile)
+    - tool-calling            # BFCL structured output
+  targets:
+    debug_resolution_rate: 0.85       # % of bugs correctly diagnosed and fixed
+    regression_test_rate: 0.90        # % of fixes accompanied by a regression test
+    root_cause_accuracy: 0.80         # % of diagnoses identifying actual root cause (not symptom)
+    review_precision: 0.85            # % of review comments that are correct and actionable
+    tdd_adherence: 0.90               # % of new code written test-first
+    persona_adherence: 0.90           # Forge personality consistency
+    tool_call_validity: 0.85          # Valid structured tool invocations

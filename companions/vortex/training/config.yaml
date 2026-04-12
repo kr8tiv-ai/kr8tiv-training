@@ -1,0 +1,199 @@
+# Vortex Training Configuration
+# 4-stage pipeline: SFT → SimPO → GRPO → KTO
+# All stages use Unsloth QLoRA on Gemma 4 E4B
+# Domain: Marketing, content strategy, brand voice, analytics, social media, SEO, campaigns
+
+# ============================================================================
+# Base Model
+# ============================================================================
+base_model:
+  name: "unsloth/gemma-4-E4B-it-bnb-4bit"
+  family: gemma
+  parameters: 4500000000  # ~4.5B effective
+  context_window: 4096    # 6GB VRAM safe
+  quantization: Q4_K_M    # Best quality-to-size at 4-bit
+
+# ============================================================================
+# LoRA Configuration (Shared across stages)
+# ============================================================================
+lora:
+  rank: 32
+  alpha: 64                # 2x ratio — optimal for generative content tasks
+  target_modules: all-linear  # q/k/v/o_proj + gate/up/down_proj
+  dropout: 0.05            # Light dropout — marketing language is diverse
+  bias: none
+  use_rslora: false        # Standard LoRA at r=32 is sufficient
+  use_gradient_checkpointing: unsloth  # Unsloth optimized
+
+# ============================================================================
+# Stage 1: Supervised Fine-Tuning (SFT)
+# ============================================================================
+sft:
+  data:
+    paths:
+      - training/stage1-sft/data/strategy-conversations.jsonl       # Campaign strategy Q&A pairs
+      - training/stage1-sft/data/persona-conversations.jsonl        # Vortex character examples
+      - training/stage1-sft/data/brand-voice-examples.jsonl         # Brand audit and voice-build examples
+      - training/stage1-sft/data/content-creation-examples.jsonl    # Platform-native content across channels
+      - training/stage1-sft/data/analytics-interpretation.jsonl     # Data → insight → action examples
+      - training/stage1-sft/data/campaign-briefs.jsonl              # Full campaign planning examples
+      - training/stage1-sft/data/seo-content-examples.jsonl         # SEO-optimized content examples
+      - training/stage1-sft/data/tool-calling-examples.jsonl        # Structured tool call outputs
+    format: chatml            # ChatML format for Gemma 4
+    max_seq_length: 4096
+    mask_user_turns: true     # Loss on response tokens only
+  training:
+    learning_rate: 2.0e-4
+    batch_size: 2
+    gradient_accumulation_steps: 8  # Effective batch: 16
+    epochs: 3                       # Marketing domain needs more exposure than code
+    warmup_ratio: 0.03
+    lr_scheduler: cosine
+    weight_decay: 0.01
+    max_grad_norm: 1.0
+    seed: 42
+  output:
+    dir: training/output/vortex/sft
+    merge_lora: true          # Merge LoRA into base for next stage
+
+# ============================================================================
+# Stage 2: Simple Preference Optimization (SimPO)
+# ============================================================================
+simpo:
+  data:
+    path: training/stage2-simpo/data/preference-pairs.jsonl
+    # Preference pairs differentiate:
+    # - Strategic response with goal + metric (chosen) vs. generic content output (rejected)
+    # - Brand-voice-consistent copy (chosen) vs. off-brand drift (rejected)
+    # - Data-backed recommendation (chosen) vs. unsupported assertion (rejected)
+    # - Vortex persona speech (chosen) vs. generic assistant voice (rejected)
+    format: preference        # {chosen, rejected} pairs
+    max_seq_length: 4096
+  training:
+    beta: 2.0                 # Balanced — marketing responses need variety but discipline
+    gamma: 0.8                # Target reward margin
+    learning_rate: 5.0e-7
+    batch_size: 2
+    gradient_accumulation_steps: 4
+    epochs: 1
+    warmup_ratio: 0.1
+    loss_type: simpo          # Via TRL CPOTrainer
+  reference_model: none       # SimPO is reference-free
+  output:
+    dir: training/output/vortex/simpo
+    merge_lora: true
+
+# ============================================================================
+# Stage 3: Group Relative Policy Optimization (GRPO)
+# ============================================================================
+grpo:
+  data:
+    path: training/stage3-grpo/data/grpo-problems.jsonl
+    # Problem types for rollout generation:
+    # - "Build a 30-day content strategy for [brand]" (strategic planning)
+    # - "Write a launch campaign for [product]" (campaign execution)
+    # - "Audit this content piece for brand voice" (evaluation)
+    # - "Interpret these analytics and recommend next steps" (data analysis)
+    # - "Create a week of Instagram content for [brand]" (content batching)
+    format: prompt            # Single prompts for rollout generation
+    max_prompt_length: 2048
+    max_completion_length: 4096
+  training:
+    group_size: 2             # 2-GRPO variant (70% faster)
+    batch_size: 256
+    clip_epsilon_low: 0.2
+    clip_epsilon_high: 0.28
+    learning_rate: 8.0e-6
+    kl_coefficient: 0.001
+    epochs: 1
+  rewards:
+    # Composite reward function weights — marketing domain
+    strategy_completeness: 0.30   # Goal, audience, channel, metric all present
+    brand_voice_adherence: 0.25   # Output matches stated brand voice
+    persona_fidelity: 0.20        # Vortex speech patterns, dragon metaphors, confidence
+    content_quality: 0.15         # Grammar, platform-native format, clarity
+    tool_call_validity: 0.10      # Valid JSON tool calls when tools are invoked
+  fire_loop:
+    # The Dragon Sees: evaluate generated campaigns end-to-end
+    engine: content_evaluator     # LLM-as-judge for marketing content
+    evaluation_dimensions:
+      - strategy_clarity          # Is the goal and target audience clear?
+      - brand_voice_consistency   # Does it match the stated brand voice?
+      - platform_native_format    # Is it formatted correctly for the platform?
+      - conversion_orientation    # Does it drive toward a stated goal?
+      - persona_adherence         # Does Vortex sound like Vortex?
+    timeout_seconds: 30
+  output:
+    dir: training/output/vortex/grpo
+    merge_lora: true
+
+# ============================================================================
+# Stage 4: Kahneman-Tversky Optimization (KTO)
+# ============================================================================
+kto:
+  data:
+    path: training/stage4-kto/data/user-feedback.jsonl
+    # Binary feedback from real Vortex interactions:
+    # desirable: "This campaign brief is exactly what I needed"
+    # desirable: "That brand voice audit caught the drift immediately"
+    # undesirable: "It just gave me generic content without asking the goal"
+    # undesirable: "Lost the Vortex personality halfway through"
+    format: binary            # {input, output, label: "desirable"|"undesirable"}
+  training:
+    beta: 0.1
+    learning_rate: 5.0e-7
+    batch_size: 2
+    gradient_accumulation_steps: 4
+    epochs: 1
+    lambda_ratio: 1.0
+  output:
+    dir: training/output/vortex/kto
+    merge_lora: true
+
+# ============================================================================
+# GGUF Export
+# ============================================================================
+export:
+  formats:
+    - Q4_K_M                  # ~5GB — balanced quality/size
+    - Q4_K_S                  # ~4.8GB — low VRAM
+    - Q5_K_M                  # ~5.5GB — higher quality
+  output_dir: training/output/vortex/gguf
+  hf_repo: kr8tiv/kin-vortex-GGUF
+  ollama_model: kin-vortex
+
+# ============================================================================
+# Evaluation
+# ============================================================================
+evaluation:
+  benchmarks:
+    - strategy-completeness      # Does every response include goal, audience, metric?
+    - brand-voice-adherence      # LLM-as-judge against stated voice profiles
+    - persona-fidelity           # Big Five trait expression + speech pattern analysis
+    - tool-calling               # BFCL structured output validity
+    - content-platform-native    # Platform format correctness (X vs LinkedIn vs TikTok)
+    - campaign-coverage          # Full funnel awareness → conversion → retention
+  targets:
+    strategy_completeness_rate: 0.92    # 92% of responses include goal + metric
+    brand_voice_adherence: 0.88         # 88% match to stated brand voice profile
+    persona_fidelity: 0.90              # 90% personality classifier match
+    tool_call_validity: 0.85            # 85% valid structured tool calls
+    platform_format_accuracy: 0.93     # 93% correct platform-native formatting
+
+# ============================================================================
+# Training Data Domain Notes
+# ============================================================================
+# Priority domains (by training data volume):
+#   40% — Content strategy and campaign planning conversations
+#   20% — Brand voice building, auditing, and protection
+#   15% — Analytics interpretation and data-to-decision examples
+#   10% — Platform-native content creation (social, email, blog)
+#   10% — Persona conversations (pure Vortex character)
+#    5% — Tool calling examples (structured analytics/scheduler calls)
+#
+# Marketing niches with explicit training coverage:
+#   - DeFi / Web3 / crypto community building
+#   - SaaS / B2B demand generation
+#   - Creator economy / personal brand
+#   - Consumer brand / CPG
+#   - Agency client management
