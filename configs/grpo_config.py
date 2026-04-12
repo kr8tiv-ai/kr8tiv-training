@@ -1,43 +1,52 @@
-# Cipher Code Kraken - GRPO Configuration
-# Target: Reward-based creative code quality reinforcement
-# Stage 3 of 4: GRPO uses multi-signal reward functions to reinforce creative code quality
-# beyond what preference pairs can teach. The model generates multiple completions per prompt,
-# and the reward function scores them based on code structure, creativity, and anti-slop signals.
+# ============================================================================
+# GRPO Configuration — Best-in-Class for Gemma 4 31B on A100 40GB
+# Updated: 2026-04-12 | Sources: DeepSeekMath, TRL GRPOTrainer docs
+# ============================================================================
 
-MODEL_ID = "./cipher-simpo-merged"  # Output from SimPO stage
-OUTPUT_DIR = "./cipher-grpo"
-MERGED_OUTPUT_DIR = "./cipher-grpo-merged"
-
-# QLoRA settings (consistent across all stages)
+MODEL_ID = "./cipher-simpo-merged"
 LOAD_IN_4BIT = True
-MAX_SEQ_LENGTH = 4096
-DTYPE = None  # auto-detect (bf16 on A100)
 
-# LoRA settings (consistent across all stages)
-LORA_R = 16
-LORA_ALPHA = 16
-LORA_TARGET_MODULES = [
-    "q_proj", "k_proj", "v_proj", "o_proj",
-    "gate_proj", "up_proj", "down_proj",
-]
-USE_GRADIENT_CHECKPOINTING = "unsloth"  # Critical: saves 30% VRAM
-RANDOM_STATE = 42
+LORA_R = 64
+LORA_ALPHA = 64
+USE_RSLORA = True
+LORA_DROPOUT = 0.0
+BIAS = "none"
+USE_GRADIENT_CHECKPOINTING = "unsloth"
 
-# GRPO-specific settings
-NUM_GENERATIONS = 4          # GRPO group size (generate 4 completions per prompt)
+# GRPO — Research-optimal
+NUM_GENERATIONS = 4            # 4 rollouts per prompt (best quality on A100 40GB)
+MAX_PROMPT_LENGTH = 2048
 MAX_COMPLETION_LENGTH = 4096
+EPSILON = 0.2                  # PPO-style clip
+BETA = 0.0                     # NO KL penalty — not essential, saves memory
 
-# Training settings
-PER_DEVICE_TRAIN_BATCH_SIZE = 1
-GRADIENT_ACCUMULATION_STEPS = 4
-NUM_TRAIN_EPOCHS = 1
-LEARNING_RATE = 1e-5         # Very low LR for RL stage (100x lower than SFT)
+LEARNING_RATE = 5e-6
+LR_SCHEDULER = "cosine"
+WARMUP_RATIO = 0.03
+WEIGHT_DECAY = 0.0
+EPOCHS = 1
+PER_DEVICE_BATCH_SIZE = 1
+GRADIENT_ACCUMULATION = 4      # Effective: 4 prompts x 4 generations = 16 rollouts
+MAX_SEQ_LENGTH = 4096
 BF16 = True
-LOGGING_STEPS = 5
-SAVE_STEPS = 50
-REPORT_TO = "wandb"
-WANDB_PROJECT = "cipher-code-kraken"
-WANDB_RUN_NAME = "grpo-stage"
+OPTIM = "adamw_8bit"
+SEED = 42
 
-# Dataset
-GRPO_DATA_PATH = "data/prompts/grpo_prompts.jsonl"
+# Cipher reward weights (accessibility-first + anti-slop)
+REWARD_WEIGHTS = {
+    "accessibility": 0.30,
+    "creative_quality": 0.30,
+    "personality": 0.20,
+    "executability": 0.10,
+    "craftsmanship": 0.10,
+}
+SLOP_PENALTY = -0.3
+CREATIVE_BONUS = 0.2
+IMPORT_VALIDATION = True
+REPETITION_THRESHOLD = 0.5
+CODE_BLOCK_REQUIRED = True
+
+OUTPUT_DIR = "./cipher-grpo"
+SAVE_STEPS = 50
+LOGGING_STEPS = 5
+REPORT_TO = "none"

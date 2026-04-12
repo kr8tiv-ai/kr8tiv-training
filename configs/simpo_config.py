@@ -1,43 +1,41 @@
-# Cipher Code Kraken - SimPO Configuration
-# Target: Anti-slop preference optimization on SFT-merged model
-# Stage 2 of 4: SimPO teaches the model to prefer hand-crafted creative code over generic templates
+# ============================================================================
+# SimPO Configuration — Best-in-Class for Gemma 4 31B on A100 40GB
+# Updated: 2026-04-12 | Sources: SimPO paper NeurIPS 2024 (Table 5)
+# ============================================================================
 
-MODEL_ID = "./cipher-sft-merged"  # Output from SFT stage
-OUTPUT_DIR = "./cipher-simpo"
-MERGED_OUTPUT_DIR = "./cipher-simpo-merged"
-
-# QLoRA settings (same as SFT)
+MODEL_ID = "./cipher-sft-merged"
 LOAD_IN_4BIT = True
-MAX_SEQ_LENGTH = 4096
-DTYPE = None  # auto-detect (bf16 on A100)
 
-# LoRA settings (same as SFT)
-LORA_R = 16
-LORA_ALPHA = 16
-LORA_TARGET_MODULES = [
-    "q_proj", "k_proj", "v_proj", "o_proj",
-    "gate_proj", "up_proj", "down_proj",
-]
-USE_GRADIENT_CHECKPOINTING = "unsloth"  # Critical: saves 30% VRAM
-RANDOM_STATE = 42
+LORA_R = 64
+LORA_ALPHA = 64
+USE_RSLORA = True
+LORA_DROPOUT = 0.0
+BIAS = "none"
+USE_GRADIENT_CHECKPOINTING = "unsloth"
 
-# SimPO-specific settings
+# SimPO — Paper-optimal values
 LOSS_TYPE = "simpo"
-CPO_ALPHA = 0.0          # Pure SimPO (no CPO regularization)
-SIMPO_GAMMA = 1.4         # Target reward margin (SimPO paper default)
-BETA = 2.0                # SimPO paper recommends 2.0
+CPO_ALPHA = 0.0                # Pure SimPO (no BC regularization)
+BETA = 10.0                    # SimPO paper Table 5 optimal (NOT DPO scale)
+SIMPO_GAMMA = 2.5              # Reward margin. Ratio gamma/beta = 0.25 (paper optimal)
 
-# Training settings
-PER_DEVICE_TRAIN_BATCH_SIZE = 1
-GRADIENT_ACCUMULATION_STEPS = 4
-NUM_TRAIN_EPOCHS = 1      # 1 epoch for preference stage
-LEARNING_RATE = 5e-5       # Lower LR for preference optimization
+LEARNING_RATE = 5e-7           # Tuned: 3e-7 to 1e-6 range
+LR_SCHEDULER = "cosine"
+WARMUP_RATIO = 0.1             # 10% warmup for preference stages
+WEIGHT_DECAY = 0.0
+EPOCHS = 1
+PER_DEVICE_BATCH_SIZE = 1
+GRADIENT_ACCUMULATION = 128    # CRITICAL: Paper recommends effective batch 128
+MAX_SEQ_LENGTH = 4096
 BF16 = True
-MAX_LENGTH = 4096
-MAX_PROMPT_LENGTH = 512
-REPORT_TO = "wandb"
-WANDB_PROJECT = "cipher-code-kraken"
-WANDB_RUN_NAME = "simpo-stage"
+OPTIM = "adamw_8bit"
+SEED = 42
 
-# Dataset
-SIMPO_DATA_PATH = "data/prompts/simpo_prompts.jsonl"
+# Tuning order: 1) LR → 2) gamma/beta ratio → 3) absolute beta
+# If loss noisy: increase grad_accum to 256
+# If chosen/rejected rewards converge: increase gamma to 3.0-5.0
+
+OUTPUT_DIR = "./cipher-simpo"
+SAVE_STEPS = 100
+LOGGING_STEPS = 10
+REPORT_TO = "none"
