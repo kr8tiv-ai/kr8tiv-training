@@ -1,0 +1,336 @@
+# KIN Training Master Config — All 6 Companions on Gemma 4 31B
+# Timeline: 5 days | Budget: $100 (Pro+ $50 + $50 PAYG = 1100 compute units)
+# GPU: A100 40GB via Colab Pro+
+
+# ============================================================================
+# Global Settings
+# ============================================================================
+global:
+  base_model: "unsloth/gemma-4-31B-it-bnb-4bit"
+  fallback_model: "unsloth/gemma-4-E4B-it-bnb-4bit"  # If A100 unavailable
+  model_family: gemma
+  platform: colab_pro_plus
+  gpu: A100-40GB
+  quantization_export: [q4_k_m, q5_k_m]
+  hf_org: kr8tiv
+  total_budget_units: 1100    # Pro+ 600 + PAYG 500
+
+  # LoRA (shared across all companions)
+  lora:
+    rank: 64                  # Higher rank for 31B (more capacity)
+    alpha: 128                # 2x ratio
+    target_modules: all-linear
+    dropout: 0.0
+    use_gradient_checkpointing: unsloth
+
+  # Training defaults
+  defaults:
+    sft_lr: 2.0e-4
+    sft_epochs: 2
+    sft_batch: 1              # A100 with 31B = batch 1 + grad accum
+    sft_grad_accum: 16
+    simpo_lr: 5.0e-7
+    simpo_beta: 2.5
+    simpo_gamma: 1.0
+    grpo_lr: 8.0e-6
+    grpo_group_size: 2
+    grpo_batch: 4
+    max_seq_length: 8192      # 31B supports longer context on A100
+
+# ============================================================================
+# Companion Definitions
+# ============================================================================
+companions:
+  cipher:
+    name: "Cipher — Code Kraken"
+    emoji: "🐙"
+    specialization: "Web design, frontend, creative technology"
+    frontier_model: "gpt-5.4"
+    data_generators:
+      - cipher-web-dev
+      - cipher-persona
+      - cipher-tool-use
+      - cipher-alignment
+      - cipher-safety
+      - cipher-voice
+    sft_examples: 8000        # Largest — most complex domain
+    simpo_pairs: 5000
+    grpo_prompts: 3000
+    priority: 1               # Train first (flagship)
+
+  forge:
+    name: "Forge — Cyber Unicorn"
+    emoji: "🦄"
+    specialization: "Code review, debugging, architecture"
+    frontier_model: "grok-4.20"
+    data_generators:
+      - forge-domain
+      - forge-persona
+      - forge-tool-use
+      - forge-alignment
+      - forge-safety
+      - forge-voice
+    sft_examples: 7000        # Second largest — code-heavy
+    simpo_pairs: 4000
+    grpo_prompts: 2500
+    priority: 2
+
+  vortex:
+    name: "Vortex — Teal Dragon"
+    emoji: "🐉"
+    specialization: "Content strategy, brand voice, analytics"
+    frontier_model: "claude-opus-4-6"
+    data_generators:
+      - vortex-domain
+      - vortex-persona
+      - vortex-tool-use
+      - vortex-alignment
+      - vortex-safety
+      - vortex-voice
+    sft_examples: 6000
+    simpo_pairs: 3500
+    grpo_prompts: 2000
+    priority: 3
+
+  mischief:
+    name: "Mischief — Glitch Pup"
+    emoji: "🐕"
+    specialization: "Family companion, personal branding"
+    frontier_model: "gemini-3.1-pro"
+    data_generators:
+      - mischief-domain
+      - mischief-persona
+      - mischief-tool-use
+      - mischief-alignment
+      - mischief-safety
+      - mischief-voice
+    sft_examples: 5000
+    simpo_pairs: 3000
+    grpo_prompts: 1500
+    priority: 4
+
+  aether:
+    name: "Aether — Frost Ape"
+    emoji: "🦍"
+    specialization: "Creative writing, storytelling, prose editing"
+    frontier_model: "kimi-k2.5"
+    data_generators:
+      - aether-domain
+      - aether-persona
+      - aether-tool-use
+      - aether-alignment
+      - aether-safety
+      - aether-voice
+    sft_examples: 6000
+    simpo_pairs: 3500
+    grpo_prompts: 2000
+    priority: 5
+
+  catalyst:
+    name: "Catalyst — Cosmic Blob"
+    emoji: "🫧"
+    specialization: "Wealth coaching, habits, life optimization"
+    frontier_model: "glm-4.6"
+    data_generators:
+      - catalyst-domain
+      - catalyst-persona
+      - catalyst-tool-use
+      - catalyst-alignment
+      - catalyst-safety
+      - catalyst-voice
+    sft_examples: 5000
+    simpo_pairs: 3000
+    grpo_prompts: 1500
+    priority: 6
+
+# ============================================================================
+# 5-Day Training Schedule
+# ============================================================================
+schedule:
+  day_1:
+    date: "2026-04-12"
+    label: "Data Generation + Cipher SFT"
+    tasks:
+      - action: generate_data
+        companions: [cipher, forge, vortex]
+        gpu: none              # CPU-only, runs locally or on Colab CPU
+        units: 0
+      - action: sft
+        companion: cipher
+        gpu: A100
+        estimated_hours: 3.5
+        estimated_units: 53
+      - action: simpo
+        companion: cipher
+        gpu: A100
+        estimated_hours: 2.0
+        estimated_units: 30
+    total_units: 83
+
+  day_2:
+    date: "2026-04-13"
+    label: "Cipher GRPO + Forge Full Pipeline"
+    tasks:
+      - action: grpo
+        companion: cipher
+        gpu: A100
+        estimated_hours: 4.0
+        estimated_units: 60
+      - action: export_gguf
+        companion: cipher
+        gpu: A100
+        estimated_hours: 0.5
+        estimated_units: 8
+      - action: generate_data
+        companions: [mischief, aether, catalyst]
+        gpu: none
+        units: 0
+      - action: sft
+        companion: forge
+        gpu: A100
+        estimated_hours: 3.0
+        estimated_units: 45
+      - action: simpo
+        companion: forge
+        gpu: A100
+        estimated_hours: 1.5
+        estimated_units: 23
+    total_units: 136
+
+  day_3:
+    date: "2026-04-14"
+    label: "Forge GRPO + Vortex + Mischief"
+    tasks:
+      - action: grpo
+        companion: forge
+        gpu: A100
+        estimated_hours: 3.5
+        estimated_units: 53
+      - action: export_gguf
+        companion: forge
+        gpu: A100
+        estimated_hours: 0.5
+        estimated_units: 8
+      - action: sft
+        companion: vortex
+        gpu: A100
+        estimated_hours: 2.5
+        estimated_units: 38
+      - action: simpo
+        companion: vortex
+        gpu: A100
+        estimated_hours: 1.5
+        estimated_units: 23
+      - action: grpo
+        companion: vortex
+        gpu: A100
+        estimated_hours: 3.0
+        estimated_units: 45
+      - action: export_gguf
+        companion: vortex
+        gpu: A100
+        estimated_units: 8
+    total_units: 175
+
+  day_4:
+    date: "2026-04-15"
+    label: "Mischief + Aether Full Pipelines"
+    tasks:
+      - action: sft
+        companion: mischief
+        gpu: A100
+        estimated_hours: 2.0
+        estimated_units: 30
+      - action: simpo
+        companion: mischief
+        gpu: A100
+        estimated_hours: 1.0
+        estimated_units: 15
+      - action: grpo
+        companion: mischief
+        gpu: A100
+        estimated_hours: 2.5
+        estimated_units: 38
+      - action: export_gguf
+        companion: mischief
+        gpu: A100
+        estimated_units: 8
+      - action: sft
+        companion: aether
+        gpu: A100
+        estimated_hours: 2.5
+        estimated_units: 38
+      - action: simpo
+        companion: aether
+        gpu: A100
+        estimated_hours: 1.5
+        estimated_units: 23
+      - action: grpo
+        companion: aether
+        gpu: A100
+        estimated_hours: 3.0
+        estimated_units: 45
+      - action: export_gguf
+        companion: aether
+        gpu: A100
+        estimated_units: 8
+    total_units: 205
+
+  day_5:
+    date: "2026-04-16"
+    label: "Catalyst + Final QA + Upload"
+    tasks:
+      - action: sft
+        companion: catalyst
+        gpu: A100
+        estimated_hours: 2.0
+        estimated_units: 30
+      - action: simpo
+        companion: catalyst
+        gpu: A100
+        estimated_hours: 1.0
+        estimated_units: 15
+      - action: grpo
+        companion: catalyst
+        gpu: A100
+        estimated_hours: 2.5
+        estimated_units: 38
+      - action: export_gguf
+        companion: catalyst
+        gpu: A100
+        estimated_units: 8
+      - action: eval_all
+        companions: [cipher, forge, vortex, mischief, aether, catalyst]
+        gpu: A100
+        estimated_hours: 2.0
+        estimated_units: 30
+      - action: push_to_hub
+        companions: [cipher, forge, vortex, mischief, aether, catalyst]
+        gpu: none
+        units: 0
+    total_units: 121
+
+# ============================================================================
+# Budget Summary
+# ============================================================================
+budget:
+  day_1: 83
+  day_2: 136
+  day_3: 175
+  day_4: 205
+  day_5: 121
+  total_estimated: 720
+  total_available: 1100       # Pro+ 600 + PAYG 500
+  buffer: 380                 # 34% headroom for retries/experiments
+  buffer_sufficient: true
+
+# ============================================================================
+# Output Artifacts (per companion)
+# ============================================================================
+output:
+  per_companion:
+    - "kr8tiv/kin-{id}-GGUF"           # HuggingFace GGUF repo
+    - "training/output/{id}/Modelfile"  # Ollama Modelfile
+    - "training/output/{id}/lora/"      # LoRA adapter
+    - "training/output/{id}/gguf/"      # Local GGUF files
+  ollama_model_name: "kin-{id}"         # e.g. kin-cipher, kin-forge

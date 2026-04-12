@@ -1,0 +1,112 @@
+{
+  "$schema": "https://openclaw.dev/schema/v1/openclaw.json",
+  "version": "1.0.0",
+  "tenant": "cipher-local",
+  "companion": {
+    "id": "cipher",
+    "name": "Cipher — Code Kraken",
+    "bloodline": "Code Kraken",
+    "emoji": "🐙"
+  },
+  "security": {
+    "dm_pairing": true,
+    "mention_gating": true,
+    "high_risk_approval": true,
+    "non_main_sandbox": true,
+    "route_overrides_disabled": true,
+    "personal_memory_boundary": true
+  },
+  "model_routing": {
+    "primary": {
+      "provider": "ollama",
+      "model": "kin-cipher",
+      "family": "gemma",
+      "parameters": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "repeat_penalty": 1.1,
+        "num_ctx": 4096,
+        "num_predict": 2048
+      }
+    },
+    "supervisor": {
+      "provider": "openai",
+      "model": "gpt-5.4",
+      "max_context": 128000
+    },
+    "free_tier": {
+      "provider": "groq",
+      "model": "qwen-3-32b"
+    },
+    "escalation": {
+      "level": "medium",
+      "keywords": [
+        "complex architecture",
+        "production deployment",
+        "security audit",
+        "performance optimization",
+        "design system",
+        "refactor",
+        "scale",
+        "database design"
+      ],
+      "narration": "required",
+      "context_window": 6
+    }
+  },
+  "tools": {
+    "allowed": [
+      "cipher_write_file",
+      "cipher_read_file",
+      "cipher_terminal",
+      "cipher_screenshot",
+      "cipher_accessibility_audit",
+      "cipher_design_critique",
+      "cipher_render_loop",
+      "cipher_git",
+      "cipher_npm",
+      "cipher_browser_navigate",
+      "cipher_browser_interact"
+    ],
+    "denied": [
+      "financial_transactions",
+      "system_file_modification",
+      "account_creation",
+      "credential_storage",
+      "network_configuration"
+    ],
+    "always_approval": [
+      "git_push",
+      "deploy_production",
+      "delete_file",
+      "env_modify",
+      "publish_package",
+      "send_message"
+    ]
+  },
+  "render_loop": {
+    "enabled": true,
+    "engine": "playwright",
+    "viewports": [
+      { "name": "desktop", "width": 1920, "height": 1080 },
+      { "name": "mobile", "width": 375, "height": 667 },
+      { "name": "tablet", "width": 768, "height": 1024 }
+    ],
+    "accessibility": "axe-core",
+    "max_iterations": 3,
+    "quality_threshold": 0.85
+  },
+  "memory": {
+    "provider": "supermemory",
+    "container_tag": "cipher-local-v1",
+    "max_context_tokens": 8192,
+    "retrieval": "hybrid",
+    "relevance_threshold": 0.7
+  },
+  "observability": {
+    "heartbeat_interval_seconds": 30,
+    "metrics_export": "mission_control",
+    "trajectory_logging": true,
+    "soul_drift_detection": true
+  }
+}

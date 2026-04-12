@@ -1,0 +1,83 @@
+version: '3.8'
+
+# Cipher Code Kraken — Full Stack Docker Deployment
+# Usage: docker compose up -d
+
+services:
+  # ── Local Brain (Ollama) ──────────────────────────────────────────────
+  cipher-brain:
+    image: ollama/ollama:latest
+    container_name: cipher-brain
+    volumes:
+      - cipher-models:/root/.ollama
+    ports:
+      - "11434:11434"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ── Model Setup (runs once to create kin-cipher) ──────────────────────
+  cipher-setup:
+    image: ollama/ollama:latest
+    container_name: cipher-setup
+    depends_on:
+      cipher-brain:
+        condition: service_healthy
+    volumes:
+      - ../Modelfile:/Modelfile:ro
+    entrypoint: >
+      sh -c "
+        ollama pull gemma4:7b &&
+        ollama create kin-cipher -f /Modelfile &&
+        echo '🐙 Cipher model ready!'
+      "
+    environment:
+      - OLLAMA_HOST=http://cipher-brain:11434
+
+  # ── Runtime Server (Fastify + MCP tools) ──────────────────────────────
+  cipher-runtime:
+    build:
+      context: ../runtime
+      dockerfile: ../docker/Dockerfile
+    container_name: cipher-runtime
+    depends_on:
+      cipher-brain:
+        condition: service_healthy
+    ports:
+      - "3333:3333"
+      - "3002:3002"
+    environment:
+      - OLLAMA_HOST=http://cipher-brain
+      - OLLAMA_PORT=11434
+      - CIPHER_MODEL=kin-cipher
+      - CIPHER_PORT=3333
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
+      - SUPERMEMORY_API_KEY=${SUPERMEMORY_API_KEY:-}
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+    volumes:
+      - cipher-workspace:/workspace
+    restart: unless-stopped
+
+  # ── Headless Browser (for The Kraken Sees) ────────────────────────────
+  cipher-browser:
+    image: mcr.microsoft.com/playwright:v1.52.0-noble
+    container_name: cipher-browser
+    command: sleep infinity
+    shm_size: '2gb'
+    restart: unless-stopped
+
+volumes:
+  cipher-models:
+    name: cipher-ollama-models
+  cipher-workspace:
+    name: cipher-workspace

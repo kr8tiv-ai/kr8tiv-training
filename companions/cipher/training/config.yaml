@@ -1,0 +1,155 @@
+# Cipher Training Configuration
+# 4-stage pipeline: SFT → SimPO → GRPO → KTO
+# All stages use Unsloth QLoRA on Gemma 4 E4B
+
+# ============================================================================
+# Base Model
+# ============================================================================
+base_model:
+  name: "unsloth/gemma-4-E4B-it-bnb-4bit"
+  family: gemma
+  parameters: 4500000000  # ~4.5B effective
+  context_window: 4096    # 6GB VRAM safe
+  quantization: Q4_K_M    # Best quality-to-size at 4-bit
+
+# ============================================================================
+# LoRA Configuration (Shared across stages)
+# ============================================================================
+lora:
+  rank: 32
+  alpha: 64                # 2x ratio — optimal for code generation
+  target_modules: all-linear  # q/k/v/o_proj + gate/up/down_proj
+  dropout: 0.0             # Zero dropout with abundant data
+  bias: none
+  use_rslora: false        # Standard LoRA at r=32 is sufficient
+  use_gradient_checkpointing: unsloth  # Unsloth optimized
+
+# ============================================================================
+# Stage 1: Supervised Fine-Tuning (SFT)
+# ============================================================================
+sft:
+  data:
+    paths:
+      - training/stage1-sft/data/frontend-tutorials.jsonl
+      - training/stage1-sft/data/persona-conversations.jsonl
+      - training/stage1-sft/data/tool-calling-examples.jsonl
+      - training/stage1-sft/data/design-critiques.jsonl
+    format: chatml            # ChatML format for Gemma 4
+    max_seq_length: 4096
+    mask_user_turns: true     # Loss on response tokens only
+  training:
+    learning_rate: 2.0e-4
+    batch_size: 2
+    gradient_accumulation_steps: 8  # Effective batch: 16
+    epochs: 2
+    warmup_ratio: 0.03
+    lr_scheduler: cosine
+    weight_decay: 0.01
+    max_grad_norm: 1.0
+    seed: 42
+  output:
+    dir: training/output/cipher/sft
+    merge_lora: true          # Merge LoRA into base for next stage
+
+# ============================================================================
+# Stage 2: Simple Preference Optimization (SimPO)
+# ============================================================================
+simpo:
+  data:
+    path: training/stage2-simpo/data/preference-pairs.jsonl
+    format: preference        # {chosen, rejected} pairs
+    max_seq_length: 4096
+  training:
+    beta: 2.5                 # Much larger than DPO (prevents verbose code)
+    gamma: 1.0                # Target reward margin
+    learning_rate: 5.0e-7
+    batch_size: 2
+    gradient_accumulation_steps: 4
+    epochs: 1
+    warmup_ratio: 0.1
+    loss_type: simpo          # Via TRL CPOTrainer
+  reference_model: none       # SimPO is reference-free
+  output:
+    dir: training/output/cipher/simpo
+    merge_lora: true
+
+# ============================================================================
+# Stage 3: Group Relative Policy Optimization (GRPO)
+# ============================================================================
+grpo:
+  data:
+    path: training/stage3-grpo/data/grpo-problems.jsonl
+    format: prompt            # Single prompts for rollout generation
+    max_prompt_length: 2048
+    max_completion_length: 4096
+  training:
+    group_size: 2             # 2-GRPO variant (70% faster)
+    batch_size: 256           # Prompts per batch
+    clip_epsilon_low: 0.2     # DAPO lower clip
+    clip_epsilon_high: 0.28   # DAPO upper clip
+    learning_rate: 8.0e-6
+    kl_coefficient: 0.001
+    epochs: 1
+  rewards:
+    # Composite reward function weights
+    visual_equivalence: 0.4   # Visual-ERM screenshot score
+    accessibility: 0.3        # axe-core WCAG pass rate
+    aesthetics: 0.2           # Static + interactive beauty
+    executability: 0.1        # Compiles, renders, no errors
+    format_bonus: 0.05        # Valid JSON tool calls
+  render_loop:
+    engine: playwright
+    viewports:
+      - { width: 1920, height: 1080 }
+      - { width: 375, height: 667 }
+    accessibility_audit: axe-core
+    timeout_seconds: 15
+  output:
+    dir: training/output/cipher/grpo
+    merge_lora: true
+
+# ============================================================================
+# Stage 4: Kahneman-Tversky Optimization (KTO)
+# ============================================================================
+kto:
+  data:
+    path: training/stage4-kto/data/user-feedback.jsonl
+    format: binary            # {input, output, label: "desirable"|"undesirable"}
+  training:
+    beta: 0.1
+    learning_rate: 5.0e-7
+    batch_size: 2
+    gradient_accumulation_steps: 4
+    epochs: 1
+    lambda_ratio: 1.0         # lambda_D * n_D / (lambda_U * n_U)
+  output:
+    dir: training/output/cipher/kto
+    merge_lora: true
+
+# ============================================================================
+# GGUF Export
+# ============================================================================
+export:
+  formats:
+    - Q4_K_M                  # ~5GB — balanced quality/size
+    - Q4_K_S                  # ~4.8GB — low VRAM
+    - Q5_K_M                  # ~5.5GB — higher quality
+  output_dir: training/output/cipher/gguf
+  hf_repo: kr8tiv/kin-cipher-GGUF
+  ollama_model: kin-cipher
+
+# ============================================================================
+# Evaluation
+# ============================================================================
+evaluation:
+  benchmarks:
+    - web-bench               # Full-stack web projects
+    - accessibility           # axe-core pass rate
+    - aesthetics              # OpenDesign scoring
+    - persona                 # Big Five personality
+    - tool-calling            # BFCL structured output
+  targets:
+    accessibility_pass_rate: 0.95
+    render_success_rate: 1.0
+    persona_adherence: 0.90
+    tool_call_validity: 0.85

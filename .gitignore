@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Training outputs
+*.gguf
+*.bin
+*.safetensors
+checkpoints/
+wandb/
+
+# Data (generated, not tracked)
+data/raw/*.json
+data/raw/*.html
+data/raw/*.py
+data/prompts/*.jsonl
+!data/raw/.gitkeep
+!data/prompts/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log

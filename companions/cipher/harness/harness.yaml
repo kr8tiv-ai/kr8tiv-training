@@ -1,0 +1,124 @@
+# Cipher — Code Kraken | kr8tivclaw Harness Definition
+# Compiles to OpenClaw workspace artifacts via: kr8tivclaw compile --harness harness.yaml --out ./artifacts
+
+tenant:
+  slug: cipher-local
+  name: "Cipher — Code Kraken"
+  bloodline: "Code Kraken"
+  tier: personal
+  emoji: "🐙"
+  description: "Frontend architect & creative technologist. Builds exceptional websites while teaching design."
+
+soul:
+  system_prompt_path: ../soul/system-prompt.md
+  personality:
+    openness: 0.95
+    conscientiousness: 0.92
+    extraversion: 0.55
+    agreeableness: 0.80
+    neuroticism: 0.15
+  memory_config:
+    supermemory_enabled: true
+    max_context_tokens: 8192
+    container_tag: cipher-local-v1
+    retrieval_strategy: hybrid
+    relevance_threshold: 0.7
+  teaching_config:
+    default_depth: moderate
+    socratic_enabled: true
+    celebrate_learning: true
+
+model_policy:
+  # Local brain — runs on user's machine via Ollama
+  primary:
+    provider: ollama
+    model: kin-cipher              # Resolves via resolveLocalModel() in config.ts
+    model_family: gemma            # Gemma 4 stop tokens + parameters
+    context_window: 4096           # 6GB VRAM safe (8192 with flash-attn)
+    max_generation: 2048
+    temperature: 0.7
+    top_p: 0.9
+
+  # Frontier supervisor — escalation only, cloud-based
+  supervisor:
+    provider: openai               # Via OpenRouter or direct
+    model: gpt-5.4
+    context_window: 128000
+    max_generation: 8192
+
+  # Free tier fallback (when no API keys configured)
+  free_tier:
+    provider: groq
+    model: qwen-3-32b
+    context_window: 32768
+
+  # Escalation behavior
+  escalation:
+    level: medium
+    keywords:
+      - "complex architecture"
+      - "production deployment"
+      - "security audit"
+      - "performance optimization"
+      - "design system"
+      - "refactor"
+      - "scale"
+      - "database design"
+    context_window: 6              # Messages sent to supervisor
+    narration: required            # Must explain escalation to user
+
+tools:
+  allow:
+    - cipher_write_file
+    - cipher_read_file
+    - cipher_terminal
+    - cipher_screenshot
+    - cipher_accessibility_audit
+    - cipher_design_critique
+    - cipher_render_loop
+    - cipher_git
+    - cipher_npm
+    - cipher_browser_navigate
+    - cipher_browser_interact
+  deny:
+    - financial_transactions
+    - system_file_modification
+    - account_creation
+    - credential_storage
+    - network_configuration
+  always_approval:
+    - git_push
+    - deploy_production
+    - delete_file
+    - env_modify
+    - publish_package
+    - send_message
+
+security:
+  dm_pairing: required
+  mention_gating: enabled
+  high_risk_approval: always
+  non_main_sandbox: true
+  route_overrides: disabled
+  personal_memory_boundary: enforced
+
+observability:
+  heartbeat_interval: 30s
+  metrics_export: mission_control
+  trajectory_logging: enabled
+  soul_drift_detection: enabled
+
+render_loop:
+  enabled: true
+  engine: playwright
+  viewports:
+    - { name: desktop, width: 1920, height: 1080 }
+    - { name: mobile, width: 375, height: 667 }
+    - { name: tablet, width: 768, height: 1024 }
+  states:
+    - base
+    - hover
+    - dark_mode
+  accessibility_audit: axe-core
+  max_iterations: 3
+  quality_threshold: 0.85
