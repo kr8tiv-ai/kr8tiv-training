@@ -33,10 +33,22 @@ PACKING = True
 DATASET_TEXT_FIELD = "text"
 
 OUTPUT_DIR = "./cipher-sft"
+MERGED_OUTPUT_DIR = "./cipher-sft-merged"
 SAVE_STEPS = 200
 SAVE_TOTAL_LIMIT = 2
 LOGGING_STEPS = 10
 REPORT_TO = "none"
+RANDOM_STATE = 42
+NUM_TRAIN_EPOCHS = 2
+PER_DEVICE_TRAIN_BATCH_SIZE = 1
+GRADIENT_ACCUMULATION_STEPS = 4
+LEARNING_RATE = 2e-4
+BF16 = True
+LORA_TARGET_MODULES = ["q_proj", "k_proj", "v_proj", "o_proj",
+                       "gate_proj", "up_proj", "down_proj"]
+WANDB_PROJECT = "cipher-code-kraken"
+WANDB_RUN_NAME = "sft-stage"
+SFT_DATA_PATH = "./data/prompts/awwwards-sft.jsonl"
 
 DATA_MIX = {
     "frontend_tutorials": 0.30,
