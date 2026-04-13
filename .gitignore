@@ -12,12 +12,13 @@ venv/
 checkpoints/
 wandb/
 
-# Data (generated, not tracked)
+# Raw scraped data (large, not tracked)
 data/raw/*.json
 data/raw/*.html
 data/raw/*.py
-data/prompts/*.jsonl
 !data/raw/.gitkeep
+
+# Curated training data IS tracked (this is the product)
 !data/prompts/.gitkeep
 
 # IDE
