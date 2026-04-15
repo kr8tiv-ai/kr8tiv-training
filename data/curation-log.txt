@@ -1,0 +1,170 @@
+\U0001f419 Curating training data from 31 Tier 1 sources...
+
+============================================================
+  Processing: Three.js Official Examples
+  URL: https://github.com/mrdoob/three.js
+  SKIP https://github.com/mrdoob/three.js: Command '['git', 'sparse-checkout', 'add', 'examples/']' timed out after 30 seconds
+
+============================================================
+  Processing: React Three Fiber
+  URL: https://github.com/pmndrs/react-three-fiber
+  Found 11 creative files
+
+============================================================
+  Processing: Drei Components
+  URL: https://github.com/pmndrs/drei
+  Found 30 creative files
+
+============================================================
+  Processing: Lenis Smooth Scroll
+  URL: https://github.com/darkroomengineering/lenis
+  Found 17 creative files
+
+============================================================
+  Processing: Codrops Scroll Typography
+  URL: https://github.com/codrops/OnScrollTypographyAnimations
+  Found 3 creative files
+
+============================================================
+  Processing: Codrops Hover Effects
+  URL: https://github.com/codrops/ImageRevealHoverEffects
+  SKIP https://github.com/codrops/ImageRevealHoverEffects: Command '['git', 'clone', '--depth', '1', '--filter=blob:none', '--sparse', 'https://github.com/codrops/ImageRevealHoverEffects', 'C:\\Users\\lucid\\AppData\\Local\\Temp\\tmplg2dnose\\ImageRevealHoverEffects']' returned non-zero exit status 128.
+
+============================================================
+  Processing: Codrops Page Transitions
+  URL: https://github.com/codrops/PageTransitions
+  Found 4 creative files
+
+============================================================
+  Processing: Darkroom Hamo Components
+  URL: https://github.com/darkroomengineering/hamo
+  Found 0 creative files
+
+============================================================
+  Processing: Awwwards SOTD Portfolio
+  URL: https://github.com/AntoineW/AW-2025-Portfolio
+  Found 1 creative files
+
+============================================================
+  Processing: Motion (Framer Motion)
+  URL: https://github.com/motiondivision/motion
+  Found 30 creative files
+
+============================================================
+  Processing: Awwwards SOTD 2025 Winner — Antoine Portfolio
+  URL: https://github.com/AntoineW/AW-2025-Portfolio
+  SKIP https://github.com/AntoineW/AW-2025-Portfolio: Command '['git', 'clone', '--depth', '1', '--filter=blob:none', '--sparse', 'https://github.com/AntoineW/AW-2025-Portfolio', 'C:\\Users\\lucid\\AppData\\Local\\Temp\\tmplg2dnose\\AW-2025-Portfolio']' returned non-zero exit status 128.
+
+============================================================
+  Processing: GSAP Awwwards Tutorial Site
+  URL: https://github.com/Fullstack-Empire/GSAP-Awwwards-Website
+  Found 10 creative files
+
+============================================================
+  Processing: Three.js Portfolio (Adrian Hajdin)
+  URL: https://github.com/adrianhajdin/threejs-portfolio
+  Found 16 creative files
+
+============================================================
+  Processing: 3D Portfolio (Adrian Hajdin)
+  URL: https://github.com/adrianhajdin/3d-portfolio
+  Found 14 creative files
+
+============================================================
+  Processing: Award-Winning 3D Portfolio
+  URL: https://github.com/KpG782/3D_Portfolio
+  Found 19 creative files
+
+============================================================
+  Processing: Codrops — GridLayoutAnimationEffects
+  URL: https://github.com/codrops/GridLayoutAnimationEffects
+  SKIP https://github.com/codrops/GridLayoutAnimationEffects: Command '['git', 'clone', '--depth', '1', '--filter=blob:none', '--sparse', 'https://github.com/codrops/GridLayoutAnimationEffects', 'C:\\Users\\lucid\\AppData\\Local\\Temp\\tmplg2dnose\\GridLayoutAnimationEffects']' returned non-zero exit status 128.
+
+============================================================
+  Processing: Codrops — InfiniteScrollAnimations
+  URL: https://github.com/codrops/InfiniteScrollAnimations
+  SKIP https://github.com/codrops/InfiniteScrollAnimations: Command '['git', 'clone', '--depth', '1', '--filter=blob:none', '--sparse', 'https://github.com/codrops/InfiniteScrollAnimations', 'C:\\Users\\lucid\\AppData\\Local\\Temp\\tmplg2dnose\\InfiniteScrollAnimations']' returned non-zero exit status 128.
+
+============================================================
+  Processing: Codrops — TextDistortionEffects
+  URL: https://github.com/codrops/TextDistortionEffects
+  Found 11 creative files
+
+============================================================
+  Processing: Codrops — SmoothScrollingImageEffects
+  URL: https://github.com/codrops/SmoothScrollingImageEffects
+  Found 8 creative files
+
+============================================================
+  Processing: Codrops — MenuHoverEffects
+  URL: https://github.com/codrops/MenuHoverEffects
+  Found 10 creative files
+
+============================================================
+  Processing: Codrops — DistortedLinkEffects
+  URL: https://github.com/codrops/DistortedLinkEffects
+  Found 2 creative files
+
+============================================================
+  Processing: Codrops — IsometricGrids
+  URL: https://github.com/codrops/IsometricGrids
+  Found 5 creative files
+
+============================================================
+  Processing: Codrops — MagneticButtons
+  URL: https://github.com/codrops/MagneticButtons
+  Found 11 creative files
+
+============================================================
+  Processing: Codrops — ImageTrailEffects
+  URL: https://github.com/codrops/ImageTrailEffects
+  Found 14 creative files
+
+============================================================
+  Processing: Codrops — AnimatedImageGallery
+  URL: https://github.com/codrops/AnimatedImageGallery
+  SKIP https://github.com/codrops/AnimatedImageGallery: Command '['git', 'clone', '--depth', '1', '--filter=blob:none', '--sparse', 'https://github.com/codrops/AnimatedImageGallery', 'C:\\Users\\lucid\\AppData\\Local\\Temp\\tmplg2dnose\\AnimatedImageGallery']' returned non-zero exit status 128.
+
+============================================================
+  Processing: Codrops — FullscreenLayoutPageTransitions
+  URL: https://github.com/codrops/FullscreenLayoutPageTransitions
+  Found 1 creative files
+
+============================================================
+  Processing: Codrops — CSSGlitchEffect
+  URL: https://github.com/codrops/CSSGlitchEffect
+  Found 7 creative files
+
+============================================================
+  Processing: Codrops — LineHoverStyles
+  URL: https://github.com/codrops/LineHoverStyles
+  Found 1 creative files
+
+============================================================
+  Processing: Codrops — RapidPageTransitions
+  URL: https://github.com/codrops/RapidPageTransitions
+  SKIP https://github.com/codrops/RapidPageTransitions: Command '['git', 'clone', '--depth', '1', '--filter=blob:none', '--sparse', 'https://github.com/codrops/RapidPageTransitions', 'C:\\Users\\lucid\\AppData\\Local\\Temp\\tmplg2dnose\\RapidPageTransitions']' returned non-zero exit status 128.
+
+============================================================
+  Processing: Codrops — MotionHoverEffects
+  URL: https://github.com/codrops/MotionHoverEffects
+  SKIP https://github.com/codrops/MotionHoverEffects: Command '['git', 'clone', '--depth', '1', '--filter=blob:none', '--sparse', 'https://github.com/codrops/MotionHoverEffects', 'C:\\Users\\lucid\\AppData\\Local\\Temp\\tmplg2dnose\\MotionHoverEffects']' returned non-zero exit status 128.
+
+============================================================
+  Processing: Codrops — ScrollBasedLayoutAnimations
+  URL: https://github.com/codrops/ScrollBasedLayoutAnimations
+  Found 3 creative files
+
+============================================================
+  RESULTS
+============================================================
+  SFT: 171 examples \u2192 data\prompts\awwwards-sft.jsonl
+  SimPO chosen: 171 examples \u2192 data\prompts\awwwards-simpo-chosen.jsonl
+  GRPO prompts: 171 examples \u2192 data\prompts\awwwards-grpo-prompts.jsonl
+
+  Total files processed: 228
+  Total training examples: 171
+
+\U0001f419 Data curation complete!
+   Next: Run SimPO rejected generator:
+   python scripts/rejected_generator.py --input data\prompts\awwwards-simpo-chosen.jsonl
