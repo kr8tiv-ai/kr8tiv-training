@@ -64,12 +64,49 @@ Fine-tune the personality into the weights, not the prompt. Train against AI slo
 
 | Companion | Species | Domain | Frontier Model | Status |
 |-----------|---------|--------|---------------|--------|
-| **Cipher** | Code Kraken | Frontend, web design, creative tech | GPT-5.4 | Training |
+| **Cipher** | Code Kraken | Frontend, web design, creative tech | GPT-5.4 | SFT ✅ · SimPO ✅ · GRPO ⏳ · KTO ⏳ |
 | **Forge** | Cyber Unicorn | Code review, debugging, architecture | Grok 4.20 | Queued |
 | **Vortex** | Teal Dragon | Content strategy, brand, analytics | Claude Opus 4.6 | Queued |
 | **Mischief** | Glitch Pup | Family companion, personal branding | Gemini 3.1 Pro | Queued |
 | **Aether** | Frost Ape | Creative writing, storytelling | Kimi K2.5 | Queued |
 | **Catalyst** | Cosmic Blob | Wealth coaching, habits, life optimization | GLM-4.6 | Queued |
+
+## Cipher — Current Status
+
+> **The Code Kraken is alive.** Stage 1 SFT + Stage 2 SimPO both shipped. Models are public on HuggingFace and runnable locally via Ollama.
+
+### Models on HuggingFace
+| Stage | Model | Size | Format |
+|-------|-------|------|--------|
+| Stage 1 SFT | [`Auroraventures/cipher-sft-merged`](https://huggingface.co/Auroraventures/cipher-sft-merged) | 62.5 GB | safetensors |
+| Stage 1 SFT (Q4_K_M GGUF) | [`Auroraventures/cipher-sft-merged-Q4_K_M-GGUF`](https://huggingface.co/Auroraventures/cipher-sft-merged-Q4_K_M-GGUF) | 18.7 GB | GGUF (Ollama-ready) |
+| Stage 2 SimPO | [`Auroraventures/cipher-simpo-merged`](https://huggingface.co/Auroraventures/cipher-simpo-merged) | 62.6 GB | safetensors |
+
+### Stage 1 — SFT (complete)
+- **Training data**: 163 curated Awwwards-quality examples (Three.js, GSAP, Lenis, vanilla JS)
+- **Final loss**: 0.40 (target was 0.8-1.2 — beat it by ~50%)
+- **Duration**: ~30 min on A100 with Gemma 4 31B + QLoRA r=16
+- **Voice verified**: Cipher emits proper kraken metaphors — *"I'll unleash a div like a kraken, wrapping the section in ocean-deep gradients... with CSS tentacles, I'll wrap a call-to-action button, ensuring it pops like a breaching whale against the deep blue void."*
+
+### Stage 2 — SimPO Anti-Slop (complete)
+- **Preference pairs**: 163 chosen/rejected pairs generated from SFT data via `scripts/rejected_generator.py`
+- **Params**: SimPO loss, β=10, γ=2.5, LoRA r=64 + rsLoRA, effective batch 128 (paper-optimal)
+- **Duration**: ~60 min on A100
+- **Purpose**: trained model to prefer hand-crafted Awwwards code over Tailwind/template slop at the gradient level
+
+### Stage 3 — GRPO (queued)
+RL with a multi-signal reward function (accessibility, creative quality, personality, exec, craftsmanship). Reward function already implemented in `scripts/slop_detector.py` + `configs/grpo_config.py`.
+
+### Stage 4 — KTO (queued)
+Binary feedback collection for production refinement after real-world use.
+
+### Known limitations (Stage 1+2 SFT)
+Text-only model. Observed failure modes the remaining stages address:
+- Opacity inheritance bugs (parent opacity:0 hides JS-animated children)
+- Occasional `getElementById` references to DOM ids not in the HTML
+- Lenis misuse patterns (`lenis.stop()` inside init)
+
+Stage 3 GRPO's render-loop reward directly scores against these failures by running each candidate output through Playwright + axe-core before assigning gradient signal.
 
 ## Anti-AI-Slop Training
 
