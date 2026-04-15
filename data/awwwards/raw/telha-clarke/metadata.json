@@ -1,0 +1,41 @@
+{
+  "slug": "telha-clarke",
+  "awwwards_url": "https://www.awwwards.com/sites/telha-clarke",
+  "live_url": "https://telhaclarke.com.au/",
+  "title": "Telha Clarke",
+  "agency": "Greg Lallé",
+  "agency_url": "https://www.awwwards.com/greg-lalle/",
+  "tags": [
+    "Architecture",
+    "Animation",
+    "Wordpress",
+    "Parallax",
+    "Portfolio",
+    "Transitions",
+    "Gallery",
+    "GSAP",
+    "Microinteractions",
+    "Tailwind"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 16, 2026",
+  "created_at": 1771200000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6964b60076436116585408.jpg",
+  "rank": 59,
+  "fetched_at": 1776287823,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 96032,
+  "stylesheets": [
+    {
+      "url": "https://telhaclarke.com.au/wp-content/themes/gl/public/build/assets/app-Sq9rcrZY.css",
+      "status": 200,
+      "file": "_wp-content_themes_gl_public_build_assets_app-Sq9rcrZY.css",
+      "bytes": 76419
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "stuff-by-kris-temmerman",
+  "awwwards_url": "https://www.awwwards.com/sites/stuff-by-kris-temmerman",
+  "live_url": "https://neuroproductions.be",
+  "title": "Stuff by Kris Temmerman",
+  "agency": "Kris Temmerman",
+  "agency_url": "https://www.awwwards.com/kristemmerman/",
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Portfolio",
+    "WebGL",
+    "Experimental",
+    "GSAP"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 20, 2026",
+  "created_at": 1773964800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/69917f59643b7740243658.png",
+  "rank": 27,
+  "fetched_at": 1776287815,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 1188,
+  "stylesheets": [
+    {
+      "url": "https://neuroproductions.be/assets/index-8rwryeDp.css",
+      "status": 200,
+      "file": "_assets_index-8rwryeDp.css",
+      "bytes": 250
+    }
+  ]
+}

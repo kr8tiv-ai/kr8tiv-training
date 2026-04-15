@@ -1,0 +1,54 @@
+{
+  "slug": "champions-for-good",
+  "awwwards_url": "https://www.awwwards.com/sites/champions-for-good",
+  "live_url": "https://www.champions4good.club/",
+  "title": "Champions For Good",
+  "agency": "Double Play",
+  "agency_url": "https://www.awwwards.com/doubleplay/",
+  "tags": [
+    "Art & Illustration",
+    "Business & Corporate",
+    "Sports",
+    "Animation",
+    "Colorful",
+    "Illustration",
+    "Transitions",
+    "Sound-Audio",
+    "Storytelling",
+    "GSAP",
+    "Lottie",
+    "Webflow"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 06, 2026",
+  "created_at": 1775433600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b7da1b7d7fe184556355.jpg",
+  "rank": 10,
+  "fetched_at": 1776287814,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 103525,
+  "stylesheets": [
+    {
+      "url": "https://champions4good.vercel.app/styles/main.css",
+      "status": 200,
+      "file": "_styles_main.css",
+      "bytes": 36231
+    },
+    {
+      "url": "https://localhost:3000/styles/main.css",
+      "status": 0,
+      "error": "__ERROR__: URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively ref"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/68d958ba50e5b8ce718345d4/css/champions4good.webflow.shared.5bb4b58db.min.css",
+      "status": 200,
+      "file": "_68d958ba50e5b8ce718345d4_css_champions4good.webflow.shared.5bb4b58db.min.css",
+      "bytes": 88572
+    }
+  ]
+}

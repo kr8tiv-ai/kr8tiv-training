@@ -1,0 +1,43 @@
+{
+  "slug": "fluid-glass",
+  "awwwards_url": "https://www.awwwards.com/sites/fluid-glass",
+  "live_url": "https://fluid.glass/",
+  "title": "Fluid Glass",
+  "agency": "Exo Ape",
+  "agency_url": "https://www.awwwards.com/exo-ape/",
+  "tags": [
+    "Architecture",
+    "Business & Corporate",
+    "Clean",
+    "Horizontal Layout",
+    "Minimal",
+    "Portfolio",
+    "Unusual Navigation",
+    "GSAP",
+    "Real Estate",
+    "Footer Design",
+    "Nuxt.js",
+    "Vercel"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 30, 2026",
+  "created_at": 1774828800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/699c319db1537012218587.png",
+  "rank": 17,
+  "fetched_at": 1776287812,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 966687,
+  "stylesheets": [
+    {
+      "url": "https://fluid.glass/_nuxt/style.BshK6p_6.css",
+      "status": 200,
+      "file": "__nuxt_style.BshK6p_6.css",
+      "bytes": 152554
+    }
+  ]
+}

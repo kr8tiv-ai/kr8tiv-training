@@ -1,0 +1,49 @@
+{
+  "slug": "becane-paris",
+  "awwwards_url": "https://www.awwwards.com/sites/becane-paris",
+  "live_url": "https://www.becaneparis.com/",
+  "title": "Bécane Paris",
+  "agency": "Period • Paris",
+  "agency_url": "https://www.awwwards.com/period.paris/",
+  "tags": [
+    "E-Commerce",
+    "Fashion",
+    "Web & Interactive",
+    "Animation",
+    "Clean",
+    "Unusual Navigation",
+    "WebGL",
+    "360",
+    "Shopify",
+    "3D",
+    "Microinteractions",
+    "Next.js"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 26, 2026",
+  "created_at": 1769385600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/694167cf0899f756469027.jpg",
+  "rank": 80,
+  "fetched_at": 1776287828,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 70618,
+  "stylesheets": [
+    {
+      "url": "https://www.becaneparis.com/_next/static/css/d46fe88670450214.css?dpl=dpl_4g7y831brZ8DY3dEZxZy2ZMH25s3",
+      "status": 200,
+      "file": "__next_static_css_d46fe88670450214.css",
+      "bytes": 34695
+    },
+    {
+      "url": "https://www.becaneparis.com/_next/static/css/3c743a733d1e20a7.css?dpl=dpl_4g7y831brZ8DY3dEZxZy2ZMH25s3",
+      "status": 200,
+      "file": "__next_static_css_3c743a733d1e20a7.css",
+      "bytes": 5009
+    }
+  ]
+}

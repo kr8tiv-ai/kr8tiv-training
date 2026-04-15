@@ -1,0 +1,55 @@
+{
+  "slug": "yucca-packaging",
+  "awwwards_url": "https://www.awwwards.com/sites/yucca-packaging",
+  "live_url": "https://yucca.co.za/",
+  "title": "Yucca Packaging",
+  "agency": "Estrela Studio",
+  "agency_url": "https://www.awwwards.com/estrelastudio/",
+  "tags": [
+    "E-Commerce",
+    "Food & Drink",
+    "Web & Interactive",
+    "Clean",
+    "Wordpress",
+    "Scrolling",
+    "Typography",
+    "WooCommerce",
+    "UI design",
+    "Contact Page",
+    "Footer Design",
+    "Figma"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 31, 2026",
+  "created_at": 1769817600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/11/69289aa78288b380389702.jpg",
+  "rank": 75,
+  "fetched_at": 1776287827,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 226453,
+  "stylesheets": [
+    {
+      "url": "https://yucca.co.za/wp-content/plugins/mailchimp-for-woocommerce/blocks/build/style-sms-consent-block.css?ver=1775553914",
+      "status": 200,
+      "file": "ntent_plugins_mailchimp-for-woocommerce_blocks_build_style-sms-consent-block.css",
+      "bytes": 3604
+    },
+    {
+      "url": "https://yucca.co.za/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.5",
+      "status": 200,
+      "file": "_wp-content_plugins_contact-form-7_includes_css_styles.css",
+      "bytes": 2947
+    },
+    {
+      "url": "https://yucca.co.za/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.6.2",
+      "status": 200,
+      "file": "_wp-content_plugins_woocommerce_assets_css_woocommerce-layout.css",
+      "bytes": 19727
+    }
+  ]
+}

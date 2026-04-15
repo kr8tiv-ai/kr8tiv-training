@@ -1,0 +1,88 @@
+{
+  "slug": "mob-links",
+  "tech_stack": [
+    "Nuxt",
+    "Vue",
+    "Shopify"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Ringold"
+    ],
+    "declared_stacks": [
+      "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+      "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace",
+      "inherit",
+      "Ringold",
+      "Ringold,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color": "#fff2df"
+    },
+    "size_vars": {
+      "wave-height": "5rem",
+      "spacing": "1.6rem",
+      "vw": "1vw",
+      "svw": "1vw",
+      "vh": "1vh",
+      "svh": "1svh",
+      "dvh": "1dvh",
+      "banner-height": "3.4rem",
+      "header-height": "8rem",
+      "header-height-lg": "12.5rem",
+      "gutter": "5rem",
+      "gutter-mobile": "2rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 35,
+    "clamp()": 0,
+    "min()/max()": 7,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 8,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 3,
+    "grid-template": 0,
+    "mix-blend-mode": 1,
+    "filter:": 4,
+    "mask/clip-path": 10,
+    "@layer": 0,
+    "custom-property": 58
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 3,
+    "video_count": 1,
+    "picture_count": 6,
+    "script_count": 3,
+    "link_count": 18,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 411625,
+  "css_chars": 36568,
+  "corpus_chars": 448195,
+  "snippet_libs": []
+}

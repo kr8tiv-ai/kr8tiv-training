@@ -1,0 +1,46 @@
+{
+  "slug": "ogaki",
+  "awwwards_url": "https://www.awwwards.com/sites/ogaki",
+  "live_url": "https://www.ogakidigital.com/",
+  "title": "OGAKI",
+  "agency": "ToyFight",
+  "agency_url": "https://www.awwwards.com/ToyFight/",
+  "tags": [
+    "Business & Corporate",
+    "Fashion",
+    "Clean",
+    "Minimal",
+    "GSAP",
+    "Photo & Video",
+    "Figma",
+    "Next.js",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 11, 2026",
+  "created_at": 1768089600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/11/691f30156da8c121483707.png",
+  "rank": 95,
+  "fetched_at": 1776287832,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 213774,
+  "stylesheets": [
+    {
+      "url": "https://www.ogakidigital.com/_next/static/css/c10300b7cce735b2.css",
+      "status": 200,
+      "file": "__next_static_css_c10300b7cce735b2.css",
+      "bytes": 1205
+    },
+    {
+      "url": "https://www.ogakidigital.com/_next/static/css/bb73e01188fddf05.css",
+      "status": 200,
+      "file": "__next_static_css_bb73e01188fddf05.css",
+      "bytes": 6731
+    }
+  ]
+}

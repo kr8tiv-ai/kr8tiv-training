@@ -1,0 +1,43 @@
+{
+  "slug": "ravi-klaassens",
+  "awwwards_url": "https://www.awwwards.com/sites/ravi-klaassens",
+  "live_url": "https://www.raviklaassens.com/",
+  "title": "Ravi Klaassens",
+  "agency": "Ravi Klaassens",
+  "agency_url": "https://www.awwwards.com/raviklaassens/",
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Portfolio",
+    "Typography",
+    "Transitions",
+    "Experimental",
+    "GSAP",
+    "Interaction Design",
+    "UI design",
+    "BARBA.js",
+    "Webflow"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 15, 2026",
+  "created_at": 1776211200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69bf097709074095320379.png",
+  "rank": 1,
+  "fetched_at": 1776287801,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 182660,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/69905c96f939ade61f497575/css/rk-demo.webflow.shared.d4bb13093.min.css",
+      "status": 200,
+      "file": "_69905c96f939ade61f497575_css_rk-demo.webflow.shared.d4bb13093.min.css",
+      "bytes": 217440
+    }
+  ]
+}

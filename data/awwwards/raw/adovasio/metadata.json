@@ -1,0 +1,55 @@
+{
+  "slug": "adovasio",
+  "awwwards_url": "https://www.awwwards.com/sites/adovasio",
+  "live_url": "https://adovasio.it/",
+  "title": "Adovasio",
+  "agency": "Louis Paquet",
+  "agency_url": "https://www.awwwards.com/louispaquet/",
+  "tags": [
+    "Promotional",
+    "Clean",
+    "Minimal",
+    "Photographic",
+    "Portfolio",
+    "Photography",
+    "Gallery",
+    "GSAP",
+    "Filters and Effects",
+    "Figma",
+    "DatoCMS",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 05, 2026",
+  "created_at": 1772668800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6973d84f0e58b577133356.jpg",
+  "rank": 42,
+  "fetched_at": 1776287820,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 2138655,
+  "stylesheets": [
+    {
+      "url": "https://adovasio.it/_next/static/chunks/936bd09a97afbbb8.css?dpl=dpl_9iv9kcyT5WTMCaa7adjGHCerk67j",
+      "status": 200,
+      "file": "__next_static_chunks_936bd09a97afbbb8.css",
+      "bytes": 115217
+    },
+    {
+      "url": "https://adovasio.it/_next/static/chunks/a5809f72c20bfe70.css?dpl=dpl_9iv9kcyT5WTMCaa7adjGHCerk67j",
+      "status": 200,
+      "file": "__next_static_chunks_a5809f72c20bfe70.css",
+      "bytes": 120242
+    },
+    {
+      "url": "https://adovasio.it/_next/static/chunks/e6b0df0980aaee68.css?dpl=dpl_9iv9kcyT5WTMCaa7adjGHCerk67j",
+      "status": 200,
+      "file": "__next_static_chunks_e6b0df0980aaee68.css",
+      "bytes": 122511
+    }
+  ]
+}

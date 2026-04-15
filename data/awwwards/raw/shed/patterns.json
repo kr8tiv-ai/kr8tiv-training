@@ -1,0 +1,79 @@
+{
+  "slug": "shed",
+  "tech_stack": [
+    "Nuxt",
+    "DatoCMS"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "OwnersWeb",
+      "RecklessWeb",
+      "SequelWeb"
+    ],
+    "declared_stacks": [
+      "SequelWeb,sans-serif",
+      "OwnersWeb",
+      "SequelWeb",
+      "RecklessWeb",
+      "OwnersWeb,sans-serif",
+      "RecklessWeb,serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {
+      "clipX": "0%",
+      "clipY": "0%",
+      "clipYBot": "0%"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 0,
+    "transition:": 87,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 8,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 12,
+    "grid-template": 2,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 8,
+    "@layer": 0,
+    "custom-property": 42
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 1,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 3,
+    "picture_count": 23,
+    "script_count": 3,
+    "link_count": 42,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 507010,
+  "css_chars": 33407,
+  "corpus_chars": 540419,
+  "snippet_libs": []
+}

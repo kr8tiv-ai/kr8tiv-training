@@ -1,0 +1,102 @@
+{
+  "slug": "the-obsidian-assembly",
+  "tech_stack": [
+    "Nuxt",
+    "Vue"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "OTJubilee-Platinum",
+      "Switzer-Medium",
+      "Switzer-Regular",
+      "Voyage-Regular"
+    ],
+    "declared_stacks": [
+      "var(--font-b-regular)",
+      "var(--font-t-2)",
+      "var(--font)",
+      "OTJubilee-Platinum",
+      "Voyage-Regular",
+      "Switzer-Medium",
+      "Switzer-Regular",
+      "var(--font-t-1)",
+      "var(--font-b-medium)",
+      "var(--fdcm--font)"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "fdcm--bg-default": "#101214",
+      "fdcm--body-text-main-default": "#ded4e6",
+      "fdcm--body-text-secondary-default": "#b8a5b8",
+      "fdcm--ui-secondary-default": "#544d56",
+      "fdcm--ui-highlight-main-default": "#fff",
+      "fdcm--ui-highlight-secondary-default": "#746a76",
+      "fdcm--ui-main-default": "#ded4e6",
+      "c-white": "#fff",
+      "c-black": "#151415",
+      "c-grey": "#3f383c",
+      "c-stone": "#242324",
+      "c-yellow": "#f1eade",
+      "c-brown": "#7b5136",
+      "c-stroke": "#9faf9b",
+      "c-red": "#ff5113"
+    },
+    "size_vars": {
+      "body-font-size": "1rem",
+      "p": "1rem",
+      "h-underline": "1px",
+      "fdcm--font-size": "1rem",
+      "fdcm--border-radius-default": "0.3rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 101,
+    "clamp()": 2,
+    "min()/max()": 17,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 2,
+    "container-query": 0,
+    ":has()": 12,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 8,
+    "aspect-ratio": 20,
+    "grid-template": 17,
+    "mix-blend-mode": 0,
+    "filter:": 13,
+    "mask/clip-path": 51,
+    "@layer": 0,
+    "custom-property": 480
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 4,
+      "header": 1,
+      "main": 1,
+      "section": 8,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 1,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 3,
+    "link_count": 12,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 172467,
+  "css_chars": 9157,
+  "corpus_chars": 181626,
+  "snippet_libs": []
+}

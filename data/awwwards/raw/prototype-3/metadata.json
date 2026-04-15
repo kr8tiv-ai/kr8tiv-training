@@ -1,0 +1,46 @@
+{
+  "slug": "prototype-3",
+  "awwwards_url": "https://www.awwwards.com/sites/prototype-3",
+  "live_url": "https://www.prototypestudio.fr/",
+  "title": "Prototype",
+  "agency": "Beaucoup.",
+  "agency_url": "https://www.awwwards.com/Beaucoup/",
+  "tags": [
+    "Design Agencies",
+    "Film & TV",
+    "Animation",
+    "Portfolio",
+    "Scrolling",
+    "Typography",
+    "GSAP",
+    "Photo & Video",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 06, 2026",
+  "created_at": 1767657600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/11/69299772d0a0a730014050.jpg",
+  "rank": 100,
+  "fetched_at": 1776287834,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 81108,
+  "stylesheets": [
+    {
+      "url": "https://cdn.plyr.io/3.7.8/plyr.css",
+      "status": 200,
+      "file": "_3.7.8_plyr.css",
+      "bytes": 32562
+    },
+    {
+      "url": "https://www.prototypestudio.fr/wp-content/themes/beaucoup/public/css/app.802e11.css",
+      "status": 200,
+      "file": "_wp-content_themes_beaucoup_public_css_app.802e11.css",
+      "bytes": 54089
+    }
+  ]
+}

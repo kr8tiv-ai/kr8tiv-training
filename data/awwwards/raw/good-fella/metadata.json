@@ -1,0 +1,55 @@
+{
+  "slug": "good-fella",
+  "awwwards_url": "https://www.awwwards.com/sites/good-fella",
+  "live_url": "https://good-fella.com",
+  "title": "Good Fella",
+  "agency": "Good Fella",
+  "agency_url": "https://www.awwwards.com/good-fella/",
+  "tags": [
+    "Other",
+    "Technology",
+    "Web & Interactive",
+    "Animation",
+    "Clean",
+    "Flat Design",
+    "WebGL",
+    "Transitions",
+    "GSAP",
+    "Gestures / Interaction",
+    "404 pages",
+    "Next.js"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 18, 2026",
+  "created_at": 1773792000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/6984ac936e3e0967677715.png",
+  "rank": 29,
+  "fetched_at": 1776287816,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 149674,
+  "stylesheets": [
+    {
+      "url": "https://good-fella.com/_next/static/chunks/8c2d0c1936913601.css?dpl=dpl_Bgz5ApWTjrC8udFGpooQ226grHm4",
+      "status": 200,
+      "file": "__next_static_chunks_8c2d0c1936913601.css",
+      "bytes": 70082
+    },
+    {
+      "url": "https://good-fella.com/_next/static/chunks/b89f16516982ade0.css?dpl=dpl_Bgz5ApWTjrC8udFGpooQ226grHm4",
+      "status": 200,
+      "file": "__next_static_chunks_b89f16516982ade0.css",
+      "bytes": 381
+    },
+    {
+      "url": "https://use.typekit.net/tdy7azi.css?display=swap",
+      "status": 200,
+      "file": "_tdy7azi.css",
+      "bytes": 4736
+    }
+  ]
+}

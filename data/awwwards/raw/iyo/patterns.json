@@ -1,0 +1,97 @@
+{
+  "slug": "iyo",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "Lenis"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Magnetik",
+      "Nbarchitekproneue",
+      "Roobert Regular",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons!important",
+      "Arial,sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue,Helvetica,Ubuntu,Segoe UI,Verdana,sans-serif",
+      "Magnetik",
+      "Roobert Regular",
+      "Nbarchitekproneue",
+      "Arial,Helvetica Neue,Helvetica,sans-serif",
+      "Magnetik,Arial,sans-serif",
+      "Roobert Medium",
+      "Roobert Regular,Arial,sans-serif",
+      "Nbarchitekproneue,Arial,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "black": "#101010",
+      "almost-white": "#edeced",
+      "pearl-white": "#dddee3",
+      "dark-grey-lighter": "#303030",
+      "white-5": "#dddee30d",
+      "white": "#f9f9fb",
+      "light-black": "#151515",
+      "dark-grey": "#242426",
+      "black-50": "#10101080"
+    },
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 63,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 5,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 34,
+    "aspect-ratio": 9,
+    "grid-template": 102,
+    "mix-blend-mode": 1,
+    "filter:": 51,
+    "mask/clip-path": 2,
+    "@layer": 0,
+    "custom-property": 39
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 13,
+    "link_count": 24,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 33505,
+  "css_chars": 198179,
+  "corpus_chars": 231686,
+  "snippet_libs": []
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "studio-dado",
+  "tech_stack": [],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "disp",
+      "sans"
+    ],
+    "declared_stacks": [
+      "disp",
+      "sans",
+      "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "inherit"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "wp-block-synced-color": "#7a00df",
+      "wp-editor-canvas-background": "#ddd",
+      "wp-admin-theme-color": "#007cba",
+      "wp-admin-theme-color-darker-10": "#006ba1",
+      "wp-admin-theme-color-darker-20": "#005a87"
+    },
+    "size_vars": {
+      "wp-admin-border-width-focus": "2px",
+      "wp--preset--font-size--normal": "16px",
+      "wp--preset--font-size--huge": "42px",
+      "wp-admin--admin-bar--position-offset": "0px",
+      "space-s": "9.5rem",
+      "space": "12.5rem",
+      "padding": "1rem",
+      "gap": "1rem",
+      "masonry-gap": "1em",
+      "tw-translate-y": "-50%",
+      "clamp": "13px",
+      "admin-bar-height": "32px",
+      "tw-translate-x": "0rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 11,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 1,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 0,
+    "grid-template": 6,
+    "mix-blend-mode": 0,
+    "filter:": 1,
+    "mask/clip-path": 4,
+    "@layer": 0,
+    "custom-property": 121
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 9,
+      "header": 1,
+      "main": 1,
+      "section": 2,
+      "article": 1,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 2,
+    "picture_count": 8,
+    "script_count": 13,
+    "link_count": 47,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 69148,
+  "css_chars": 44067,
+  "corpus_chars": 113217,
+  "snippet_libs": []
+}

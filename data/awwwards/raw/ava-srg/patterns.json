@@ -1,0 +1,92 @@
+{
+  "slug": "ava-srg",
+  "tech_stack": [],
+  "motion_libs": [
+    "GSAP",
+    "ScrollTrigger",
+    "SplitText",
+    "Lenis",
+    "Three.js",
+    "Lottie"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Aeonik Pro Bold",
+      "Aeonik Pro Medium",
+      "Aeonik Pro Regular",
+      "IBMPlexMono Medium",
+      "IBMPlexMono Regular"
+    ],
+    "declared_stacks": [
+      "Aeonik Pro Regular",
+      "Aeonik Pro Bold",
+      "Aeonik Pro Medium",
+      "IBMPlexMono Medium",
+      "IBMPlexMono Regular",
+      "inherit",
+      "Aeonik Pro Bold\"><span style=\"font-style:normal\"><span style=\"font-weight:700\">AVA Digital </span></span></span>mentors. <br>We teach you how to create real designs, <span style=\"white-space:pre\">not",
+      "Arial,Helvetica,sans-serif",
+      "Arial,sans-serif",
+      "Inter,sans-serif",
+      "IBM Plex Mono"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 10,
+    "clamp()": 0,
+    "min()/max()": 1,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 40,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 23,
+    "aspect-ratio": 1,
+    "grid-template": 0,
+    "mix-blend-mode": 20,
+    "filter:": 24,
+    "mask/clip-path": 1,
+    "@layer": 0,
+    "custom-property": 305
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 1,
+      "main": 1,
+      "section": 12,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 18,
+    "picture_count": 0,
+    "script_count": 52,
+    "link_count": 231,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 471513,
+  "css_chars": 189689,
+  "corpus_chars": 661204,
+  "snippet_libs": [
+    "GSAP",
+    "Lenis",
+    "Lottie",
+    "ScrollTrigger",
+    "SplitText"
+  ]
+}

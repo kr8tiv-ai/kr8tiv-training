@@ -1,0 +1,53 @@
+{
+  "slug": "lightweight",
+  "awwwards_url": "https://www.awwwards.com/sites/lightweight",
+  "live_url": "https://lightweight.info/",
+  "title": "Lightweight",
+  "agency": "VKZ Studio",
+  "agency_url": "https://www.awwwards.com/vkzstudio/",
+  "tags": [
+    "Sports",
+    "Web & Interactive",
+    "Animation",
+    "Scrolling",
+    "Three.js",
+    "React",
+    "3D",
+    "Interaction Design",
+    "Next.js"
+  ],
+  "award_tags": [
+    "ah",
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 15, 2026",
+  "created_at": 1771113600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/09/68cfc8c72e860432105084.png",
+  "rank": 60,
+  "fetched_at": 1776287824,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 300871,
+  "stylesheets": [
+    {
+      "url": "https://lightweight.info/_next/static/css/e3c1afded1648462.css?dpl=dpl_BKW2vvQHgn5A9sQrqyiy2jYYPksw",
+      "status": 200,
+      "file": "__next_static_css_e3c1afded1648462.css",
+      "bytes": 100674
+    },
+    {
+      "url": "https://lightweight.info/_next/static/css/bfca2f3ecbe7f99b.css?dpl=dpl_BKW2vvQHgn5A9sQrqyiy2jYYPksw",
+      "status": 200,
+      "file": "__next_static_css_bfca2f3ecbe7f99b.css",
+      "bytes": 32991
+    },
+    {
+      "url": "https://lightweight.info/_next/static/css/b481027fdb7d01b8.css?dpl=dpl_BKW2vvQHgn5A9sQrqyiy2jYYPksw",
+      "status": 200,
+      "file": "__next_static_css_b481027fdb7d01b8.css",
+      "bytes": 5414
+    }
+  ]
+}

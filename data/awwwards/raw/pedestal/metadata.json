@@ -1,0 +1,45 @@
+{
+  "slug": "pedestal",
+  "awwwards_url": "https://www.awwwards.com/sites/pedestal",
+  "live_url": "https://www.pedestal.com/",
+  "title": "Pedestal",
+  "agency": "Good City",
+  "agency_url": "https://www.awwwards.com/goodcity/",
+  "tags": [
+    "E-Commerce",
+    "Clean",
+    "Colorful",
+    "GSAP",
+    "Three.js",
+    "Shopify",
+    "3D",
+    "404 pages"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 30, 2026",
+  "created_at": 1769731200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/693a9812a58f3482328022.jpg",
+  "rank": 76,
+  "fetched_at": 1776287826,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 549761,
+  "stylesheets": [
+    {
+      "url": "https://www.pedestal.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+      "status": 200,
+      "file": "n_shopifycloud_portable-wallets_latest_accelerated-checkout-backwards-compat.css",
+      "bytes": 13937
+    },
+    {
+      "url": "https://www.pedestal.com/cdn/shop/t/30/assets/theme.styles.css?v=109971910963654190531773392016",
+      "status": 200,
+      "file": "_cdn_shop_t_30_assets_theme.styles.css",
+      "bytes": 74296
+    }
+  ]
+}

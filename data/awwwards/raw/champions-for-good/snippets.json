@@ -1,0 +1,9 @@
+{
+  "GSAP": [
+    "x === -25) status = '2-before';\n  else if (cfg.x === 45)  status = '3-after';\n  else if (cfg.x === -45) status = '3-before';\n  else  status = 'hidden';\n\ncard.setAttribute('data-flick-cards-item-status', status);\n  card.style.zIndex = cfg.z;\n\ngsap.to(card, {\n  duration: 0.6,\n  ease: 'elastic.out(1.2, 1)',\n  xPercent: cfg.x,\n  yPercent: cfg.y,\n  rotation: cfg.rot,\n  scale: cfg.s,\n  opacity: cfg.o\n  });\n  });\n  }\n\nrenderCards(activeIndex);\n\nif (total < 7) {\n  console.log('Not minimum of 7 cards');\n  return;\n  }\n\nlet pressClien",
+    "const raw = this.x / sliderWidth;\n  let shift = 0;\n  if (raw > threshold) shift = -1;\n  else if (raw < -threshold) shift = 1;\n\nif (shift !== 0) {\n  activeIndex = (activeIndex + shift + total) % total;\n  renderCards(activeIndex);\n  }\n\ngsap.to(this.target, { x: 0, duration: 0.3, ease: 'power1.out' });\n\n// Weiterleitung von Klicks, wenn kaum gezogen wurde\n  if (dragDistance < 4) {\n  this.target.style.pointerEvents = 'none';\n  requestAnimationFrame(() => {\n  requestAnimationFrame(() => {\n  const el = document.elementFromPoint(releaseX, releaseY)"
+  ],
+  "Lenis": [
+    "nextEl: \".button-next\", prevEl: \".button-prev\" },\n  scrollbar: { el: \".swiper-scrollbar\", draggable: true }\n});\n</script>\n\n<script>\n/* ============================================================\n  LENIS SMOOTH SCROLL\n  ============================================================ */\nconst lenis = new Lenis();\n\nfunction raf(time) {\n  lenis.raf(time);\n  requestAnimationFrame(raf);\n}\nrequestAnimationFrame(raf);\n</script>\n-->\n</body></html>\n\nhtml{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-serif}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup /* ... */"
+  ]
+}

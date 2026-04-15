@@ -1,0 +1,86 @@
+{
+  "slug": "art-here-2025-richard-mille",
+  "tech_stack": [
+    "Astro"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Interstate",
+      "Neue Haas Grotesk Display Pro"
+    ],
+    "declared_stacks": [
+      "inherit",
+      "Neue Haas Grotesk Display Pro",
+      "Interstate",
+      "Neue Haas Grotesk Display Pro,sans-serif",
+      "Interstate,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color": "#fff"
+    },
+    "size_vars": {
+      "width": "38px",
+      "height": "38px",
+      "size": "20px",
+      "gap": "10px",
+      "x": "50%",
+      "y": "22px",
+      "items-gap": "20px",
+      "item-width": "62px",
+      "item-height": "40px",
+      "inner-padding": "2px",
+      "padding-inline": "12px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 34,
+    "clamp()": 0,
+    "min()/max()": 1,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 1,
+    "aspect-ratio": 1,
+    "grid-template": 0,
+    "mix-blend-mode": 0,
+    "filter:": 3,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 61
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 1,
+    "video_count": 3,
+    "picture_count": 1,
+    "script_count": 10,
+    "link_count": 0,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 43297,
+  "css_chars": 31297,
+  "corpus_chars": 74596,
+  "snippet_libs": []
+}

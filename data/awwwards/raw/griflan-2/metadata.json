@@ -1,0 +1,49 @@
+{
+  "slug": "griflan-2",
+  "awwwards_url": "https://www.awwwards.com/sites/griflan-2",
+  "live_url": "https://griflan.com/",
+  "title": "Griflan",
+  "agency": "Griflan",
+  "agency_url": "https://www.awwwards.com/Griflan/",
+  "tags": [
+    "Design Agencies",
+    "Animation",
+    "Portfolio",
+    "Typography",
+    "About Page",
+    "DatoCMS"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 06, 2026",
+  "created_at": 1772755200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/69691b35e956b219050311.jpg",
+  "rank": 41,
+  "fetched_at": 1776287818,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 447740,
+  "stylesheets": [
+    {
+      "url": "https://griflan.com/_nuxt/default.DsCGZwll.css",
+      "status": 200,
+      "file": "__nuxt_default.DsCGZwll.css",
+      "bytes": 1412
+    },
+    {
+      "url": "https://griflan.com/_nuxt/Grid.DRN8EkCD.css",
+      "status": 200,
+      "file": "__nuxt_Grid.DRN8EkCD.css",
+      "bytes": 593
+    },
+    {
+      "url": "https://griflan.com/_nuxt/index.D9Rhc2qa.css",
+      "status": 200,
+      "file": "__nuxt_index.D9Rhc2qa.css",
+      "bytes": 726
+    }
+  ]
+}

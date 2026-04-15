@@ -1,0 +1,38 @@
+{
+  "slug": "mouthful-of-dust",
+  "awwwards_url": "https://www.awwwards.com/sites/mouthful-of-dust",
+  "live_url": "https://www.slv.vic.gov.au/mouthful-of-dust/",
+  "title": "Mouthful of Dust",
+  "agency": "State Library Victoria",
+  "agency_url": "https://www.awwwards.com/statelibraryvictoria/",
+  "tags": [
+    "Culture & Education",
+    "Web & Interactive",
+    "WebGL",
+    "Sound-Audio",
+    "Storytelling",
+    "Three.js",
+    "3D",
+    "Cinema 4D"
+  ],
+  "award_tags": [
+    "sotd"
+  ],
+  "award_date": "Feb 01, 2026",
+  "created_at": 1769904000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/6937ebc42b391570205473.jpg",
+  "rank": 74,
+  "fetched_at": 1776287829,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 40007,
+  "stylesheets": [
+    {
+      "url": "https://www.slv.vic.gov.au/mouthful-of-dust/assets/index-CKL5gld5.css",
+      "status": 200,
+      "file": "_mouthful-of-dust_assets_index-CKL5gld5.css",
+      "bytes": 56247
+    }
+  ]
+}

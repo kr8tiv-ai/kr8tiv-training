@@ -1,0 +1,49 @@
+{
+  "slug": "neon-rated",
+  "awwwards_url": "https://www.awwwards.com/sites/neon-rated",
+  "live_url": "https://neonrated.com",
+  "title": "Neon Rated",
+  "agency": "27b",
+  "agency_url": "https://www.awwwards.com/27b/",
+  "tags": [
+    "E-Commerce",
+    "Film & TV",
+    "Web & Interactive",
+    "Fullscreen",
+    "Navigation Menu",
+    "Video",
+    "React",
+    "Shopify",
+    "Interaction Design",
+    "Microinteractions",
+    "Footer Design",
+    "Next.js"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 28, 2026",
+  "created_at": 1772236800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6978d3897ff8f918459622.jpg",
+  "rank": 47,
+  "fetched_at": 1776287821,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 5000000,
+  "stylesheets": [
+    {
+      "url": "https://neonrated.com/_next/static/css/4da32ebfc6f65366.css?dpl=dpl_9Cm1pr7xF4ohbapo4SZRK8oUEdmF",
+      "status": 200,
+      "file": "__next_static_css_4da32ebfc6f65366.css",
+      "bytes": 92391
+    },
+    {
+      "url": "https://neonrated.com/_next/static/css/aa1ff60c5f0d0771.css?dpl=dpl_9Cm1pr7xF4ohbapo4SZRK8oUEdmF",
+      "status": 200,
+      "file": "__next_static_css_aa1ff60c5f0d0771.css",
+      "bytes": 1350
+    }
+  ]
+}

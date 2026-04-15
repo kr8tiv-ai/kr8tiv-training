@@ -1,0 +1,114 @@
+{
+  "slug": "etienne-planeix",
+  "tech_stack": [
+    "Framer"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Inter",
+      "Inter Placeholder",
+      "Neue Haas Grotesk Display Pro 65 Medium",
+      "Neue Haas Grotesk Display Pro 65 Medium Placeholder",
+      "Neue Haas Grotesk Display Pro 66 Medium Italic",
+      "Neue Haas Grotesk Display Pro 66 Medium Italic Placeholder",
+      "Neue Haas Grotesk Display Pro 95 Black",
+      "Neue Haas Grotesk Display Pro 96 Black Italic"
+    ],
+    "declared_stacks": [
+      "Neue Haas Grotesk Display Pro 65 Medium",
+      "Neue Haas Grotesk Display Pro 95 Black",
+      "Neue Haas Grotesk Display Pro 96 Black Italic",
+      "Neue Haas Grotesk Display Pro 66 Medium Italic",
+      "Inter",
+      "Neue Haas Grotesk Display Pro 65 Medium Placeholder",
+      "Neue Haas Grotesk Display Pro 66 Medium Italic Placeholder",
+      "Inter Placeholder",
+      "sans-serif",
+      "var(--font-family)",
+      "var(--framer-font-family)",
+      "var(--framer-link-font-family,var(--framer-font-family))",
+      "var(--framer-link-hover-font-family,var(--framer-link-font-family,var(--framer-font-family)))",
+      "var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family)))",
+      "var(--framer-blockquote-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif))",
+      "var(--framer-blockquote-font-family-bold,var(--framer-font-family-bold))",
+      "var(--framer-blockquote-font-family-italic,var(--framer-font-family-italic))",
+      "var(--framer-blockquote-font-family-bold-italic,var(--framer-font-family-bold-italic))",
+      "var(--framer-code-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif))",
+      "var(--framer-blockquote-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif)))",
+      "var(--framer-link-hover-font-family,var(--framer-blockquote-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif))))",
+      "var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif)))",
+      "var(--framer-link-hover-font-family,var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif))))",
+      "Inter,Inter Placeholder,sans-serif",
+      "var(--framer-font-family,Inter,Inter Placeholder,sans-serif)",
+      "var(--framer-link-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif))",
+      "var(--framer-link-hover-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif)))",
+      "&quot"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "token-071eebd3-14dc-4bad-85d9-5687a7216183": "#0008ff",
+      "token-31f7737b-7dc5-4210-9157-7e6e980d064a": "#b0b0b0",
+      "token-0b3d724d-e90b-45de-9c9c-1f8d4a668edc": "#999",
+      "framer-text-color": "#000",
+      "framer-link-current-text-color": "#000",
+      "framer-link-hover-text-color": "#000",
+      "framer-link-text-color": "#0006",
+      "extracted-r6o4lv": "rgba(0, 0, 0, 0.5)",
+      "background-rgb": "rgba(0, 0, 0, 0)"
+    },
+    "size_vars": {
+      "framer-font-size": "16px",
+      "framer-line-height": "1.2em"
+    }
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 3,
+    "transition:": 19,
+    "clamp()": 0,
+    "min()/max()": 7,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 2,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 12,
+    "aspect-ratio": 13,
+    "grid-template": 2,
+    "mix-blend-mode": 0,
+    "filter:": 12,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 207
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 14,
+    "link_count": 45,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 158149,
+  "css_chars": 0,
+  "corpus_chars": 158151,
+  "snippet_libs": []
+}

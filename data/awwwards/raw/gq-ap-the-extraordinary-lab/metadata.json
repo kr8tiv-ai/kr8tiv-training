@@ -1,0 +1,33 @@
+{
+  "slug": "gq-ap-the-extraordinary-lab",
+  "awwwards_url": "https://www.awwwards.com/sites/gq-ap-the-extraordinary-lab",
+  "live_url": "https://www.gq.com/sponsored/story/the-extraordinary-lab",
+  "title": "GQ & AP The Extraordinary Lab",
+  "agency": "Immersive Garden",
+  "agency_url": "https://www.awwwards.com/immersivegarden/",
+  "tags": [
+    "Fashion",
+    "Web & Interactive",
+    "Responsive Design",
+    "WebGL",
+    "Experimental",
+    "3D",
+    "Gestures / Interaction",
+    "Nuxt.js",
+    "Blender"
+  ],
+  "award_tags": [
+    "dev",
+    "sotm"
+  ],
+  "award_date": "",
+  "created_at": 1774483200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b304fc7f0dd819068686.png",
+  "rank": 21,
+  "fetched_at": 1776287813,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 658145,
+  "stylesheets": []
+}

@@ -1,0 +1,5 @@
+{
+  "R3F": [
+    "intro__scroll-arrow-horizontal | js-intro:scrollArrowHorizontal\">\n<span></span>\n<span></span>\n</span>\n<span class=\"story__intro__scroll-arrow-vertical\">\n<span></span>\n<span></span>\n</span>\n</span>\n<span class=\"t-yellow-light t-sans t-lh-1 t-24\">To see the things we made.</span>\n</div>\n</div>\n</div>\n<canvas class=\"absolute fill w-1/1 h-1/1 z-negative pointer-events-none | js-webgl\" style=\"opacity: 0;\"></canvas>\n<video class=\"js-webgl-video\" src=\"https://2025.unseen.co/wp-content/themes/yiw/public/eye-loop.mp4\" style=\"opacity: 0; width: 1px; height: 1px; position: absolute; top: 0;\" muted autopl /* ... */"
+  ]
+}

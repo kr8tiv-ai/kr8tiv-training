@@ -1,0 +1,41 @@
+{
+  "slug": "studio-dado",
+  "awwwards_url": "https://www.awwwards.com/sites/studio-dado",
+  "live_url": "https://www.studiodado.com",
+  "title": "Studio Dado",
+  "agency": "Motto",
+  "agency_url": "https://www.awwwards.com/motto/",
+  "tags": [
+    "Architecture",
+    "Business & Corporate",
+    "Clean",
+    "Wordpress",
+    "Minimal",
+    "Gallery",
+    "Gestures / Interaction",
+    "Content architecture",
+    "Interaction Design",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 25, 2026",
+  "created_at": 1771977600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/69a01956b8d34010634085.png",
+  "rank": 50,
+  "fetched_at": 1776287819,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 69159,
+  "stylesheets": [
+    {
+      "url": "https://www.studiodado.com/wp-content/themes/studio-dado/dist/app.b366023587c0fc5e80fb.css?ver=1761728095",
+      "status": 200,
+      "file": "_wp-content_themes_studio-dado_dist_app.b366023587c0fc5e80fb.css",
+      "bytes": 44067
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "adam-bricker",
+  "awwwards_url": "https://www.awwwards.com/sites/adam-bricker",
+  "live_url": "https://www.adambricker.com/",
+  "title": "Adam Bricker",
+  "agency": "CUSP",
+  "agency_url": "https://www.awwwards.com/CUSP/",
+  "tags": [
+    "Film & TV",
+    "Animation",
+    "Portfolio",
+    "Typography",
+    "Video",
+    "Photography",
+    "Three.js",
+    "Photo & Video",
+    "UI design",
+    "Vercel",
+    "Figma"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 12, 2026",
+  "created_at": 1773273600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/697d214b583e1488452884.jpg",
+  "rank": 35,
+  "fetched_at": 1776287816,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 86096,
+  "stylesheets": [
+    {
+      "url": "https://www.adambricker.com/_next/static/css/ab02e9b78920c575.css",
+      "status": 200,
+      "file": "__next_static_css_ab02e9b78920c575.css",
+      "bytes": 76059
+    }
+  ]
+}

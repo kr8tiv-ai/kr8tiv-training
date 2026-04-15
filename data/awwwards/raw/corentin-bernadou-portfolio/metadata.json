@@ -1,0 +1,48 @@
+{
+  "slug": "corentin-bernadou-portfolio",
+  "awwwards_url": "https://www.awwwards.com/sites/corentin-bernadou-portfolio",
+  "live_url": "https://corentinbernadou.com/",
+  "title": "Corentin Bernadou Portfolio",
+  "agency": "Corentin Bernadou",
+  "agency_url": "https://www.awwwards.com/corentinbernadou/",
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Clean",
+    "Infinite Scroll",
+    "Portfolio",
+    "Typography",
+    "WebGL",
+    "GSAP",
+    "UI design",
+    "Javascript"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 25, 2026",
+  "created_at": 1774396800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/6998254974a85831964533.jpg",
+  "rank": 22,
+  "fetched_at": 1776287814,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 51552,
+  "stylesheets": [
+    {
+      "url": "https://corentinbernadou.com/assets/css/index-D2oTg1Kg.css",
+      "status": 200,
+      "file": "_assets_css_index-D2oTg1Kg.css",
+      "bytes": 381
+    },
+    {
+      "url": "https://corentinbernadou.com/assets/css/index-DnzqKqke.css",
+      "status": 200,
+      "file": "_assets_css_index-DnzqKqke.css",
+      "bytes": 27230
+    }
+  ]
+}

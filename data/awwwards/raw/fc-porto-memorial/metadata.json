@@ -1,0 +1,41 @@
+{
+  "slug": "fc-porto-memorial",
+  "awwwards_url": "https://www.awwwards.com/sites/fc-porto-memorial",
+  "live_url": "https://memorial.fcporto.pt/",
+  "title": "FC Porto Memorial",
+  "agency": "Significa",
+  "agency_url": "https://www.awwwards.com/significa/",
+  "tags": [
+    "Sports",
+    "Web & Interactive",
+    "Animation",
+    "Responsive Design",
+    "Scrolling",
+    "Single page",
+    "Interaction Design",
+    "UI design",
+    "After Effects",
+    "Adobe Photoshop"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 22, 2026",
+  "created_at": 1774137600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/69959dc307519008345011.png",
+  "rank": 25,
+  "fetched_at": 1776287814,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 54060,
+  "stylesheets": [
+    {
+      "url": "https://memorial.fcporto.pt/_astro/_path_.B2zzwA6v.css",
+      "status": 200,
+      "file": "__astro__path_.B2zzwA6v.css",
+      "bytes": 40245
+    }
+  ]
+}

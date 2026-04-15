@@ -1,0 +1,85 @@
+{
+  "slug": "cathy-dolle-portfolio-1",
+  "tech_stack": [
+    "Next.js",
+    "Sanity"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "neuemontreal",
+      "neuemontreal Fallback"
+    ],
+    "declared_stacks": [
+      "neuemontreal",
+      "neuemontreal Fallback",
+      "neuemontreal,neuemontreal Fallback",
+      "ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+      "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace",
+      "inherit"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-color": "rgb(59 130 246/0.5)",
+      "background": "#ffffff",
+      "foreground": "#171717"
+    },
+    "size_vars": {
+      "tw-ring-offset-width": "0px",
+      "tw-translate-x": "-50%",
+      "tw-translate-y": "-50%",
+      "tw-scale-x": "110%",
+      "tw-scale-y": "110%"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 3,
+    "transition:": 0,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 6,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 4,
+    "grid-template": 0,
+    "mix-blend-mode": 1,
+    "filter:": 2,
+    "mask/clip-path": 3,
+    "@layer": 0,
+    "custom-property": 136
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 0,
+      "section": 1,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 1,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 40,
+    "link_count": 4,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 36720,
+  "css_chars": 21557,
+  "corpus_chars": 58279,
+  "snippet_libs": []
+}

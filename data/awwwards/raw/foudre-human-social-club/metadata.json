@@ -1,0 +1,34 @@
+{
+  "slug": "foudre-human-social-club",
+  "awwwards_url": "https://www.awwwards.com/sites/foudre-human-social-club",
+  "live_url": "https://www.agencefoudre.com/",
+  "title": "Foudre, Human Social Club",
+  "agency": "Troa",
+  "agency_url": "https://www.awwwards.com/troa_digital/",
+  "tags": [
+    "Other",
+    "Colorful",
+    "Single page",
+    "Transitions",
+    "Gestures / Interaction",
+    "Microinteractions",
+    "404 pages",
+    "BARBA.js",
+    "Anime.js",
+    "Locomotive Scroll"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 15, 2026",
+  "created_at": 1773532800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/6980ce6338fa6109042735.png",
+  "rank": 32,
+  "fetched_at": 1776287816,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 155521,
+  "stylesheets": []
+}

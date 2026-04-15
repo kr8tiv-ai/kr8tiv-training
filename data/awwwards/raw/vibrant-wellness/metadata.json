@@ -1,0 +1,42 @@
+{
+  "slug": "vibrant-wellness",
+  "awwwards_url": "https://www.awwwards.com/sites/vibrant-wellness",
+  "live_url": "https://vibrant.noomoagency.com/",
+  "title": "Vibrant Wellness",
+  "agency": "Noomo Agency",
+  "agency_url": "https://www.awwwards.com/noomoagency/",
+  "tags": [
+    "Events",
+    "Technology",
+    "Web & Interactive",
+    "Animation",
+    "Unusual Navigation",
+    "WebGL",
+    "Data Visualization",
+    "Storytelling",
+    "GSAP",
+    "Three.js",
+    "3D"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 20, 2026",
+  "created_at": 1771545600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6965768d65813624641902.png",
+  "rank": 55,
+  "fetched_at": 1776287821,
+  "content_type": "text/html;charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 26045,
+  "stylesheets": [
+    {
+      "url": "https://vibrant.noomoagency.com/_nuxt/entry.D4y_q0WT.css",
+      "status": 200,
+      "file": "__nuxt_entry.D4y_q0WT.css",
+      "bytes": 51541
+    }
+  ]
+}

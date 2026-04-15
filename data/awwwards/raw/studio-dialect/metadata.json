@@ -1,0 +1,48 @@
+{
+  "slug": "studio-dialect",
+  "awwwards_url": "https://www.awwwards.com/sites/studio-dialect",
+  "live_url": "https://studiodialect.com/",
+  "title": "Studio Dialect",
+  "agency": "studiodialect",
+  "agency_url": "https://www.awwwards.com/studiodialect/",
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Gallery",
+    "Three.js",
+    "React",
+    "3D",
+    "Header Design",
+    "Contact Page",
+    "Microinteractions",
+    "Footer Design",
+    "Typescript"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 18, 2026",
+  "created_at": 1771372800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/69737a0364775700561882.png",
+  "rank": 57,
+  "fetched_at": 1776287823,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 26210,
+  "stylesheets": [
+    {
+      "url": "https://studiodialect.com/assets/index-CflcwcfV.css",
+      "status": 200,
+      "file": "_assets_index-CflcwcfV.css",
+      "bytes": 162180
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap",
+      "status": 200,
+      "file": "_css2.css",
+      "bytes": 2286
+    }
+  ]
+}

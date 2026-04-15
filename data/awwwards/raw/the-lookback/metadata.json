@@ -1,0 +1,49 @@
+{
+  "slug": "the-lookback",
+  "awwwards_url": "https://www.awwwards.com/sites/the-lookback",
+  "live_url": "https://tlb.betteroff.studio/",
+  "title": "The Lookback",
+  "agency": "Gil Huybrecht",
+  "agency_url": "https://www.awwwards.com/gilhuybrecht/",
+  "tags": [
+    "Magazine / Newspaper / Blog",
+    "Culture & Education",
+    "Design Agencies",
+    "Horizontal Layout",
+    "Infinite Scroll",
+    "Transitions",
+    "Gallery",
+    "GSAP",
+    "Interaction Design",
+    "About Page",
+    "Vue.js",
+    "Netlify"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 27, 2026",
+  "created_at": 1774569600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69a59011a94c2061667766.jpg",
+  "rank": 20,
+  "fetched_at": 1776287814,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 876147,
+  "stylesheets": [
+    {
+      "url": "https://tlb.betteroff.studio/_nuxt/default.BeBKBVc8.css",
+      "status": 200,
+      "file": "__nuxt_default.BeBKBVc8.css",
+      "bytes": 2530
+    },
+    {
+      "url": "https://tlb.betteroff.studio/_nuxt/Flip.Cws00xpq.css",
+      "status": 200,
+      "file": "__nuxt_Flip.Cws00xpq.css",
+      "bytes": 500
+    }
+  ]
+}

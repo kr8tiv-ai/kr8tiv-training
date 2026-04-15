@@ -1,0 +1,5 @@
+{
+  "GSAP": [
+    "tion() {\n\nif (typeof gsap === 'undefined') {\n\npreloader.style.display = 'none';\n\ndocument.body.classList.remove('is-loading');\n\ndocument.body.classList.add('no-preloader');\n\nreturn;\n\n}\n\nconst tl = gsap.timeline({\n\nonComplete: () => {\n\npreloader.style.display = 'none';\n\ndocument.body.classList.remove('is-loading');\n\ndocument.body.classList.add('no-preloader');\n\n// Reset inline styles on logo just in case, though it's hid"
+  ]
+}

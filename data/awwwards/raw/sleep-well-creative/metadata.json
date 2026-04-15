@@ -1,0 +1,55 @@
+{
+  "slug": "sleep-well-creative",
+  "awwwards_url": "https://www.awwwards.com/sites/sleep-well-creative",
+  "live_url": "https://sleep-well-creatives.com/",
+  "title": "Sleep Well Creative",
+  "agency": "Victor Work",
+  "agency_url": "https://www.awwwards.com/VictorWork/",
+  "tags": [
+    "Art & Illustration",
+    "Culture & Education",
+    "Web & Interactive",
+    "Single page",
+    "WebGL",
+    "Illustration",
+    "Storytelling",
+    "GSAP",
+    "3D",
+    "Filters and Effects",
+    "Webflow"
+  ],
+  "award_tags": [
+    "ah",
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 28, 2026",
+  "created_at": 1769558400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/694c60cd10c42285051480.png",
+  "rank": 78,
+  "fetched_at": 1776287829,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 132299,
+  "stylesheets": [
+    {
+      "url": "https://unpkg.com/lenis@1.3.14/dist/lenis.css",
+      "status": 200,
+      "file": "_lenis_1.3.14_dist_lenis.css",
+      "bytes": 381
+    },
+    {
+      "url": "https://sleep-well-creatives.netlify.app/assets/index-DQEsxz9V.css",
+      "status": 200,
+      "file": "_assets_index-DQEsxz9V.css",
+      "bytes": 3973
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/68fcf9490b2a28caaa0e59bc/css/play-sleepwell-creatives.webflow.shared.eb1e20856.css",
+      "status": 200,
+      "file": "fcf9490b2a28caaa0e59bc_css_play-sleepwell-creatives.webflow.shared.eb1e20856.css",
+      "bytes": 95190
+    }
+  ]
+}

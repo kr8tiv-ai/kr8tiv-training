@@ -1,0 +1,40 @@
+{
+  "slug": "slush",
+  "awwwards_url": "https://www.awwwards.com/sites/slush",
+  "live_url": "https://slush.app/",
+  "title": "Slush",
+  "agency": "HOLOGRAPHIK",
+  "agency_url": "https://www.awwwards.com/HOLOGRAPHIK/",
+  "tags": [
+    "Business & Corporate",
+    "Mobile & Apps",
+    "Technology",
+    "Animation",
+    "Colorful",
+    "Illustration",
+    "Webflow",
+    "After Effects",
+    "Figma"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 08, 2026",
+  "created_at": 1767830400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/69382fbfd903c670625597.png",
+  "rank": 98,
+  "fetched_at": 1776287832,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 118084,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/680905cfdc450738383648a6/css/sui-slush-staging.shared.db1d27061.min.css",
+      "status": 200,
+      "file": "_680905cfdc450738383648a6_css_sui-slush-staging.shared.db1d27061.min.css",
+      "bytes": 99003
+    }
+  ]
+}

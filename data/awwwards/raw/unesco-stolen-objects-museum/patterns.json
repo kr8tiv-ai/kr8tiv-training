@@ -1,0 +1,98 @@
+{
+  "slug": "unesco-stolen-objects-museum",
+  "tech_stack": [
+    "Nuxt",
+    "Vue"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Inter",
+      "Unbounded"
+    ],
+    "declared_stacks": [
+      "Inter",
+      "Unbounded",
+      "ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+      "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace",
+      "inherit",
+      "Inter,sans-serif",
+      "Unbounded,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-color": "rgba(59,130,246,.5)"
+    },
+    "size_vars": {
+      "tw-ring-offset-width": "0px",
+      "container-max-width": "91.46666666666667vw",
+      "container-margin": "4.266666666666667vw",
+      "container-gutter-width": "0.625rem",
+      "container-column-max-width": "1.58125rem",
+      "tw-translate-x": "-50%",
+      "tw-translate-y": "-50%",
+      "tw-scale-x": "200%",
+      "tw-scale-y": "200%",
+      "tw-gradient-from-position": "10%",
+      "tw-gradient-to-position": "50%",
+      "scrollbar-width": "1px",
+      "scrollbar-margin-top": "25%",
+      "scrollbar-margin-bottom": "25%",
+      "padding-top": "0rem",
+      "mask-height-top": "0rem",
+      "mask-height-bottom": "5rem",
+      "padding-bottom": "0rem",
+      "padding-right": "0rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 4,
+    "animation:": 4,
+    "transition:": 3,
+    "clamp()": 1,
+    "min()/max()": 7,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 6,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 20,
+    "grid-template": 12,
+    "mix-blend-mode": 0,
+    "filter:": 1,
+    "mask/clip-path": 5,
+    "@layer": 0,
+    "custom-property": 281
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 1,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 1,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 4,
+    "link_count": 2,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 138980,
+  "css_chars": 2701,
+  "corpus_chars": 141683,
+  "snippet_libs": []
+}

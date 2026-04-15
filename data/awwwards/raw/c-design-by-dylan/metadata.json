@@ -1,0 +1,49 @@
+{
+  "slug": "c-design-by-dylan",
+  "awwwards_url": "https://www.awwwards.com/sites/c-design-by-dylan",
+  "live_url": "https://www.dylanbrouwer.design/",
+  "title": "©Design by Dylan",
+  "agency": "Dylan Brouwer",
+  "agency_url": "https://www.awwwards.com/dylanbrouwer/",
+  "tags": [
+    "Design Agencies",
+    "Technology",
+    "Web & Interactive",
+    "Portfolio",
+    "Scrolling",
+    "Typography",
+    "GSAP",
+    "UI design",
+    "Header Design",
+    "Footer Design",
+    "Webflow",
+    "Locomotive Scroll"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 03, 2026",
+  "created_at": 1770076800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/694a72af031be416942187.png",
+  "rank": 72,
+  "fetched_at": 1776287826,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 155886,
+  "stylesheets": [
+    {
+      "url": "https://cdn.jsdelivr.net/npm/lenis@1.2.3/dist/lenis.css",
+      "status": 200,
+      "file": "_npm_lenis_1.2.3_dist_lenis.css",
+      "bytes": 191
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/691b49cf9e65846bca53c594/css/db-portfolio-26.webflow.shared.f4bea168c.min.css",
+      "status": 200,
+      "file": "_691b49cf9e65846bca53c594_css_db-portfolio-26.webflow.shared.f4bea168c.min.css",
+      "bytes": 276446
+    }
+  ]
+}

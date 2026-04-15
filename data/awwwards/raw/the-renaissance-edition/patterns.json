@@ -1,0 +1,71 @@
+{
+  "slug": "the-renaissance-edition",
+  "tech_stack": [
+    "Webflow",
+    "Shopify"
+  ],
+  "motion_libs": [
+    "Framer Motion"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [],
+    "declared_stacks": [
+      "&quot"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {
+      "random-delay": "0.56s",
+      "random-duration": "1.49s"
+    }
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 40,
+    "clamp()": 1,
+    "min()/max()": 3,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 1,
+    ":has()": 0,
+    "subgrid": 12,
+    "view-transition": 4,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 222,
+    "grid-template": 20,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 773
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 2,
+      "header": 1,
+      "main": 1,
+      "section": 12,
+      "article": 200,
+      "aside": 1,
+      "footer": 0
+    },
+    "canvas_count": 1,
+    "video_count": 12,
+    "picture_count": 1,
+    "script_count": 5,
+    "link_count": 294,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 1450310,
+  "css_chars": 0,
+  "corpus_chars": 1450312,
+  "snippet_libs": []
+}

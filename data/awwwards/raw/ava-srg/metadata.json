@@ -1,0 +1,53 @@
+{
+  "slug": "ava-srg",
+  "awwwards_url": "https://www.awwwards.com/sites/ava-srg",
+  "live_url": "https://srg.ava-digital.site/en",
+  "title": "AVA SRG",
+  "agency": "AVA-digital",
+  "agency_url": "https://www.awwwards.com/AVA-digital/",
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "Animation",
+    "Portfolio",
+    "Scrolling",
+    "WebGL",
+    "Three.js",
+    "3D",
+    "UI design",
+    "Lottie"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 01, 2026",
+  "created_at": 1772323200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6979dd0634ef7935886833.png",
+  "rank": 46,
+  "fetched_at": 1776287822,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 477206,
+  "stylesheets": [
+    {
+      "url": "https://srg.ava-digital.site/g/s3/mosaic/css/constructor/redesign/tt_default_styles.css",
+      "status": 200,
+      "file": "_g_s3_mosaic_css_constructor_redesign_tt_default_styles.css",
+      "bytes": 31143
+    },
+    {
+      "url": "https://srg.ava-digital.site/t/v6701/images/mosaic/designs/design-i2n4jt574-1769135841_styles.css",
+      "status": 200,
+      "file": "_t_v6701_images_mosaic_designs_design-i2n4jt574-1769135841_styles.css",
+      "bytes": 158201
+    },
+    {
+      "url": "https://srg.ava-digital.site/t/v6701/images/mosaic/symbols/symbol-i46b9jui8_styles.css",
+      "status": 200,
+      "file": "_t_v6701_images_mosaic_symbols_symbol-i46b9jui8_styles.css",
+      "bytes": 341
+    }
+  ]
+}

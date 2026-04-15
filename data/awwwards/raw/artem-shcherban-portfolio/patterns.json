@@ -1,0 +1,98 @@
+{
+  "slug": "artem-shcherban-portfolio",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "GSAP",
+    "ScrollTrigger",
+    "SplitText",
+    "Lenis"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "PP Neue Montreal",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons !important",
+      "Arial, sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif",
+      "PP Neue Montreal",
+      "Amiri, sans-serif",
+      "PP Neue Montreal, Arial, sans-serif",
+      "Hedvig Letters Serif, sans-serif",
+      "Fragment Mono, sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "black": "#0f0f0f",
+      "yellow": "#fed008",
+      "white-dark": "#f6f6f6",
+      "gray": "#f0f0f0"
+    },
+    "size_vars": {
+      "size-container-min": "992px",
+      "size-container-max": "1920px",
+      "blur": "0px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 8,
+    "clamp()": 4,
+    "min()/max()": 3,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 2,
+    "aspect-ratio": 8,
+    "grid-template": 35,
+    "mix-blend-mode": 2,
+    "filter:": 2,
+    "mask/clip-path": 16,
+    "@layer": 0,
+    "custom-property": 32
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 37,
+    "link_count": 14,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 111717,
+  "css_chars": 166681,
+  "corpus_chars": 278400,
+  "snippet_libs": [
+    "GSAP",
+    "Lenis",
+    "SplitText"
+  ]
+}

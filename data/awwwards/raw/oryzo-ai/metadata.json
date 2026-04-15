@@ -1,0 +1,41 @@
+{
+  "slug": "oryzo-ai",
+  "awwwards_url": "https://www.awwwards.com/sites/oryzo-ai",
+  "live_url": "https://oryzo.ai",
+  "title": "Oryzo AI",
+  "agency": "Lusion",
+  "agency_url": "https://www.awwwards.com/lusion/",
+  "tags": [
+    "Art & Illustration",
+    "Design Agencies",
+    "Web & Interactive",
+    "WebGL",
+    "Transitions",
+    "Storytelling",
+    "GSAP",
+    "Three.js",
+    "3D",
+    "Filters and Effects"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 13, 2026",
+  "created_at": 1776038400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69c13924e48ba991856936.png",
+  "rank": 3,
+  "fetched_at": 1776287801,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 71633,
+  "stylesheets": [
+    {
+      "url": "https://oryzo.ai/_astro/index.TL6TuoJb.css",
+      "status": 200,
+      "file": "__astro_index.TL6TuoJb.css",
+      "bytes": 69220
+    }
+  ]
+}

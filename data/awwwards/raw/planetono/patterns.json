@@ -1,0 +1,86 @@
+{
+  "slug": "planetono",
+  "tech_stack": [
+    "Nuxt",
+    "Vue"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [
+      "Poppins"
+    ],
+    "font_face_families": [
+      "Futura Passata"
+    ],
+    "declared_stacks": [
+      "Futura Passata",
+      "Poppins",
+      "monospace,monospace",
+      "inherit"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color-light": "#f7f2e5",
+      "color-select": "rgba(8,171,255,.33)",
+      "color-red": "#eb3322",
+      "color-blue": "#7721c7",
+      "color-light-blue": "#2097cf",
+      "color-yellow": "#ffc737",
+      "color-green": "#8df947",
+      "swiper-theme-color": "#007aff",
+      "swiper-preloader-color": "#fff"
+    },
+    "size_vars": {
+      "top": "10%",
+      "left": "15%"
+    }
+  },
+  "css_features": {
+    "@keyframes": 3,
+    "animation:": 3,
+    "transition:": 27,
+    "clamp()": 3,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 1,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 6,
+    "grid-template": 3,
+    "mix-blend-mode": 0,
+    "filter:": 2,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 39
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 3,
+      "header": 1,
+      "main": 1,
+      "section": 4,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 9,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 4,
+    "link_count": 11,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 146996,
+  "css_chars": 22652,
+  "corpus_chars": 169650,
+  "snippet_libs": []
+}

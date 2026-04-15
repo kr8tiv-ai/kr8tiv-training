@@ -1,0 +1,52 @@
+{
+  "slug": "integratedbio",
+  "awwwards_url": "https://www.awwwards.com/sites/integratedbio",
+  "live_url": "https://integratedbiosciences.com/",
+  "title": "IntegratedBio",
+  "agency": "Elliott Mangham",
+  "agency_url": "https://www.awwwards.com/elliottmangham/",
+  "tags": [
+    "Business & Corporate",
+    "Technology",
+    "Clean",
+    "Wordpress",
+    "Parallax",
+    "GSAP",
+    "Microinteractions",
+    "Contentful",
+    "Vite"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 10, 2026",
+  "created_at": 1768003200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/11/6909304ce330c709493228.jpg",
+  "rank": 96,
+  "fetched_at": 1776287833,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 82709,
+  "stylesheets": [
+    {
+      "url": "https://integratedbiosciences.com/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4",
+      "status": 200,
+      "file": "_wp-includes_css_dist_block-library_style.min.css",
+      "bytes": 119355
+    },
+    {
+      "url": "https://integratedbiosciences.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.5",
+      "status": 200,
+      "file": "_wp-content_plugins_contact-form-7_includes_css_styles.css",
+      "bytes": 2947
+    },
+    {
+      "url": "https://integratedbiosciences.com/wp-content/themes/integratedbio/dist/css/app-styles.css?ver=1774481343",
+      "status": 200,
+      "file": "_wp-content_themes_integratedbio_dist_css_app-styles.css",
+      "bytes": 41453
+    }
+  ]
+}

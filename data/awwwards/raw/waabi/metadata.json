@@ -1,0 +1,34 @@
+{
+  "slug": "waabi",
+  "awwwards_url": "https://www.awwwards.com/sites/waabi",
+  "live_url": "https://waabi.ai",
+  "title": "Waabi",
+  "agency": "Antinomy Studio",
+  "agency_url": "https://www.awwwards.com/antinomy/",
+  "tags": [
+    "Technology",
+    "Colorful",
+    "Typography",
+    "Storytelling",
+    "React",
+    "Interaction Design",
+    "Microinteractions",
+    "Startups",
+    "Motion",
+    "Next.js"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 07, 2026",
+  "created_at": 1772841600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/6982256148fdd479132421.png",
+  "rank": 40,
+  "fetched_at": 1776287817,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 556792,
+  "stylesheets": []
+}

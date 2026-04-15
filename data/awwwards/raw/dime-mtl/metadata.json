@@ -1,0 +1,49 @@
+{
+  "slug": "dime-mtl",
+  "awwwards_url": "https://www.awwwards.com/sites/dime-mtl",
+  "live_url": "https://dimemtl.com/",
+  "title": "Dime MTL",
+  "agency": "REF Digital",
+  "agency_url": "https://www.awwwards.com/ref.digital/",
+  "tags": [
+    "Fashion",
+    "Clean",
+    "Minimal",
+    "Photographic",
+    "Gallery",
+    "Responsive",
+    "Figma"
+  ],
+  "award_tags": [
+    "sotd"
+  ],
+  "award_date": "Jan 07, 2026",
+  "created_at": 1767744000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/11/6925b8c90cd47466961947.jpg",
+  "rank": 99,
+  "fetched_at": 1776287832,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 129298,
+  "stylesheets": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap",
+      "status": 200,
+      "file": "_css2.css",
+      "bytes": 894
+    },
+    {
+      "url": "https://dimemtl.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+      "status": 200,
+      "file": "n_shopifycloud_portable-wallets_latest_accelerated-checkout-backwards-compat.css",
+      "bytes": 13937
+    },
+    {
+      "url": "https://dimemtl.com/cdn/shop/t/105/assets/app.css?v=105733224267110983811773936410",
+      "status": 200,
+      "file": "_cdn_shop_t_105_assets_app.css",
+      "bytes": 125765
+    }
+  ]
+}

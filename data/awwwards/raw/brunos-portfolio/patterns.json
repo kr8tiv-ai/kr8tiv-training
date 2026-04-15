@@ -1,0 +1,82 @@
+{
+  "slug": "brunos-portfolio",
+  "tech_stack": [],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [
+      "Amatic SC"
+    ],
+    "font_face_families": [
+      "Amatic SC",
+      "Nunito",
+      "Pally-Bold",
+      "Pally-Medium",
+      "Pally-Regular"
+    ],
+    "declared_stacks": [
+      "Pally-Regular",
+      "Pally-Medium",
+      "Pally-Bold",
+      "Nunito,sans-serif",
+      "Amatic SC,sans-serif",
+      "Pally-Medium,sans-serif",
+      "Amatic SC",
+      "Nunito"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {
+      "hover-translate": "4px",
+      "width": "130px",
+      "size": "40px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 22,
+    "clamp()": 0,
+    "min()/max()": 8,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 1,
+    "grid-template": 0,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 12
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 1,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 3,
+    "link_count": 19,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 58784,
+  "css_chars": 47616,
+  "corpus_chars": 106402,
+  "snippet_libs": []
+}

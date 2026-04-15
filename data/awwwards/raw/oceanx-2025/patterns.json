@@ -1,0 +1,83 @@
+{
+  "slug": "oceanx-2025",
+  "tech_stack": [
+    "Nuxt",
+    "Vue"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "DM",
+      "Zeist"
+    ],
+    "declared_stacks": [
+      "Zeist,sans-serif",
+      "DM,monospace",
+      "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+      "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace",
+      "inherit",
+      "Zeist",
+      "YouTube Noto,Roboto,Arial,Helvetica,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {
+      "drawer-padding": "0rem",
+      "spacing": "1.3rem",
+      "vw": "1vw",
+      "svw": "1vw",
+      "vh": "1vh",
+      "svh": "1svh",
+      "dvh": "1dvh"
+    }
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 54,
+    "clamp()": 3,
+    "min()/max()": 3,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 12,
+    "grid-template": 2,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 3,
+    "@layer": 0,
+    "custom-property": 63
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 1,
+      "section": 7,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 3,
+    "link_count": 3,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 240131,
+  "css_chars": 26383,
+  "corpus_chars": 266516,
+  "snippet_libs": []
+}

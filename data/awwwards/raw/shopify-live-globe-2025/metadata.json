@@ -1,0 +1,43 @@
+{
+  "slug": "shopify-live-globe-2025",
+  "awwwards_url": "https://www.awwwards.com/sites/shopify-live-globe-2025",
+  "live_url": "https://bfcm.shop",
+  "title": "Shopify Live Globe 2025",
+  "agency": "Shopify Design",
+  "agency_url": "https://www.awwwards.com/shopifydesign/",
+  "tags": [
+    "E-Commerce",
+    "Games & Entertainment",
+    "Web & Interactive",
+    "Retro",
+    "Single page",
+    "Unusual Navigation",
+    "WebGL",
+    "Sound-Audio",
+    "Three.js",
+    "React",
+    "3D",
+    "Interaction Design"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 19, 2026",
+  "created_at": 1768780800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/6936f6ea56cd8332523402.jpg",
+  "rank": 87,
+  "fetched_at": 1776287829,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 3843,
+  "stylesheets": [
+    {
+      "url": "https://bfcm.shopify.com/cdn/shopifycloud/data_stories_website/assets/application-GWo2cWoZ.css",
+      "status": 200,
+      "file": "_cdn_shopifycloud_data_stories_website_assets_application-GWo2cWoZ.css",
+      "bytes": 14705
+    }
+  ]
+}

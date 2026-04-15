@@ -1,0 +1,46 @@
+{
+  "slug": "springs",
+  "awwwards_url": "https://www.awwwards.com/sites/springs",
+  "live_url": "https://springs.estate/",
+  "title": "Springs",
+  "agency": "Vide Infra",
+  "agency_url": "https://www.awwwards.com/videinfra/",
+  "tags": [
+    "Architecture",
+    "Clean",
+    "Colorful",
+    "WebGL",
+    "Three.js",
+    "3D",
+    "Real Estate",
+    "AWS",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 08, 2026",
+  "created_at": 1772928000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/692f237d08675944496832.jpg",
+  "rank": 39,
+  "fetched_at": 1776287818,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 594070,
+  "stylesheets": [
+    {
+      "url": "https://springs.estate/assets/stylesheets/global.css?v=1765268659",
+      "status": 200,
+      "file": "_assets_stylesheets_global.css",
+      "bytes": 392072
+    },
+    {
+      "url": "https://springs.estate/assets/stylesheets/landing.css?v=1765268659",
+      "status": 200,
+      "file": "_assets_stylesheets_landing.css",
+      "bytes": 57283
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "prototype-3",
+  "tech_stack": [],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "DeanGothicCMP",
+      "SilvanaDisplay"
+    ],
+    "declared_stacks": [
+      "inherit",
+      "var(--plyr-font-family,inherit)",
+      "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+      "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace",
+      "SilvanaDisplay,serif",
+      "DeanGothicCMP",
+      "SilvanaDisplay",
+      "var(--font)!important",
+      "var(--font-secondary)!important",
+      "DeanGothicCMP,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-color": "#3b82f680",
+      "bg-color": "#fff",
+      "text-color": "#000",
+      "plyr-color-main": "#000",
+      "plyr-range-fill-background": "#fff",
+      "plyr-range-thumb-background": "#0000",
+      "plyr-video-control-background-hover": "#0000",
+      "menu-color": "#fff"
+    },
+    "size_vars": {
+      "tw-ring-offset-width": "0px",
+      "tw-translate-x": "-50%",
+      "tw-translate-y": "-50%",
+      "padding-container": "1rem",
+      "vw": "100vw",
+      "header-height": "6rem",
+      "font-size": "2.4rem",
+      "letter-spacing": "0.028em",
+      "alert-padding": "2rem",
+      "panel-title-size": "3rem",
+      "alert-width": "35rem",
+      "plyr-range-track-height": "2px",
+      "plyr-control-icon-size": "14px",
+      "plyr-font-size-time": "1.7rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 3,
+    "animation:": 3,
+    "transition:": 45,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 2,
+    "grid-template": 9,
+    "mix-blend-mode": 0,
+    "filter:": 2,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 228
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 1,
+      "main": 0,
+      "section": 4,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 14,
+    "picture_count": 0,
+    "script_count": 9,
+    "link_count": 39,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 81097,
+  "css_chars": 86653,
+  "corpus_chars": 167752,
+  "snippet_libs": []
+}

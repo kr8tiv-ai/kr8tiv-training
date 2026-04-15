@@ -1,0 +1,79 @@
+{
+  "slug": "ironhill",
+  "tech_stack": [
+    "Nuxt",
+    "Vue"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "GT America",
+      "GT America Trial",
+      "GT America Trial Exp Rg",
+      "PP Woodland"
+    ],
+    "declared_stacks": [
+      "monospace,monospace",
+      "inherit",
+      "GT America Trial",
+      "GT America",
+      "GT America Trial Exp Rg",
+      "PP Woodland",
+      "PP Woodland,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif",
+      "GT America Trial,sans-serif",
+      "PP Woodland,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 5,
+    "clamp()": 0,
+    "min()/max()": 7,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 1,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 0,
+    "grid-template": 0,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 0
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 6,
+    "link_count": 0,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 2545,
+  "css_chars": 15481,
+  "corpus_chars": 18028,
+  "snippet_libs": []
+}

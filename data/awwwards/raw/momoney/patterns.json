@@ -1,0 +1,116 @@
+{
+  "slug": "momoney",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "GSAP",
+    "ScrollTrigger",
+    "SplitText",
+    "Lenis",
+    "Barba"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Aileron",
+      "Bueno",
+      "Facultyglyphic",
+      "Robotocondensed",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "inherit",
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons!important",
+      "Arial,sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue,Helvetica,Ubuntu,Segoe UI,Verdana,sans-serif",
+      "Bueno",
+      "Facultyglyphic",
+      "Aileron",
+      "Robotocondensed",
+      "var(--_typography---font--primary-family)",
+      "var(--_text-style---font-family)",
+      "var(--_typography---font--secondary-family)",
+      "var(--_typography---font--tertiary-family)",
+      "var(--_typography---font--quaternary-family)"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "swatch--red-bg": "#ff0037",
+      "swatch--white": "#f1f0ec",
+      "swatch--yellow-bg": "#ffec00",
+      "swatch--black": "#190f0a",
+      "swatch--theme-text": "#401011",
+      "swatch--green-bg": "#00592b",
+      "swatch--green-text": "#1ce585",
+      "swatch--pink-bg": "#f580db",
+      "swatch--orange-bg": "#ff7c24",
+      "swatch--blue-bg": "#9eb5ff",
+      "swatch--blue-text": "#0023d1"
+    },
+    "size_vars": {
+      "radius--large": "1.25rem",
+      "container--small": "100rem",
+      "container--full": "100vw",
+      "radius--round": "100vw",
+      "_spacing---section-space--none": "0px",
+      "_typography---letter-spacing--0em": "0em",
+      "_gap---size": "0rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 4,
+    "transition:": 132,
+    "clamp()": 116,
+    "min()/max()": 10,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 70,
+    "hsl()": 0,
+    "container-query": 34,
+    ":has()": 9,
+    "subgrid": 2,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 30,
+    "aspect-ratio": 90,
+    "grid-template": 60,
+    "mix-blend-mode": 0,
+    "filter:": 36,
+    "mask/clip-path": 8,
+    "@layer": 0,
+    "custom-property": 804
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 2,
+      "header": 0,
+      "main": 1,
+      "section": 8,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 2,
+    "picture_count": 0,
+    "script_count": 27,
+    "link_count": 45,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 253553,
+  "css_chars": 293738,
+  "corpus_chars": 547293,
+  "snippet_libs": [
+    "GSAP"
+  ]
+}

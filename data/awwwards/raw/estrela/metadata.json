@@ -1,0 +1,40 @@
+{
+  "slug": "estrela",
+  "awwwards_url": "https://www.awwwards.com/sites/estrela",
+  "live_url": "https://estrela.studio/",
+  "title": "Estrela",
+  "agency": "Malvah",
+  "agency_url": "https://www.awwwards.com/Malvah.Studio/",
+  "tags": [
+    "Design Agencies",
+    "Clean",
+    "Colorful",
+    "Parallax",
+    "GSAP",
+    "3D",
+    "Interaction Design",
+    "Prismic",
+    "Astro"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 09, 2026",
+  "created_at": 1767916800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/6931413247c46163327352.jpg",
+  "rank": 97,
+  "fetched_at": 1776287832,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 67071,
+  "stylesheets": [
+    {
+      "url": "https://estrela.studio/_astro/index.CO_elZJh.css",
+      "status": 200,
+      "file": "__astro_index.CO_elZJh.css",
+      "bytes": 153428
+    }
+  ]
+}

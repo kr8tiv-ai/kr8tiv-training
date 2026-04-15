@@ -1,0 +1,133 @@
+{
+  "slug": "champions-for-good",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "GSAP",
+    "Lenis",
+    "Locomotive",
+    "Lottie"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Druk Condensed Super Desktop",
+      "Neue Montreal",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons!important",
+      "Arial,sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue,Helvetica,Ubuntu,Segoe UI,Verdana,sans-serif",
+      "Neue Montreal",
+      "Druk Condensed Super Desktop",
+      "Druk Condensed Super Desktop,Arial,sans-serif",
+      "Neue Montreal,Arial,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "colors--brand-color": "#e894ff",
+      "colors--white": "#fbfbfb",
+      "pure-white": "#fff",
+      "brown": "#291900",
+      "dark-purple": "#23002b",
+      "dark-green": "#002629",
+      "colors--black": "#121212",
+      "yellow": "#ffac47",
+      "green": "#94ffe4",
+      "light-purple": "#e894ff",
+      "grey": "#9b9b9b",
+      "sound-toggle-dot-active": "#23002b",
+      "swiper-theme-color": "#007aff",
+      "swiper-preloader-color": "#fff"
+    },
+    "size_vars": {
+      "width--100": "100%",
+      "spacing--7": "7rem",
+      "spacing--2": "2rem",
+      "font-size--m": "64px",
+      "spacing--1": "1rem",
+      "spacing--3": "3rem",
+      "spacing--4": "4rem",
+      "spacing--5": "5rem",
+      "spacing--6": "6rem",
+      "font-size--s": "48px",
+      "font-size--xs": "32px",
+      "font-size--copytext": "16px",
+      "width--15": "15rem",
+      "width--20": "20rem",
+      "width--25": "25rem",
+      "width--30": "30rem",
+      "width--35": "35rem",
+      "width--40": "40rem",
+      "width--45": "45rem",
+      "width--50": "50rem",
+      "width--55": "55rem",
+      "width--60": "60rem",
+      "width--65": "65rem",
+      "width--70": "70rem",
+      "width--75": "75rem",
+      "width--80": "80rem",
+      "font-size--copytext-small": "16px",
+      "font-size--l": "80px",
+      "swiper-navigation-size": "44px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 8,
+    "animation:": 3,
+    "transition:": 47,
+    "clamp()": 11,
+    "min()/max()": 1,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 14,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 6,
+    "aspect-ratio": 5,
+    "grid-template": 25,
+    "mix-blend-mode": 1,
+    "filter:": 7,
+    "mask/clip-path": 2,
+    "@layer": 0,
+    "custom-property": 408
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 0,
+      "main": 0,
+      "section": 1,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 2,
+    "picture_count": 0,
+    "script_count": 22,
+    "link_count": 28,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 103447,
+  "css_chars": 124805,
+  "corpus_chars": 228254,
+  "snippet_libs": [
+    "GSAP",
+    "Lenis"
+  ]
+}

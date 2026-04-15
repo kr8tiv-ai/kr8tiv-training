@@ -1,0 +1,103 @@
+{
+  "slug": "jason-bergh",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "GSAP",
+    "ScrollTrigger",
+    "SplitText"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Abcsimonmono",
+      "Editorialnew",
+      "EditorialnewItalic",
+      "EditorialnewItalicRegular",
+      "Monumentgrotesk",
+      "MonumentgroteskMono",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "EditorialnewItalic",
+      "EditorialnewItalicRegular",
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons !important",
+      "Arial, sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif",
+      "Editorialnew",
+      "Monumentgrotesk",
+      "MonumentgroteskMono",
+      "Abcsimonmono",
+      "Monumentgrotesk, Arial, sans-serif",
+      "EditorialnewItalic, Arial, sans-serif",
+      "Editorialnew, Arial, sans-serif",
+      "Abcsimonmono, Arial, sans-serif",
+      "MonumentgroteskMono, Arial, sans-serif",
+      "EditorialnewItalicRegular, sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "lemon": "#ffeec8",
+      "light": "#fffbf2",
+      "grey": "#bdbab3"
+    },
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 5,
+    "animation:": 5,
+    "transition:": 38,
+    "clamp()": 0,
+    "min()/max()": 9,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 6,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 12,
+    "grid-template": 65,
+    "mix-blend-mode": 8,
+    "filter:": 0,
+    "mask/clip-path": 20,
+    "@layer": 0,
+    "custom-property": 20
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 0,
+      "main": 0,
+      "section": 1,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 1,
+    "video_count": 134,
+    "picture_count": 0,
+    "script_count": 31,
+    "link_count": 140,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 931051,
+  "css_chars": 162674,
+  "corpus_chars": 1093727,
+  "snippet_libs": [
+    "GSAP",
+    "SplitText"
+  ]
+}

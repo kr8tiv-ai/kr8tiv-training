@@ -1,0 +1,52 @@
+{
+  "slug": "follow-art",
+  "awwwards_url": "https://www.awwwards.com/sites/follow-art",
+  "live_url": "https://follow.art/",
+  "title": "FOLLOW.ART",
+  "agency": "Vide Infra",
+  "agency_url": "https://www.awwwards.com/videinfra/",
+  "tags": [
+    "Art & Illustration",
+    "Business & Corporate",
+    "Colorful",
+    "Parallax",
+    "WebGL",
+    "Storytelling",
+    "Startups",
+    "Figma",
+    "AWS"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 29, 2026",
+  "created_at": 1769644800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/6944051c25309510743455.jpg",
+  "rank": 77,
+  "fetched_at": 1776287828,
+  "content_type": "text/html;charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 294920,
+  "stylesheets": [
+    {
+      "url": "https://follow.art/_nuxt/entry.B9Z4_KkU.css",
+      "status": 200,
+      "file": "__nuxt_entry.B9Z4_KkU.css",
+      "bytes": 178143
+    },
+    {
+      "url": "https://follow.art/_nuxt/LoadingScreen.D1DMT0FK.css",
+      "status": 200,
+      "file": "__nuxt_LoadingScreen.D1DMT0FK.css",
+      "bytes": 707
+    },
+    {
+      "url": "https://follow.art/_nuxt/Section.Be1kjicf.css",
+      "status": 200,
+      "file": "__nuxt_Section.Be1kjicf.css",
+      "bytes": 1834
+    }
+  ]
+}

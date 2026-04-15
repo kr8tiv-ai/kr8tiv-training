@@ -1,0 +1,43 @@
+{
+  "slug": "utopia-tokyo",
+  "awwwards_url": "https://www.awwwards.com/sites/utopia-tokyo",
+  "live_url": "https://www.utopiatokyo.com/",
+  "title": "Utopia Tokyo",
+  "agency": "spotheroz",
+  "agency_url": "https://www.awwwards.com/spotheroz/",
+  "tags": [
+    "Games & Entertainment",
+    "Web & Interactive",
+    "Single page",
+    "Experimental",
+    "GSAP",
+    "3D",
+    "Filters and Effects",
+    "UI design",
+    "Microinteractions",
+    "Footer Design",
+    "BARBA.js",
+    "Webflow"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 29, 2026",
+  "created_at": 1774742400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69a5b7c4816c8910320189.png",
+  "rank": 18,
+  "fetched_at": 1776287811,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 215144,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/69810f9f220beb18481f5866/css/utopiatokyo2026.webflow.shared.7afc8fe42.min.css",
+      "status": 200,
+      "file": "_69810f9f220beb18481f5866_css_utopiatokyo2026.webflow.shared.7afc8fe42.min.css",
+      "bytes": 112323
+    }
+  ]
+}

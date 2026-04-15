@@ -1,0 +1,53 @@
+{
+  "slug": "the-obsidian-assembly",
+  "awwwards_url": "https://www.awwwards.com/sites/the-obsidian-assembly",
+  "live_url": "https://obsidianassembly.com/",
+  "title": "The Obsidian Assembly",
+  "agency": "Fiddle.Digital",
+  "agency_url": "https://www.awwwards.com/Fiddle.Digital/",
+  "tags": [
+    "Promotional",
+    "Big Background Images",
+    "Scrolling",
+    "Gallery",
+    "Filters and Effects",
+    "About Page",
+    "Project Page",
+    "Nuxt.js",
+    "Typescript",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 14, 2026",
+  "created_at": 1776124800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69a5bef9385b5362866290.jpg",
+  "rank": 2,
+  "fetched_at": 1776287803,
+  "content_type": "text/html;charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 172485,
+  "stylesheets": [
+    {
+      "url": "https://obsidianassembly.com/_nuxt/BaseButton.f15eb43b.css",
+      "status": 200,
+      "file": "__nuxt_BaseButton.f15eb43b.css",
+      "bytes": 3586
+    },
+    {
+      "url": "https://obsidianassembly.com/_nuxt/BaseImage.db5c7078.css",
+      "status": 200,
+      "file": "__nuxt_BaseImage.db5c7078.css",
+      "bytes": 729
+    },
+    {
+      "url": "https://obsidianassembly.com/_nuxt/BaseInput.efcf234c.css",
+      "status": 200,
+      "file": "__nuxt_BaseInput.efcf234c.css",
+      "bytes": 4838
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "som",
+  "awwwards_url": "https://www.awwwards.com/sites/som",
+  "live_url": "https://www.drinksom.eu/",
+  "title": "SŌM",
+  "agency": ".RAW",
+  "agency_url": "https://www.awwwards.com/raw-lab/",
+  "tags": [
+    "E-Commerce",
+    "Food & Drink",
+    "Promotional",
+    "Animation",
+    "Infinite Scroll",
+    "Scrolling",
+    "WebGL",
+    "Transitions",
+    "GSAP",
+    "3D",
+    "Interaction Design",
+    "Vercel"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 04, 2026",
+  "created_at": 1775260800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/69a1ae7b5c944812088027.png",
+  "rank": 12,
+  "fetched_at": 1776287810,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 87672,
+  "stylesheets": [
+    {
+      "url": "https://www.drinksom.eu/_next/static/chunks/a4656566251e57bd.css",
+      "status": 200,
+      "file": "__next_static_chunks_a4656566251e57bd.css",
+      "bytes": 82373
+    }
+  ]
+}

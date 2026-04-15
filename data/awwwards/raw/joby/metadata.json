@@ -1,0 +1,52 @@
+{
+  "slug": "joby",
+  "awwwards_url": "https://www.awwwards.com/sites/joby",
+  "live_url": "https://www.jobyaviation.com/",
+  "title": "Joby",
+  "agency": "TinyWins",
+  "agency_url": "https://www.awwwards.com/TinyWIns/",
+  "tags": [
+    "Business & Corporate",
+    "Design Agencies",
+    "Technology",
+    "Big Background Images",
+    "Graphic design",
+    "Content architecture",
+    "Photo & Video",
+    "UI design",
+    "Figma"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 16, 2026",
+  "created_at": 1773619200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/698f79919c06d745013912.png",
+  "rank": 31,
+  "fetched_at": 1776287816,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 160072,
+  "stylesheets": [
+    {
+      "url": "https://www.jobyaviation.com/_next/static/chunks/6f406898556e37a4.css?dpl=dpl_6n4cHeJSjvNePzSAFgESEGnjY2Z9",
+      "status": 200,
+      "file": "__next_static_chunks_6f406898556e37a4.css",
+      "bytes": 114735
+    },
+    {
+      "url": "https://www.jobyaviation.com/_next/static/chunks/9dc9743c97e2e460.css?dpl=dpl_6n4cHeJSjvNePzSAFgESEGnjY2Z9",
+      "status": 200,
+      "file": "__next_static_chunks_9dc9743c97e2e460.css",
+      "bytes": 111479
+    },
+    {
+      "url": "https://www.jobyaviation.com/_next/static/chunks/3df39882fdd33c97.css?dpl=dpl_6n4cHeJSjvNePzSAFgESEGnjY2Z9",
+      "status": 200,
+      "file": "__next_static_chunks_3df39882fdd33c97.css",
+      "bytes": 69572
+    }
+  ]
+}

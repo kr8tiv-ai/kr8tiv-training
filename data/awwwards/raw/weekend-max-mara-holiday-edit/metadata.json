@@ -1,0 +1,41 @@
+{
+  "slug": "weekend-max-mara-holiday-edit",
+  "awwwards_url": "https://www.awwwards.com/sites/weekend-max-mara-holiday-edit",
+  "live_url": "https://weekend-mm-2025-gift-guide-production.monogrid.io",
+  "title": "Weekend Max Mara Holiday Edit",
+  "agency": "MONOGRID",
+  "agency_url": "https://www.awwwards.com/MONOGRID/",
+  "tags": [
+    "E-Commerce",
+    "Fashion",
+    "Web & Interactive",
+    "WebGL",
+    "GSAP",
+    "Interaction Design",
+    "Microinteractions",
+    "Vue.js",
+    "Contentful"
+  ],
+  "award_tags": [
+    "ah",
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 24, 2026",
+  "created_at": 1769212800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/6943c4006314d724745916.jpg",
+  "rank": 82,
+  "fetched_at": 1776287828,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 6038,
+  "stylesheets": [
+    {
+      "url": "https://weekend-mm-2025-gift-guide-production.monogrid.io/static/app-BPwhvLLL.css",
+      "status": 200,
+      "file": "_static_app-BPwhvLLL.css",
+      "bytes": 569
+    }
+  ]
+}

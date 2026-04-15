@@ -1,0 +1,47 @@
+{
+  "slug": "sileent",
+  "awwwards_url": "https://www.awwwards.com/sites/sileent",
+  "live_url": "https://www.sileent.com/",
+  "title": "SILEENT",
+  "agency": "ET Studio",
+  "agency_url": "https://www.awwwards.com/et-studio/",
+  "tags": [
+    "Business & Corporate",
+    "Design Agencies",
+    "Technology",
+    "Clean",
+    "Minimal",
+    "Portfolio",
+    "GSAP",
+    "Three.js",
+    "Nuxt.js"
+  ],
+  "award_tags": [
+    "ah",
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 10, 2026",
+  "created_at": 1770681600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/695fb9032894a562447524.jpg",
+  "rank": 65,
+  "fetched_at": 1776287824,
+  "content_type": "text/html;charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 15631,
+  "stylesheets": [
+    {
+      "url": "https://www.sileent.com/_nuxt/entry.BVPIhT5c.css",
+      "status": 200,
+      "file": "__nuxt_entry.BVPIhT5c.css",
+      "bytes": 26762
+    },
+    {
+      "url": "https://www.sileent.com/_nuxt/default._ol_f6cf.css",
+      "status": 200,
+      "file": "__nuxt_default._ol_f6cf.css",
+      "bytes": 1193
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "d2c-life-science",
+  "tech_stack": [
+    "Astro",
+    "Prismic"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Atipla ND",
+      "Atipla ND Book",
+      "PP Fraktion Mono"
+    ],
+    "declared_stacks": [
+      "Arial, sans-serif",
+      "Atipla ND",
+      "Atipla ND Book",
+      "PP Fraktion Mono",
+      "sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {
+      "gridCell": "0px",
+      "gridGap": "0px",
+      "gridMargin": "0px",
+      "margin-xl": "72px",
+      "margin-l": "48px",
+      "margin-m": "24px",
+      "margin-s": "12px",
+      "progress": "0%"
+    }
+  },
+  "css_features": {
+    "@keyframes": 4,
+    "animation:": 6,
+    "transition:": 10,
+    "clamp()": 24,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 15,
+    "aspect-ratio": 5,
+    "grid-template": 12,
+    "mix-blend-mode": 0,
+    "filter:": 15,
+    "mask/clip-path": 13,
+    "@layer": 0,
+    "custom-property": 21
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 3,
+    "link_count": 0,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 104544,
+  "css_chars": 77042,
+  "corpus_chars": 181588,
+  "snippet_libs": []
+}

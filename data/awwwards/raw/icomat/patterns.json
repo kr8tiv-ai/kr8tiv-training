@@ -1,0 +1,103 @@
+{
+  "slug": "icomat",
+  "tech_stack": [
+    "Next.js",
+    "Prismic"
+  ],
+  "motion_libs": [
+    "Lottie"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "AkkuratMono",
+      "Doto-VariableFont-opti",
+      "LayGrotesk-Semibold"
+    ],
+    "declared_stacks": [
+      "LayGrotesk-Semibold,sans-serif",
+      "AkkuratMono,sans-serif",
+      "LayGrotesk-Semibold",
+      "AkkuratMono",
+      "Doto-VariableFont-opti",
+      "monospace",
+      "Doto-VariableFont-opti,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color-black": "#080808",
+      "color-white": "#f8f8f8",
+      "color-bg-dark-transparent": "rgba(0,0,0,0.7)",
+      "color-bg-light-transparent": "rgba(50,50,50,0.7)",
+      "color-bg-white-light-transparent": "rgba(255,255,255,0.1)",
+      "color-bg-white-transparent": "rgba(255,255,255,0.1)",
+      "color-text-light-blue-transparent": "rgba(207,217,224,0.85)",
+      "color-text-light-blue-transparent-2": "rgba(207,217,224,0.5)",
+      "color-light-blue": "#cfd9e0",
+      "color-light-gray": "#dcdcdc",
+      "color-gray-purple": "#5e5d69",
+      "color-dark-blue": "#081225",
+      "color-black-2": "#1c1c1c"
+    },
+    "size_vars": {
+      "tw-drop-shadow-alpha": "100%",
+      "tw-scale-x": "90%",
+      "tw-scale-y": "90%",
+      "tw-scale-z": "90%",
+      "breakpoint-mobile": "375px",
+      "breakpoint-tablet": "768px",
+      "breakpoint-desktop": "1440px",
+      "svh": "1vh",
+      "real-vh": "1vh",
+      "width": "400px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 0,
+    "transition:": 44,
+    "clamp()": 0,
+    "min()/max()": 1,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 14,
+    "container-query": 2,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 20,
+    "aspect-ratio": 23,
+    "grid-template": 34,
+    "mix-blend-mode": 4,
+    "filter:": 21,
+    "mask/clip-path": 4,
+    "@layer": 1,
+    "custom-property": 117
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 2,
+      "section": 6,
+      "article": 0,
+      "aside": 0,
+      "footer": 2
+    },
+    "canvas_count": 3,
+    "video_count": 5,
+    "picture_count": 0,
+    "script_count": 22,
+    "link_count": 42,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 180144,
+  "css_chars": 168704,
+  "corpus_chars": 348850,
+  "snippet_libs": []
+}

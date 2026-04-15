@@ -1,0 +1,117 @@
+{
+  "slug": "sutera",
+  "tech_stack": [
+    "Nuxt",
+    "Vue",
+    "Prismic"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Bitter",
+      "BrunoAce",
+      "NeueHaas",
+      "PPNeueMontreal"
+    ],
+    "declared_stacks": [
+      "ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+      "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace",
+      "var(--reality-font)",
+      "var(--font-blueprint)",
+      "var(--font-lab)",
+      "var(--font-main)",
+      "NeueHaas",
+      "PPNeueMontreal",
+      "Bitter",
+      "BrunoAce"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-gradient-from": "#0000",
+      "tw-gradient-via": "#0000",
+      "tw-gradient-to": "#0000",
+      "color-grey": "#9e9e9e",
+      "color-dark-grey": "#cbcbcb",
+      "color-black": "#000",
+      "color-white": "#fff",
+      "color-blue": "#344dbb",
+      "color-green": "#59e7ca",
+      "color-dark": "#121212",
+      "hoverColor": "#fff",
+      "hoverBgColor": "#000"
+    },
+    "size_vars": {
+      "br": "10px",
+      "tw-gradient-from-position": "0%",
+      "tw-gradient-via-position": "50%",
+      "tw-gradient-to-position": "100%",
+      "tw-drop-shadow-alpha": "100%",
+      "text-xxl": "11.19svw",
+      "text-xl": "9.66svw",
+      "text-xl-alt": "7.63svw",
+      "text-l": "6.36svw",
+      "text-ls": "5.08svw",
+      "text-m": "4.07svw",
+      "text-s": "3.56svw",
+      "text-xs": "3.3svw",
+      "text-xxs": "3.05svw",
+      "tw-translate-x": "-50%",
+      "tw-translate-y": "-66.66667%",
+      "tw-scale-x": "115%",
+      "tw-scale-y": "115%",
+      "tw-scale-z": "115%",
+      "line-width": "100%",
+      "grid-margin": "20px",
+      "grid-gutter": "20px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 0,
+    "clamp()": 0,
+    "min()/max()": 7,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 3,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 4,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 13,
+    "grid-template": 0,
+    "mix-blend-mode": 1,
+    "filter:": 1,
+    "mask/clip-path": 6,
+    "@layer": 5,
+    "custom-property": 217
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 1,
+      "main": 1,
+      "section": 3,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 2,
+    "video_count": 0,
+    "picture_count": 20,
+    "script_count": 4,
+    "link_count": 15,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 231290,
+  "css_chars": 65958,
+  "corpus_chars": 297250,
+  "snippet_libs": []
+}

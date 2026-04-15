@@ -1,0 +1,84 @@
+{
+  "slug": "naked-city-films",
+  "tech_stack": [
+    "Nuxt",
+    "Vue",
+    "Sanity"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "DaVinci Trial",
+      "Haas Grotesk",
+      "Haas Grotesk Medium",
+      "TRJNDaVinci Medium Trial Italic"
+    ],
+    "declared_stacks": [
+      "Haas Grotesk",
+      "Haas Grotesk Medium",
+      "DaVinci Trial",
+      "TRJNDaVinci Medium Trial Italic",
+      "sans-serif",
+      "Haas Grotesk Medium,serif",
+      "TRJNDaVinci Medium Trial Italic,serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "white": "#fff",
+      "blue": "#0004eb",
+      "black": "#050516",
+      "grey-light": "#e6e6e6",
+      "grey-dark": "#979797"
+    },
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 7,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 0,
+    "grid-template": 54,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 135
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 0,
+      "main": 0,
+      "section": 4,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 18,
+    "picture_count": 0,
+    "script_count": 4,
+    "link_count": 38,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 959740,
+  "css_chars": 304247,
+  "corpus_chars": 1263989,
+  "snippet_libs": []
+}

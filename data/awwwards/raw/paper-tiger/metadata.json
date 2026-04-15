@@ -1,0 +1,42 @@
+{
+  "slug": "paper-tiger",
+  "awwwards_url": "https://www.awwwards.com/sites/paper-tiger",
+  "live_url": "https://www.papertiger.com",
+  "title": "Paper Tiger",
+  "agency": "Paper Tiger",
+  "agency_url": "https://www.awwwards.com/papertiger/",
+  "tags": [
+    "Art & Illustration",
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Clean",
+    "Colorful",
+    "Portfolio",
+    "Responsive Design",
+    "Transitions",
+    "GSAP",
+    "Webflow",
+    "Figma"
+  ],
+  "award_tags": [
+    "sotd"
+  ],
+  "award_date": "Jan 17, 2026",
+  "created_at": 1768608000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/694594ce68973099983491.png",
+  "rank": 89,
+  "fetched_at": 1776287830,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 125283,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/68c9282d38c8df82b6d5f656/css/paper-tiger-2025.shared.c281204f4.min.css",
+      "status": 200,
+      "file": "_68c9282d38c8df82b6d5f656_css_paper-tiger-2025.shared.c281204f4.min.css",
+      "bytes": 139607
+    }
+  ]
+}

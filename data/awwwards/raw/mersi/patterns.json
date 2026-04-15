@@ -1,0 +1,91 @@
+{
+  "slug": "mersi",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Doner",
+      "Switzer Variable",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "Helvetica Neue\", serif",
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons!important",
+      "Arial,sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue,Helvetica,Ubuntu,Segoe UI,Verdana,sans-serif",
+      "Doner",
+      "Switzer Variable",
+      "Switzer Variable,Arial,sans-serif",
+      "PP Neue Montreal",
+      "Doner,Arial,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "off-black": "#1a1a1a",
+      "lichen": "#aaa798",
+      "cream": "#ede7de",
+      "travertin": "#b3a696",
+      "card": "#beb4a7",
+      "travertin-light": "#bdb3a7",
+      "sienne": "#dc633f",
+      "sauge": "#657b69"
+    },
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 4,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 1,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 2,
+    "aspect-ratio": 0,
+    "grid-template": 80,
+    "mix-blend-mode": 40,
+    "filter:": 2,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 15
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 0,
+      "main": 1,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 12,
+    "link_count": 27,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 79187,
+  "css_chars": 94466,
+  "corpus_chars": 173655,
+  "snippet_libs": []
+}

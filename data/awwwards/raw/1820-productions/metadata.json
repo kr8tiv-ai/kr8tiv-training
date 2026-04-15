@@ -1,0 +1,53 @@
+{
+  "slug": "1820-productions",
+  "awwwards_url": "https://www.awwwards.com/sites/1820-productions",
+  "live_url": "https://www.1820productions.com",
+  "title": "1820 Productions",
+  "agency": "Carter Ogunsola O.",
+  "agency_url": "https://www.awwwards.com/carter-ogunsola/",
+  "tags": [
+    "Business & Corporate",
+    "Film & TV",
+    "Animation",
+    "Fullscreen",
+    "Navigation Menu",
+    "Portfolio",
+    "Scrolling",
+    "Microinteractions",
+    "Webflow",
+    "Figma",
+    "Typescript"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 26, 2026",
+  "created_at": 1772064000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/69694a8a413da647595795.png",
+  "rank": 49,
+  "fetched_at": 1776287824,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 574733,
+  "stylesheets": [
+    {
+      "url": "https://1820-prod.vercel.app/out.css",
+      "status": 200,
+      "file": "_out.css",
+      "bytes": 1202
+    },
+    {
+      "url": "https://localhost:6545/out.css",
+      "status": 0,
+      "error": "__ERROR__: URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively ref"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6891a5aecbde722a4a9adbba/css/1820-prod.webflow.shared.eebf9bf8b.min.css",
+      "status": 200,
+      "file": "_6891a5aecbde722a4a9adbba_css_1820-prod.webflow.shared.eebf9bf8b.min.css",
+      "bytes": 92712
+    }
+  ]
+}

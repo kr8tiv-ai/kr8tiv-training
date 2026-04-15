@@ -1,0 +1,25 @@
+{
+  "total_across_sites": {
+    "nav": 90,
+    "header": 254,
+    "main": 61,
+    "section": 446,
+    "article": 708,
+    "aside": 25,
+    "footer": 60
+  },
+  "mean_per_site": {
+    "nav": 0.94,
+    "header": 2.65,
+    "main": 0.64,
+    "section": 4.65,
+    "article": 7.38,
+    "aside": 0.26,
+    "footer": 0.62
+  },
+  "canvas_total": 72,
+  "canvas_mean": 0.75,
+  "webgl_ctx_sites": 0,
+  "webgl_ctx_pct": 0.0,
+  "shader_tag_sites": 0
+}

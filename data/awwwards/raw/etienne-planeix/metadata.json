@@ -1,0 +1,35 @@
+{
+  "slug": "etienne-planeix",
+  "awwwards_url": "https://www.awwwards.com/sites/etienne-planeix",
+  "live_url": "https://www.etienne.studio/",
+  "title": "Etienne Planeix",
+  "agency": "Etienne Planeix",
+  "agency_url": "https://www.awwwards.com/etienne.planeix/",
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Clean",
+    "Portfolio",
+    "Experimental",
+    "Gallery",
+    "3D",
+    "About Page",
+    "Figma",
+    "Framer"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 25, 2026",
+  "created_at": 1769299200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/692ee9b9a7571013332242.jpg",
+  "rank": 81,
+  "fetched_at": 1776287829,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 158159,
+  "stylesheets": []
+}

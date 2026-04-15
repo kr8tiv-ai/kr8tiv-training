@@ -1,0 +1,96 @@
+{
+  "slug": "oryzo-ai",
+  "tech_stack": [
+    "Astro"
+  ],
+  "motion_libs": [
+    "Rive"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "DM Mono",
+      "Literata"
+    ],
+    "declared_stacks": [
+      "Literata",
+      "DM Mono",
+      "var(--display-font)",
+      "var(--body-font)",
+      "DM Mono,monospace"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color-white": "#ffedd7",
+      "color-white-transparent": "#ffedd700",
+      "color-black": "#100904",
+      "color-black-transparent": "#10090400",
+      "color-grey-brown": "#6c5f51",
+      "color-green": "#445231",
+      "color-green-light": "#5d6c49",
+      "color-green-lightest": "#f6e0c6",
+      "color-pure-white": "#fff",
+      "color-pure-black": "#000",
+      "color-orange": "#dc5000",
+      "color-brown": "#382416",
+      "glow-color": "rgba(220, 80, 0, 0)"
+    },
+    "size_vars": {
+      "vh": "1vh",
+      "site-padding-x": "3.125vw",
+      "site-row-height": "5px",
+      "site-header": "21px",
+      "r": "2.5rem",
+      "size": "2em",
+      "icon-size": "60px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 4,
+    "animation:": 3,
+    "transition:": 23,
+    "clamp()": 0,
+    "min()/max()": 4,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 21,
+    "grid-template": 2,
+    "mix-blend-mode": 0,
+    "filter:": 2,
+    "mask/clip-path": 2,
+    "@layer": 0,
+    "custom-property": 136
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 6,
+    "video_count": 0,
+    "picture_count": 17,
+    "script_count": 2,
+    "link_count": 22,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 71611,
+  "css_chars": 69220,
+  "corpus_chars": 140833,
+  "snippet_libs": []
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "san-rita",
+  "awwwards_url": "https://www.awwwards.com/sites/san-rita",
+  "live_url": "https://sanrita.ca/",
+  "title": "San Rita",
+  "agency": "San Rita",
+  "agency_url": "https://www.awwwards.com/Sanrita/",
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Portfolio",
+    "Unusual Navigation",
+    "WebGL",
+    "Experimental",
+    "Storytelling",
+    "3D",
+    "UI design",
+    "Next.js",
+    "DatoCMS"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 31, 2026",
+  "created_at": 1774915200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/699dbd299d44f400704436.jpg",
+  "rank": 16,
+  "fetched_at": 1776287815,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 94127,
+  "stylesheets": [
+    {
+      "url": "https://sanrita.ca/_next/static/chunks/be8237e05232997d.css",
+      "status": 200,
+      "file": "__next_static_chunks_be8237e05232997d.css",
+      "bytes": 1376
+    },
+    {
+      "url": "https://sanrita.ca/_next/static/chunks/57d05269bf4797cd.css",
+      "status": 200,
+      "file": "__next_static_chunks_57d05269bf4797cd.css",
+      "bytes": 146521
+    },
+    {
+      "url": "https://sanrita.ca/_next/static/chunks/8df81d8a3a7fac11.css",
+      "status": 200,
+      "file": "__next_static_chunks_8df81d8a3a7fac11.css",
+      "bytes": 1680
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "lightweight",
+  "tech_stack": [
+    "Next.js",
+    "Sanity"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [],
+    "declared_stacks": [
+      "var(--abc-repro)"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {
+      "x": "0vh",
+      "y": "0vh",
+      "size": "27.77777777777778vh",
+      "transition-timing": "1200ms",
+      "button-invert-default-horizontal-padding": "2.1428571429em",
+      "button-invert-default-vertical-padding": "1.4285714286em",
+      "button-invert-small-horizontal-padding": "1.5714285714em",
+      "button-invert-small-vertical-padding": "1em",
+      "button-primary-default-horizontal-padding": "2.1428571429em",
+      "button-primary-default-vertical-padding": "1.4285714286em",
+      "button-primary-small-horizontal-padding": "1.5714285714em",
+      "button-primary-small-vertical-padding": "1em",
+      "button-secondary-default-horizontal-padding": "2.1428571429em",
+      "button-secondary-default-vertical-padding": "1.4285714286em",
+      "button-secondary-small-horizontal-padding": "1.5714285714em",
+      "button-secondary-small-vertical-padding": "1em",
+      "gap": "0.4166666667vw",
+      "text-column-size": "32.8125vw",
+      "selected-gap": "0.5em",
+      "options-gap": "0.5em",
+      "arrow-height": "1.25em",
+      "border-width": "0px",
+      "grid-item-height": "30.2083333333vw"
+    }
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 44,
+    "clamp()": 0,
+    "min()/max()": 15,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 2,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 1,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 8,
+    "aspect-ratio": 22,
+    "grid-template": 40,
+    "mix-blend-mode": 0,
+    "filter:": 7,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 125
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 0,
+      "main": 1,
+      "section": 5,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 3,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 94,
+    "link_count": 59,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 300819,
+  "css_chars": 139083,
+  "corpus_chars": 439904,
+  "snippet_libs": []
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "nfinite",
+  "awwwards_url": "https://www.awwwards.com/sites/nfinite",
+  "live_url": "https://www.nfinitenano.com/",
+  "title": "Nfinite",
+  "agency": "Numbered",
+  "agency_url": "https://www.awwwards.com/Numbered/",
+  "tags": [
+    "Business & Corporate",
+    "Technology",
+    "Animation",
+    "Parallax",
+    "Scrolling",
+    "WebGL",
+    "Data Visualization",
+    "Three.js",
+    "next.js"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 07, 2026",
+  "created_at": 1770422400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/695399dd7314a270512533.png",
+  "rank": 68,
+  "fetched_at": 1776287825,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 167882,
+  "stylesheets": [
+    {
+      "url": "https://www.nfinitenano.com/_next/static/chunks/1a3b36ad32f15042.css?dpl=dpl_DhQxRZVj4c87DbKQ4ZzqQwDQxC8s",
+      "status": 0,
+      "error": "__ERROR__: HTTPError: HTTP Error 404: Not Found"
+    }
+  ]
+}

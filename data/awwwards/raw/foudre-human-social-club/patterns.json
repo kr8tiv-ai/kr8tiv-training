@@ -1,0 +1,82 @@
+{
+  "slug": "foudre-human-social-club",
+  "tech_stack": [],
+  "motion_libs": [
+    "Locomotive"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Beni",
+      "Clash Grotesk"
+    ],
+    "declared_stacks": [
+      "inherit",
+      "Clash Grotesk,sans-serif",
+      "Clash Grotesk",
+      "Beni",
+      "Beni,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "bg-color": "#00522D",
+      "tx-color": "#FFF8F6",
+      "em-color": "#F29EBD",
+      "secondary-color": "#0e5e8c"
+    },
+    "size_vars": {
+      "item-spacing": "1.5rem",
+      "x": "-1.6rem",
+      "y": "1.6rem",
+      "delay": "1400ms"
+    }
+  },
+  "css_features": {
+    "@keyframes": 5,
+    "animation:": 5,
+    "transition:": 8,
+    "clamp()": 0,
+    "min()/max()": 4,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 3,
+    "grid-template": 2,
+    "mix-blend-mode": 1,
+    "filter:": 0,
+    "mask/clip-path": 1,
+    "@layer": 0,
+    "custom-property": 158
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 1,
+      "main": 1,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 1,
+    "picture_count": 43,
+    "script_count": 3,
+    "link_count": 27,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 154974,
+  "css_chars": 0,
+  "corpus_chars": 154976,
+  "snippet_libs": []
+}

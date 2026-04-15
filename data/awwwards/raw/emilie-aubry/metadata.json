@@ -1,0 +1,47 @@
+{
+  "slug": "emilie-aubry",
+  "awwwards_url": "https://www.awwwards.com/sites/emilie-aubry",
+  "live_url": "https://www.emilieaubry.com/",
+  "title": "Emilie Aubry",
+  "agency": "Studio Size",
+  "agency_url": "https://www.awwwards.com/studio-size.com/",
+  "tags": [
+    "Film & TV",
+    "Clean",
+    "Wordpress",
+    "Typography",
+    "Video"
+  ],
+  "award_tags": [
+    "sotd"
+  ],
+  "award_date": "Feb 11, 2026",
+  "created_at": 1770768000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6960cab495d94051463574.jpg",
+  "rank": 64,
+  "fetched_at": 1776287825,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 39878,
+  "stylesheets": [
+    {
+      "url": "https://www.emilieaubry.com/wp-content/themes/emile-aubry/dist/styles/mainMin.css?ver=27.5",
+      "status": 200,
+      "file": "_wp-content_themes_emile-aubry_dist_styles_mainMin.css",
+      "bytes": 14721
+    },
+    {
+      "url": "https://www.emilieaubry.com/wp-content/themes/emile-aubry/src/styles/splide.min.css?ver=27.5",
+      "status": 200,
+      "file": "_wp-content_themes_emile-aubry_src_styles_splide.min.css",
+      "bytes": 6794
+    },
+    {
+      "url": "https://www.emilieaubry.com/wp-content/themes/emile-aubry/layouts/home_slider/styleMin.css?ver=27.5",
+      "status": 200,
+      "file": "_wp-content_themes_emile-aubry_layouts_home_slider_styleMin.css",
+      "bytes": 4392
+    }
+  ]
+}

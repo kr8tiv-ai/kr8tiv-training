@@ -1,0 +1,40 @@
+{
+  "slug": "lightship-1",
+  "awwwards_url": "https://www.awwwards.com/sites/lightship-1",
+  "live_url": "https://www.lightshiprv.com/",
+  "title": "Lightship",
+  "agency": "Locomotive",
+  "agency_url": "https://www.awwwards.com/locomotive/",
+  "tags": [
+    "Business & Corporate",
+    "E-Commerce",
+    "Big Background Images",
+    "Content architecture",
+    "Interaction Design",
+    "Microinteractions",
+    "Tailwind",
+    "Locomotive Scroll",
+    "Typescript"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 13, 2026",
+  "created_at": 1768262400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/692f67e78e7f0309961169.jpg",
+  "rank": 93,
+  "fetched_at": 1776287831,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 86936,
+  "stylesheets": [
+    {
+      "url": "https://www.lightshiprv.com/assets/styles/main.css?v=1776194620956",
+      "status": 200,
+      "file": "_assets_styles_main.css",
+      "bytes": 206382
+    }
+  ]
+}

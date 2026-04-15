@@ -1,0 +1,96 @@
+{
+  "slug": "becane-paris",
+  "tech_stack": [
+    "Next.js",
+    "Shopify",
+    "Sanity"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Eurostile Becane"
+    ],
+    "declared_stacks": [
+      "var(--main-font)",
+      "inherit",
+      "Eurostile Becane"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color-off-black": "#0a0a0a",
+      "color-medium-grey": "#b2b2b2",
+      "color-divider": "#e6e6e6",
+      "color-off-white": "#f6f6f6",
+      "color-white": "#fff",
+      "color-overlay": "hsla(0,0%,96%,.8)",
+      "color-hover": "#666"
+    },
+    "size_vars": {
+      "loading-opacity": "70%",
+      "gradient-height": "20rem",
+      "vw": "100vw",
+      "vh": "100vh",
+      "ivh": "100vh",
+      "rem": "1px",
+      "gap-s": "8rem",
+      "gap": "10rem",
+      "grid-margin": "30rem",
+      "grid-gutter": "20rem",
+      "border-size": "0.5rem",
+      "border-radius": "3rem",
+      "inner-border-radius": "1rem",
+      "bar-height": "28rem",
+      "bar-margin": "2rem",
+      "headings-height": "46rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 4,
+    "clamp()": 0,
+    "min()/max()": 1,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 5,
+    "container-query": 0,
+    ":has()": 7,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 4,
+    "aspect-ratio": 1,
+    "grid-template": 10,
+    "mix-blend-mode": 0,
+    "filter:": 4,
+    "mask/clip-path": 8,
+    "@layer": 0,
+    "custom-property": 51
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 1,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 1,
+    "video_count": 1,
+    "picture_count": 0,
+    "script_count": 13,
+    "link_count": 9,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 70613,
+  "css_chars": 39706,
+  "corpus_chars": 110321,
+  "snippet_libs": []
+}

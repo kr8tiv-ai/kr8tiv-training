@@ -1,0 +1,66 @@
+{
+  "slug": "nfinite",
+  "tech_stack": [
+    "Next.js",
+    "Sanity"
+  ],
+  "motion_libs": [
+    "ScrollTrigger"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [],
+    "declared_stacks": []
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 0,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 0,
+    "grid-template": 0,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 0
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 2,
+      "header": 1,
+      "main": 0,
+      "section": 11,
+      "article": 11,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 2,
+    "picture_count": 27,
+    "script_count": 65,
+    "link_count": 14,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 167836,
+  "css_chars": 0,
+  "corpus_chars": 167838,
+  "snippet_libs": []
+}

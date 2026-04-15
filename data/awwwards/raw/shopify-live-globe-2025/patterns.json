@@ -1,0 +1,74 @@
+{
+  "slug": "shopify-live-globe-2025",
+  "tech_stack": [
+    "Shopify"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Inter",
+      "Onsra"
+    ],
+    "declared_stacks": [
+      "Inter",
+      "Onsra",
+      "Inter,sans-serif",
+      "inherit"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {
+      "logo-width": "85px",
+      "logo-height": "38px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 3,
+    "animation:": 3,
+    "transition:": 24,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 1,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 1,
+    "aspect-ratio": 0,
+    "grid-template": 0,
+    "mix-blend-mode": 0,
+    "filter:": 4,
+    "mask/clip-path": 2,
+    "@layer": 0,
+    "custom-property": 4
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 1,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 1,
+    "link_count": 0,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 3843,
+  "css_chars": 14705,
+  "corpus_chars": 18550,
+  "snippet_libs": []
+}

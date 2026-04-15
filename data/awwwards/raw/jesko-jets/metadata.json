@@ -1,0 +1,46 @@
+{
+  "slug": "jesko-jets",
+  "awwwards_url": "https://www.awwwards.com/sites/jesko-jets",
+  "live_url": "https://jeskojets.com/",
+  "title": "Jesko Jets",
+  "agency": "The First The Last",
+  "agency_url": "https://www.awwwards.com/thefirstthelast/",
+  "tags": [
+    "Business & Corporate",
+    "Web & Interactive",
+    "Animation",
+    "Fullscreen",
+    "Scrolling",
+    "UI design",
+    "Webflow",
+    "Figma",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 20, 2026",
+  "created_at": 1768867200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/6932965eeaca1594530515.jpg",
+  "rank": 86,
+  "fetched_at": 1776287830,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 127335,
+  "stylesheets": [
+    {
+      "url": "https://cdn.jsdelivr.net/npm/lenis@1.2.3/dist/lenis.css",
+      "status": 200,
+      "file": "_npm_lenis_1.2.3_dist_lenis.css",
+      "bytes": 191
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/css/jeskojets.webflow.shared.9ff23d083.min.css",
+      "status": 200,
+      "file": "_68b57ef5ef86011d9b251e8e_css_jeskojets.webflow.shared.9ff23d083.min.css",
+      "bytes": 90890
+    }
+  ]
+}

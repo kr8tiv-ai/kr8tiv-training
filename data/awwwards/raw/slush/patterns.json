@@ -1,0 +1,112 @@
+{
+  "slug": "slush",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "GSAP",
+    "ScrollTrigger",
+    "SplitText",
+    "Lenis",
+    "Barba",
+    "Lottie"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Aeonik Pro",
+      "Lateral",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "Lateral, Impact, sans-serif",
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons!important",
+      "Arial,sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue,Helvetica,Ubuntu,Segoe UI,Verdana,sans-serif",
+      "Lateral",
+      "Aeonik Pro",
+      "Aeonik Pro,Arial,sans-serif",
+      "Lateral,Impact,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color--blue-100": "#dceeff",
+      "color--blue-700": "#4da2ff",
+      "color--purple-800": "#5c4ade",
+      "color--yellow-700": "#ffd731",
+      "color--orange-800": "#fb4903",
+      "color--violet-700": "#e9ccff",
+      "color--green-700": "#55db9c",
+      "color--yellow-100": "#ffefad",
+      "color--violet-100": "#f8f0ff",
+      "color--green-100": "#99e9c4"
+    },
+    "size_vars": {
+      "size-container-min": "992px",
+      "size-container-max": "2250px",
+      "duration-default": "0.75s",
+      "duration-medium": "0.85s",
+      "duration-fade": "0.15s",
+      "gap-l": "2em",
+      "gap-xxl": "4em",
+      "radius-container": "2.5em",
+      "gap-m": "1.25em",
+      "gap-sm": "1em",
+      "gap-ml": "1.5em",
+      "gap-xl": "3em"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 25,
+    "clamp()": 1,
+    "min()/max()": 3,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 11,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 2,
+    "aspect-ratio": 20,
+    "grid-template": 14,
+    "mix-blend-mode": 1,
+    "filter:": 2,
+    "mask/clip-path": 7,
+    "@layer": 0,
+    "custom-property": 59
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 0,
+      "main": 1,
+      "section": 8,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 1,
+    "picture_count": 0,
+    "script_count": 20,
+    "link_count": 53,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 117961,
+  "css_chars": 99003,
+  "corpus_chars": 216966,
+  "snippet_libs": []
+}

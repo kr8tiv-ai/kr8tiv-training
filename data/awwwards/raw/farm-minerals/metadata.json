@@ -1,0 +1,42 @@
+{
+  "slug": "farm-minerals",
+  "awwwards_url": "https://www.awwwards.com/sites/farm-minerals",
+  "live_url": "https://www.farmminerals.com/promo",
+  "title": "Farm Minerals",
+  "agency": "ADELT Agency",
+  "agency_url": "https://www.awwwards.com/adelt-agency/",
+  "tags": [
+    "E-Commerce",
+    "Technology",
+    "Animation",
+    "Colorful",
+    "WebGL",
+    "Data Visualization",
+    "GSAP",
+    "3D",
+    "Interaction Design",
+    "Startups",
+    "Webflow"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 19, 2026",
+  "created_at": 1771459200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/696a1aa7e7f0a650667490.png",
+  "rank": 56,
+  "fetched_at": 1776287822,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 162490,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/68b5b8542c5c0a63b1d91b3b/css/farm-minerals.webflow.shared.a798c87f5.min.css",
+      "status": 200,
+      "file": "_68b5b8542c5c0a63b1d91b3b_css_farm-minerals.webflow.shared.a798c87f5.min.css",
+      "bytes": 230642
+    }
+  ]
+}

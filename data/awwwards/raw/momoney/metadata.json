@@ -1,0 +1,49 @@
+{
+  "slug": "momoney",
+  "awwwards_url": "https://www.awwwards.com/sites/momoney",
+  "live_url": "https://www.museumofmoney.com",
+  "title": "MoMoney",
+  "agency": "Jordan Gilroy",
+  "agency_url": "https://www.awwwards.com/jordan-gilroy/",
+  "tags": [
+    "Culture & Education",
+    "Events",
+    "Promotional",
+    "Animation",
+    "Colorful",
+    "GSAP",
+    "About Page",
+    "Microinteractions",
+    "Footer Design",
+    "404 pages",
+    "Matter.js",
+    "Webflow"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 13, 2026",
+  "created_at": 1773360000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/6982200ab044c029650063.jpg",
+  "rank": 34,
+  "fetched_at": 1776287817,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 253602,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/69a29e99440f456aa434d176/css/plutus-10493841xsiw9238jnfoi193hnadkja8.webflow.shared.1b9c1824b.min.css",
+      "status": 200,
+      "file": "176_css_plutus-10493841xsiw9238jnfoi193hnadkja8.webflow.shared.1b9c1824b.min.css",
+      "bytes": 274312
+    },
+    {
+      "url": "https://cdn.odyn.dev/p/rmxw@1/bundle.css",
+      "status": 200,
+      "file": "_p_rmxw_1_bundle.css",
+      "bytes": 19424
+    }
+  ]
+}

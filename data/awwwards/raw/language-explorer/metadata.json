@@ -1,0 +1,52 @@
+{
+  "slug": "language-explorer",
+  "awwwards_url": "https://www.awwwards.com/sites/language-explorer",
+  "live_url": "https://sites.research.google/languages/language-explorer",
+  "title": "Language Explorer",
+  "agency": "Hook",
+  "agency_url": "https://www.awwwards.com/hook/",
+  "tags": [
+    "Web & Interactive",
+    "Scrolling",
+    "WebGL",
+    "Data Visualization",
+    "Sound-Audio",
+    "Three.js",
+    "Gestures / Interaction",
+    "Interaction Design",
+    "UI design"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 16, 2026",
+  "created_at": 1768521600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/693349cd45bdb682353992.jpg",
+  "rank": 90,
+  "fetched_at": 1776287832,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 139487,
+  "stylesheets": [
+    {
+      "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text:400,500,700,400i,500i,700i|Google+Sans:400,500|Google+Sans+Display:400,500|Google+Sans+Mono:400,500|Google+Sans+Text+Mono:400,500|Google+Sans+Display+Mono:400,500|Google+Sans+Text+Display:400,500|Google+Sans+Text+Display+Mono:400,500|Google+Sans+Text+Display:400,500|Google+Sans+Text+Display:400,500|Google+Sans+Mono:400,500",
+      "status": 200,
+      "file": "_css.css",
+      "bytes": 90765
+    },
+    {
+      "url": "https://sites.research.google/languages/language-explorer/assets/1KX9fEk5.css",
+      "status": 200,
+      "file": "_languages_language-explorer_assets_1KX9fEk5.css",
+      "bytes": 83082
+    },
+    {
+      "url": "https://sites.research.google/languages/language-explorer/assets/DFGMXVjE.css",
+      "status": 200,
+      "file": "_languages_language-explorer_assets_DFGMXVjE.css",
+      "bytes": 2609
+    }
+  ]
+}

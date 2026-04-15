@@ -1,0 +1,41 @@
+{
+  "slug": "artefakt",
+  "awwwards_url": "https://www.awwwards.com/sites/artefakt",
+  "live_url": "https://artefakt.mov/",
+  "title": "Artefakt",
+  "agency": "Greg Lallé",
+  "agency_url": "https://www.awwwards.com/greg-lalle/",
+  "tags": [
+    "Film & TV",
+    "Wordpress",
+    "Portfolio",
+    "Typography",
+    "WebGL",
+    "Transitions",
+    "GSAP",
+    "3D",
+    "Photo & Video",
+    "Microinteractions"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 03, 2026",
+  "created_at": 1775174400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b836f06e3c8597189213.jpg",
+  "rank": 13,
+  "fetched_at": 1776287811,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 41433,
+  "stylesheets": [
+    {
+      "url": "https://artefakt.mov/wp-content/themes/gl/public/build/assets/app-DZbACm4C.css",
+      "status": 200,
+      "file": "_wp-content_themes_gl_public_build_assets_app-DZbACm4C.css",
+      "bytes": 67334
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "darknode",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "GSAP",
+    "ScrollTrigger",
+    "SplitText",
+    "Lenis",
+    "Three.js",
+    "Lottie",
+    "GLSL"
+  ],
+  "fonts": {
+    "google_fonts": [
+      "Geist Mono"
+    ],
+    "font_face_families": [
+      "Geist Mono",
+      "Uafsans",
+      "Uafsans Cond",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "Geist Mono",
+      "Geist Mono\", sans-serif",
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons!important",
+      "Arial,sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue,Helvetica,Ubuntu,Segoe UI,Verdana,sans-serif",
+      "Uafsans",
+      "Uafsans Cond",
+      "Geist Mono,sans-serif",
+      "Uafsans Cond,Arial,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 3,
+    "animation:": 3,
+    "transition:": 30,
+    "clamp()": 6,
+    "min()/max()": 10,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 10,
+    "aspect-ratio": 2,
+    "grid-template": 2,
+    "mix-blend-mode": 26,
+    "filter:": 14,
+    "mask/clip-path": 2,
+    "@layer": 0,
+    "custom-property": 6
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 12,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 2,
+    "video_count": 6,
+    "picture_count": 0,
+    "script_count": 45,
+    "link_count": 41,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 156829,
+  "css_chars": 76403,
+  "corpus_chars": 233234,
+  "snippet_libs": [
+    "GLSL",
+    "GSAP",
+    "Lenis",
+    "SplitText",
+    "Three.js"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "sleep-well-creative",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "Lenis"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Editorial",
+      "NM_Light",
+      "NM_Medium",
+      "NM_Regular",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "var(--sans)",
+      "inherit",
+      "monospace",
+      "sans-serif",
+      "webflow-icons",
+      "webflow-icons !important",
+      "Arial, sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif",
+      "NM_Light",
+      "NM_Medium",
+      "Editorial",
+      "NM_Regular",
+      "Arial, Helvetica Neue, Helvetica, sans-serif",
+      "NM_Medium, Arial, sans-serif",
+      "Editorial, Georgia, sans-serif",
+      "NM_Regular, Arial, sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "soft": "#fef1d0",
+      "color": "#0042af",
+      "color-medium": "#2451b5",
+      "dark-blue": "#010d6e",
+      "color-soft": "#4589f7",
+      "black": "#010101"
+    },
+    "size_vars": {
+      "gap-ring": "12rem",
+      "gap": "13rem",
+      "gap-section": "30rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 4,
+    "animation:": 4,
+    "transition:": 21,
+    "clamp()": 1,
+    "min()/max()": 1,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 8,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 2,
+    "aspect-ratio": 23,
+    "grid-template": 4,
+    "mix-blend-mode": 1,
+    "filter:": 12,
+    "mask/clip-path": 27,
+    "@layer": 0,
+    "custom-property": 125
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 9,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 1,
+    "video_count": 15,
+    "picture_count": 0,
+    "script_count": 8,
+    "link_count": 9,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 132068,
+  "css_chars": 99548,
+  "corpus_chars": 231618,
+  "snippet_libs": []
+}

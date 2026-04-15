@@ -1,0 +1,41 @@
+{
+  "slug": "max-mara-untamed-heroine",
+  "awwwards_url": "https://www.awwwards.com/sites/max-mara-untamed-heroine",
+  "live_url": "https://untamedheroinegame.maxmara.com/",
+  "title": "Max Mara - Untamed Heroine",
+  "agency": "Adoratorio Studio",
+  "agency_url": "https://www.awwwards.com/adoratorio.studio/",
+  "tags": [
+    "Fashion",
+    "Promotional",
+    "Animation",
+    "HTML5",
+    "Storytelling",
+    "Three.js",
+    "3D",
+    "Interaction Design",
+    "Microinteractions",
+    "Blender",
+    "Luxury"
+  ],
+  "award_tags": [
+    "sotd"
+  ],
+  "award_date": "Jan 12, 2026",
+  "created_at": 1768176000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/692f1a5c554ec198188504.jpg",
+  "rank": 94,
+  "fetched_at": 1776287831,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 3090,
+  "stylesheets": [
+    {
+      "url": "https://untamedheroinegame.maxmara.com/assets/index-Ck3zBr1J.css",
+      "status": 200,
+      "file": "_assets_index-Ck3zBr1J.css",
+      "bytes": 37235
+    }
+  ]
+}

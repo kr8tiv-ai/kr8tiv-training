@@ -1,0 +1,67 @@
+{
+  "slug": "mr-pandas-paper-portfolio",
+  "tech_stack": [],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Plus Jakarta Sans"
+    ],
+    "declared_stacks": [
+      "Plus Jakarta Sans",
+      "Plus Jakarta Sans,sans-serif",
+      "inherit"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 1,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 0,
+    "grid-template": 0,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 0
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 1,
+    "link_count": 0,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 1264,
+  "css_chars": 4779,
+  "corpus_chars": 6045,
+  "snippet_libs": []
+}

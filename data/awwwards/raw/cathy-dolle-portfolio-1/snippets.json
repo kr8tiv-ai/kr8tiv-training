@@ -1,0 +1,5 @@
+{
+  "R3F": [
+    "\"><div class=\"fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  h-[8px] w-[8px] border-[1px] border-black z-[5000] origin-bottom duration-200 ease-in-out \"><span id=\"loaderBar\" class=\"block w-full h-full origin-bottom bg-black scale-y-0\"></span></div><div id=\"scrollContainer\" class=\"z-[49]\"><canvas class=\"fixed h-screen top-0 left-0 pointer-events-none\"></canvas></div><div class=\"absolute padding-1 uppercase cursor-pointer text-[11px] max-md:text-[11px] span-ml-2 flex gap-4 text-black z-[52] max-md:hidden\"><span id=\"list\" class=\"cursor-pointer opacity-0 pointer-events-none\">List</span> /* ... */"
+  ]
+}

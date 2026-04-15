@@ -1,0 +1,92 @@
+{
+  "slug": "pedestal",
+  "tech_stack": [
+    "Shopify"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "FK Display",
+      "Suisse Intl"
+    ],
+    "declared_stacks": [
+      "ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",Segoe UI Symbol,\"Noto Color Emoji",
+      "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace",
+      "inherit",
+      "FK Display",
+      "Suisse Intl",
+      "FK Display,Helvetica,Arial,\"sans-serif",
+      "Suisse Intl,Helvetica,Arial,\"sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-color": "rgba(59, 130, 246, .5)",
+      "header-background": "#fafafa",
+      "header-color": "#212121",
+      "header-border-color": "rgba(33, 33, 33, .2)",
+      "color-black-10": "rgba(33, 33, 33, .1)",
+      "color-black-5": "rgba(33, 33, 33, .05)",
+      "color-error": "#de4438"
+    },
+    "size_vars": {
+      "tw-ring-offset-width": "0px",
+      "lang-banner-height-desktop": "3rem",
+      "lang-banner-height-mobile": "6rem",
+      "header-height": "3rem",
+      "header-mobile-height": "3rem",
+      "menu-desktop-min-height": "31.0625rem",
+      "tw-translate-x": "-50%",
+      "tw-translate-y": "-50%"
+    }
+  },
+  "css_features": {
+    "@keyframes": 3,
+    "animation:": 4,
+    "transition:": 1,
+    "clamp()": 19,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 8,
+    ":has()": 45,
+    "subgrid": 0,
+    "view-transition": 1,
+    "scroll-timeline": 0,
+    "backdrop-filter": 12,
+    "aspect-ratio": 32,
+    "grid-template": 14,
+    "mix-blend-mode": 0,
+    "filter:": 12,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 189
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 2,
+      "header": 1,
+      "main": 1,
+      "section": 1,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 1,
+    "video_count": 22,
+    "picture_count": 0,
+    "script_count": 44,
+    "link_count": 218,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 549724,
+  "css_chars": 88235,
+  "corpus_chars": 637961,
+  "snippet_libs": []
+}

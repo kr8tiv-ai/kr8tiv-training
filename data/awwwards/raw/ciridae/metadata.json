@@ -1,0 +1,42 @@
+{
+  "slug": "ciridae",
+  "awwwards_url": "https://www.awwwards.com/sites/ciridae",
+  "live_url": "https://www.ciridae.com/",
+  "title": "Ciridae",
+  "agency": "newkid®",
+  "agency_url": "https://www.awwwards.com/newkid/",
+  "tags": [
+    "Technology",
+    "Web & Interactive",
+    "Graphic design",
+    "Transitions",
+    "Experimental",
+    "Responsive",
+    "Copy design",
+    "Microinteractions",
+    "Webflow",
+    "Figma",
+    "Adobe Illustrator"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 06, 2026",
+  "created_at": 1770336000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/695ee7348d776229883990.png",
+  "rank": 69,
+  "fetched_at": 1776287825,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 155084,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/68532a35829494931a29b25b/css/ciridae-3caac9.webflow.shared.0f5483d97.min.css",
+      "status": 200,
+      "file": "_68532a35829494931a29b25b_css_ciridae-3caac9.webflow.shared.0f5483d97.min.css",
+      "bytes": 84820
+    }
+  ]
+}

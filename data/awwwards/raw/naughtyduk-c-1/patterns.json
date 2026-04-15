@@ -1,0 +1,91 @@
+{
+  "slug": "naughtyduk-c-1",
+  "tech_stack": [],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Neue Haas Display",
+      "PP Supply Mono"
+    ],
+    "declared_stacks": [
+      "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",Segoe UI Symbol,\"Noto Color Emoji",
+      "PP Supply Mono,monospace",
+      "inherit",
+      "Neue Haas Display,sans-serif",
+      "Neue Haas Display",
+      "PP Supply Mono"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-color": "rgb(59 130 246 / .5)",
+      "nd-100": "#ffffff",
+      "nd-200": "#f2f2f4",
+      "nd-300": "#ececec",
+      "nd-400": "#eaeaee",
+      "nd-500": "#e2e2e7",
+      "nd-600": "#aaaaaa",
+      "nd-650": "#a4aaaa",
+      "nd-700": "#737d7d",
+      "nd-800": "#494d4d",
+      "nd-850": "#4e4e4e",
+      "nd-900": "#2d2f2f",
+      "nd-1000": "#1e1e1e",
+      "nd-1100": "#121212"
+    },
+    "size_vars": {
+      "tw-ring-offset-width": "0px",
+      "tw-translate-x": "-50%",
+      "tw-translate-y": "-50%"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 1,
+    "transition:": 0,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 2,
+    "aspect-ratio": 2,
+    "grid-template": 8,
+    "mix-blend-mode": 1,
+    "filter:": 3,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 195
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 4,
+    "link_count": 0,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 5748,
+  "css_chars": 32190,
+  "corpus_chars": 37940,
+  "snippet_libs": []
+}

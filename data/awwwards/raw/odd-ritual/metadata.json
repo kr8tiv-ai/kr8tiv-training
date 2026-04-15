@@ -1,0 +1,52 @@
+{
+  "slug": "odd-ritual",
+  "awwwards_url": "https://www.awwwards.com/sites/odd-ritual",
+  "live_url": "https://oddritualgolf.com/",
+  "title": "Odd Ritual",
+  "agency": "Malvah",
+  "agency_url": "https://www.awwwards.com/Malvah.Studio/",
+  "tags": [
+    "E-Commerce",
+    "Fashion",
+    "Clean",
+    "Minimal",
+    "GSAP",
+    "Three.js",
+    "About Page",
+    "BARBA.js",
+    "Contentful"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 11, 2026",
+  "created_at": 1775865600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b3f82de0264325146749.jpg",
+  "rank": 5,
+  "fetched_at": 1776287803,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 317526,
+  "stylesheets": [
+    {
+      "url": "https://cty38f.csb.app/styles-2026.css",
+      "status": 200,
+      "file": "_styles-2026.css",
+      "bytes": 15428
+    },
+    {
+      "url": "https://oddritualgolf.com/cdn/shop/t/4/assets/normalize.css?v=7230471698553888871769091499",
+      "status": 200,
+      "file": "_cdn_shop_t_4_assets_normalize.css",
+      "bytes": 1959
+    },
+    {
+      "url": "https://oddritualgolf.com/cdn/shop/t/4/assets/webflow.css?v=143547155526847939301769091499",
+      "status": 200,
+      "file": "_cdn_shop_t_4_assets_webflow.css",
+      "bytes": 29292
+    }
+  ]
+}

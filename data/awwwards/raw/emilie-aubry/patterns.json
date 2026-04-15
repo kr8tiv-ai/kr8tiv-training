@@ -1,0 +1,103 @@
+{
+  "slug": "emilie-aubry",
+  "tech_stack": [],
+  "motion_libs": [
+    "GSAP"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "PP Neue Montreal",
+      "Riccione-Serial"
+    ],
+    "declared_stacks": [
+      "PP Neue Montreal', sans-serif",
+      "Riccione-Serial",
+      "PP Neue Montreal",
+      "var(--ff-montreal)",
+      "var(--ff-riccione)"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "wp--preset--color--black": "#000000",
+      "wp--preset--color--cyan-bluish-gray": "#abb8c3",
+      "wp--preset--color--white": "#ffffff",
+      "wp--preset--color--pale-pink": "#f78da7",
+      "wp--preset--color--vivid-red": "#cf2e2e",
+      "wp--preset--color--luminous-vivid-orange": "#ff6900",
+      "wp--preset--color--luminous-vivid-amber": "#fcb900",
+      "wp--preset--color--light-green-cyan": "#7bdcb5",
+      "wp--preset--color--vivid-green-cyan": "#00d084",
+      "wp--preset--color--pale-cyan-blue": "#8ed1fc",
+      "wp--preset--color--vivid-cyan-blue": "#0693e3",
+      "wp--preset--color--vivid-purple": "#9b51e0",
+      "white": "#fff",
+      "transparent-black": "rgba(0,0,0,.08)",
+      "transparent-white": "hsla(0,0%,100%,.08)",
+      "black": "#000"
+    },
+    "size_vars": {
+      "wp--preset--font-size--small": "13px",
+      "wp--preset--font-size--medium": "20px",
+      "wp--preset--font-size--large": "36px",
+      "wp--preset--font-size--x-large": "42px",
+      "wp--preset--spacing--20": "0.44rem",
+      "wp--preset--spacing--30": "0.67rem",
+      "wp--preset--spacing--40": "1rem",
+      "wp--preset--spacing--50": "1.5rem",
+      "wp--preset--spacing--60": "2.25rem",
+      "wp--preset--spacing--70": "3.38rem",
+      "wp--preset--spacing--80": "5.06rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 18,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 8,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 1,
+    "aspect-ratio": 3,
+    "grid-template": 0,
+    "mix-blend-mode": 0,
+    "filter:": 1,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 53
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 1,
+      "main": 1,
+      "section": 1,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 5,
+    "picture_count": 0,
+    "script_count": 12,
+    "link_count": 10,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 39858,
+  "css_chars": 25911,
+  "corpus_chars": 65771,
+  "snippet_libs": [
+    "GSAP"
+  ]
+}

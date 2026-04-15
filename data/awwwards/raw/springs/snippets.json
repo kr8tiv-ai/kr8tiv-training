@@ -1,0 +1,7 @@
+{
+  "R3F": [
+    "<div class=\"l-wellness__webgl ui-background ui-dark\" data-scroll-snap-point='[  { \"viewport\": 0, \"element\": 100 }]'>\n\n<div class=\"l-wellness__webgl-inner\">\n  <div data-plugin=\"webglWellness parallax\" data-parallax-pattern=\"webglWellness\">\n  <canvas class=\"js-wellness-canvas is-active\"></canvas>\n  <div class=\"l-wellness__webgl-circle\">\n  <span></span>\n  <span></span>\n  <span></span>\n  </div>\n  </div>\n\n<div class=\"background background--bottom backgrou",
+    "100%)\"}'\n  data-parallax--320-0='{\"clip-path\": \"polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)\"}'\n\n>\n  <div class=\"background background--cover\">\n  <div data-plugin=\"webglNature parallax\" data-parallax-pattern=\"webglNature\">\n  <canvas class=\"js-nature-canvas is-active\"></canvas>\n  <div class=\"l-wellness__webgl-circle\">\n  <span></span>\n  <span></span>\n  <span></span>\n  </div>\n  </div>\n  </div>\n\n<di",
+    "'\n  >\n\n<div\n  class=\"js-tree-canvas-container background\"\n  data-plugin=\"parallax webglTree\"\n  data-parallax-pattern=\"webglTree\"\n  >\n  <canvas class=\"js-tree-canvas is-active\"></canvas>\n\n<div\n  class=\"l-place-webgl__spiral-container background\"\n  data-plugin=\"parallax\"\n  data-parallax-enable-mq=\"md-up\"\n  data-parallax-cla"
+  ]
+}

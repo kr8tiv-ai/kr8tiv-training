@@ -1,0 +1,115 @@
+{
+  "slug": "san-rita",
+  "tech_stack": [
+    "Next.js",
+    "DatoCMS"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "F37stout",
+      "F37stout Fallback",
+      "mono",
+      "mono Fallback"
+    ],
+    "declared_stacks": [
+      "var(--next-font-mono)",
+      "var(--next-font-F37stout)",
+      "mono",
+      "mono Fallback",
+      "mono,mono Fallback,ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace",
+      "F37stout",
+      "F37stout Fallback",
+      "F37stout,F37stout Fallback,ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-gradient-from": "#0000",
+      "tw-gradient-via": "#0000",
+      "tw-gradient-to": "#0000",
+      "tw-ring-offset-color": "#fff",
+      "color-icy-blue": "#dde2e4",
+      "color-adventure-yellow": "#e2ffcc",
+      "color-terrain-grey": "#84907f",
+      "color-forest-green": "#2d3329",
+      "color-deep-green": "#161b13"
+    },
+    "size_vars": {
+      "scroll-aside-padding-40": "40px",
+      "scroll-aside-padding-55": "55px",
+      "scroll-aside-width": "350px",
+      "tw-gradient-from-position": "0%",
+      "tw-gradient-via-position": "50%",
+      "tw-gradient-to-position": "100%",
+      "tw-mask-right-from-position": "0%",
+      "tw-mask-right-to-position": "100%",
+      "tw-mask-left-from-position": "0%",
+      "tw-mask-left-to-position": "100%",
+      "tw-drop-shadow-alpha": "100%",
+      "tw-mask-top-from-position": "0%",
+      "tw-mask-top-to-position": "100%",
+      "tw-shadow-alpha": "100%",
+      "tw-inset-shadow-alpha": "100%",
+      "tw-ring-offset-width": "0px",
+      "tw-translate-x": "1.25rem",
+      "tw-translate-y": "1.25rem",
+      "tw-scale-x": "90%",
+      "tw-scale-y": "90%",
+      "tw-scale-z": "90%",
+      "text-min": "2.5rem",
+      "text-max": "3.5rem",
+      "tw-duration": "1s",
+      "breakpoint-mobile": "799.98px",
+      "spacing-16": "1rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 15,
+    "animation:": 7,
+    "transition:": 1,
+    "clamp()": 18,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 12,
+    "hsl()": 4,
+    "container-query": 0,
+    ":has()": 1,
+    "subgrid": 4,
+    "view-transition": 0,
+    "scroll-timeline": 3,
+    "backdrop-filter": 2,
+    "aspect-ratio": 7,
+    "grid-template": 36,
+    "mix-blend-mode": 0,
+    "filter:": 4,
+    "mask/clip-path": 52,
+    "@layer": 2,
+    "custom-property": 262
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 1,
+      "section": 1,
+      "article": 2,
+      "aside": 1,
+      "footer": 0
+    },
+    "canvas_count": 1,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 34,
+    "link_count": 16,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 94122,
+  "css_chars": 149581,
+  "corpus_chars": 243705,
+  "snippet_libs": []
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "shift-5",
+  "awwwards_url": "https://www.awwwards.com/sites/shift-5",
+  "live_url": "https://shift5.io",
+  "title": "Shift 5",
+  "agency": "Non-Linear Studio",
+  "agency_url": "https://www.awwwards.com/Non-Linear-Inc/",
+  "tags": [
+    "Business & Corporate",
+    "Technology",
+    "Animation",
+    "Retro",
+    "WebGL",
+    "Data Visualization",
+    "3D",
+    "Sanity",
+    "Astro"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 02, 2026",
+  "created_at": 1772409600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6977c60076774586498849.jpg",
+  "rank": 45,
+  "fetched_at": 1776287820,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 368130,
+  "stylesheets": [
+    {
+      "url": "https://shift5.io/_astro/_slug_.DRFAMG-0.css",
+      "status": 200,
+      "file": "__astro__slug_.DRFAMG-0.css",
+      "bytes": 63225
+    },
+    {
+      "url": "https://shift5.io/_astro/index.BS5_Av_g.css",
+      "status": 200,
+      "file": "__astro_index.BS5_Av_g.css",
+      "bytes": 86556
+    },
+    {
+      "url": "https://shift5.io/_astro/index.IRotiZyz.css",
+      "status": 200,
+      "file": "__astro_index.IRotiZyz.css",
+      "bytes": 14688
+    }
+  ]
+}

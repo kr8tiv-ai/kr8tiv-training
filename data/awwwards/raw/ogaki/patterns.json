@@ -1,0 +1,84 @@
+{
+  "slug": "ogaki",
+  "tech_stack": [
+    "Next.js",
+    "Prismic"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "GTAmerica",
+      "GTAmerica Fallback",
+      "Reckless",
+      "Reckless Fallback",
+      "swiper-icons"
+    ],
+    "declared_stacks": [
+      "Reckless','Reckless Fallback",
+      "GTAmerica','GTAmerica Fallback",
+      "Monaco,monospace",
+      "swiper-icons",
+      "Reckless",
+      "Reckless Fallback",
+      "Reckless,Reckless Fallback",
+      "GTAmerica",
+      "GTAmerica Fallback",
+      "GTAmerica,GTAmerica Fallback"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "swiper-theme-color": "#007aff",
+      "swiper-preloader-color": "#fff"
+    },
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 63,
+    "clamp()": 32,
+    "min()/max()": 64,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 1,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 2,
+    "aspect-ratio": 13,
+    "grid-template": 4,
+    "mix-blend-mode": 1,
+    "filter:": 2,
+    "mask/clip-path": 1,
+    "@layer": 0,
+    "custom-property": 3
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 2,
+      "header": 1,
+      "main": 0,
+      "section": 6,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 55,
+    "link_count": 55,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 213750,
+  "css_chars": 7938,
+  "corpus_chars": 221690,
+  "snippet_libs": []
+}

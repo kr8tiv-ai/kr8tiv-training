@@ -1,0 +1,6 @@
+{
+  "GSAP": [
+    "ctx.globalAlpha = 1;\n  if (gridBorderSize > 0) {\n  ctx.lineWidth  = gridBorderSize;\n  ctx.strokeStyle = gridBorderColor;\n  ctx.strokeRect(b.x, b.y, squareSize, squareSize);\n  }\n  });\n  requestAnimationFrame(draw);\n  }\n\nfunction fadeOut(b) {\n  gsap.to(b, { alpha: 0, duration: 2, delay: 0.5 });\n  }\n\nfunction supportsTouch() {\n  return 'ontouchstart' in window || navigator.maxTouchPoints > 1;\n  }\n\nif (!supportsTouch()) {\n  document.addEventListener('mousemove', function onPointerMove(e) {\n  const r = canvas.getBoundingClientRect();\n  const mx = e.clientX, m",
+    "reSize);\n  const yIdx = Math.floor((my - r.top)  / squareSize);\n  const idx  = yIdx * cols + xIdx;\n  if (idx !== lastHovered) {\n  const b = blocks[idx];\n  b.color = gridColors[colorPointer];\n  colorPointer = (colorPointer + 1) % gridColors.length;\n  gsap.to(b, { alpha: 1, duration: 0.1, overwrite: true });\n  fadeOut(b);\n  trailQueue.push(b);\n  if (trailQueue.length > gridColors.length) {\n  const old = trailQueue.shift();\n  gsap.killTweensOf(old);\n  old.alpha = 0;\n  }\n  lastHovered = idx;\n  }\n  });\n  }\n\nwindow.addEv"
+  ]
+}

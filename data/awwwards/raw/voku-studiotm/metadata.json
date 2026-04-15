@@ -1,0 +1,35 @@
+{
+  "slug": "voku-studiotm",
+  "awwwards_url": "https://www.awwwards.com/sites/voku-studiotm",
+  "live_url": "https://voku.studio/",
+  "title": "Voku.Studio™",
+  "agency": "Cuchillo",
+  "agency_url": "https://www.awwwards.com/Cuchillo/",
+  "tags": [
+    "Design Agencies",
+    "Film & TV",
+    "Animation",
+    "Clean",
+    "Navigation Menu",
+    "Video",
+    "Experimental",
+    "Three.js",
+    "3D",
+    "UI design",
+    "11ty"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 21, 2026",
+  "created_at": 1771632000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/69691655026f8597146371.jpg",
+  "rank": 54,
+  "fetched_at": 1776287821,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 84798,
+  "stylesheets": []
+}

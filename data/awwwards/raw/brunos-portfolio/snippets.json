@@ -1,0 +1,5 @@
+{
+  "R3F": [
+    "\"js-fonts-loader fonts-loader\">\n  <div class=\"font nunito\" data-font=\"400 20px Nunito\"> </div>\n  <div class=\"font amatic-sc\" data-font=\"700 20px 'Amatic SC'\"> </div>\n  <div class=\"font pally\" data-font=\"500 20px Pally-Medium\"> </div>\n  </div>\n\n<div class=\"game\">\n\n<canvas class=\"js-canvas\"></canvas>\n\n<!-- Touch buttons -->\n  <div class=\"js-touch-buttons touch-buttons\">\n  <div class=\"js-overlay overlay\"></div>\n  <div class=\"list\">\n  <button data-name=\"interact\" class=\"js-button interact\">Interact</button>\n  <button data-name"
+  ]
+}

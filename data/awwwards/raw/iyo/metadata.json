@@ -1,0 +1,55 @@
+{
+  "slug": "iyo",
+  "awwwards_url": "https://www.awwwards.com/sites/iyo",
+  "live_url": "https://www.iyo.ai/",
+  "title": "iyO",
+  "agency": "Matteo Donini",
+  "agency_url": "https://www.awwwards.com/mattdonini/",
+  "tags": [
+    "E-Commerce",
+    "Technology",
+    "Web & Interactive",
+    "Infinite Scroll",
+    "Unusual Navigation",
+    "WebGL",
+    "Sound-Audio",
+    "Three.js",
+    "3D",
+    "Interaction Design",
+    "UI design",
+    "Webflow"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 02, 2026",
+  "created_at": 1775088000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69a9a284df880582577799.png",
+  "rank": 14,
+  "fetched_at": 1776287812,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 33511,
+  "stylesheets": [
+    {
+      "url": "https://iyo2.vercel.app/app.css",
+      "status": 200,
+      "file": "_app.css",
+      "bytes": 15883
+    },
+    {
+      "url": "https://unpkg.com/lenis@1.3.17/dist/lenis.css",
+      "status": 200,
+      "file": "_lenis_1.3.17_dist_lenis.css",
+      "bytes": 381
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6842cbd0245d993ef9bf60ac/css/test-9f6e23.webflow.shared.1c8c60263.min.css",
+      "status": 200,
+      "file": "_6842cbd0245d993ef9bf60ac_css_test-9f6e23.webflow.shared.1c8c60263.min.css",
+      "bytes": 181911
+    }
+  ]
+}

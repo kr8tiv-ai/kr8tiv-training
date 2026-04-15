@@ -1,0 +1,38 @@
+{
+  "slug": "damn-good-brands-2",
+  "awwwards_url": "https://www.awwwards.com/sites/damn-good-brands-2",
+  "live_url": "https://damngoodbrands.com/",
+  "title": "Damn Good Brands",
+  "agency": "Analogue",
+  "agency_url": "https://www.awwwards.com/madebyanalogue/",
+  "tags": [
+    "Business & Corporate",
+    "Animation",
+    "Infinite Scroll",
+    "WebGL",
+    "GSAP",
+    "Three.js",
+    "Gestures / Interaction"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 14, 2026",
+  "created_at": 1771027200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6966624cd3286626240766.jpg",
+  "rank": 61,
+  "fetched_at": 1776287823,
+  "content_type": "text/html;charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 53926,
+  "stylesheets": [
+    {
+      "url": "https://damngoodbrands.com/_nuxt/entry.TQtisFPC.css",
+      "status": 200,
+      "file": "__nuxt_entry.TQtisFPC.css",
+      "bytes": 2048
+    }
+  ]
+}

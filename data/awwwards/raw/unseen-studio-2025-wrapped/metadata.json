@@ -1,0 +1,42 @@
+{
+  "slug": "unseen-studio-2025-wrapped",
+  "awwwards_url": "https://www.awwwards.com/sites/unseen-studio-2025-wrapped",
+  "live_url": "https://2025.unseen.co/",
+  "title": "Unseen Studio 2025 Wrapped",
+  "agency": "Unseen Studio",
+  "agency_url": "https://www.awwwards.com/unseenstudio/",
+  "tags": [
+    "Design Agencies",
+    "Promotional",
+    "Web & Interactive",
+    "Graphic design",
+    "Parallax",
+    "Scrolling",
+    "Typography",
+    "WebGL",
+    "Interaction Design",
+    "After Effects",
+    "Cinema 4D"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 24, 2026",
+  "created_at": 1774310400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/698dbbef67cac346384978.jpg",
+  "rank": 23,
+  "fetched_at": 1776287815,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 127591,
+  "stylesheets": [
+    {
+      "url": "https://2025.unseen.co/wp-content/themes/yiw/public/build/style-07396de3.css",
+      "status": 200,
+      "file": "_wp-content_themes_yiw_public_build_style-07396de3.css",
+      "bytes": 71161
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "the-lookback",
+  "tech_stack": [
+    "Nuxt",
+    "Vue",
+    "DatoCMS"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "mono",
+      "sans"
+    ],
+    "declared_stacks": [
+      "sans",
+      "mono",
+      "inherit",
+      "mono,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-color": "#3b82f680",
+      "tea-rose-red": "#facac8",
+      "davys-gray": "#5d5857",
+      "puce": "#d98d91",
+      "timberwolf": "#d2d0cf",
+      "silver": "#c2c1c1"
+    },
+    "size_vars": {
+      "tw-ring-offset-width": "0px",
+      "tw-translate-x": "-50%",
+      "tw-translate-y": "-50%",
+      "gap": "2rem",
+      "size-x": "1.2rem"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 14,
+    "clamp()": 5,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 4,
+    "grid-template": 2,
+    "mix-blend-mode": 1,
+    "filter:": 1,
+    "mask/clip-path": 1,
+    "@layer": 0,
+    "custom-property": 347
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 0,
+      "section": 0,
+      "article": 195,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 3,
+    "picture_count": 193,
+    "script_count": 4,
+    "link_count": 0,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 876103,
+  "css_chars": 3032,
+  "corpus_chars": 879137,
+  "snippet_libs": []
+}

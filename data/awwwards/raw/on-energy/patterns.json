@@ -1,0 +1,94 @@
+{
+  "slug": "on-energy",
+  "tech_stack": [
+    "Nuxt",
+    "Vue"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "ABC Monument Grotesk Mono",
+      "Univers Next Pro"
+    ],
+    "declared_stacks": [
+      "var(--font-base),sans-serif",
+      "var(--font-accent),sans-serif",
+      "inherit",
+      "Univers Next Pro",
+      "ABC Monument Grotesk Mono"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "outline-color": "#323232",
+      "color-black": "#000",
+      "color-black20": "rgba(0,0,0,.2)",
+      "color-black40": "rgba(0,0,0,.4)",
+      "color-yellow": "#fff313",
+      "color-yellow-secondary": "#c0b400",
+      "color-red": "#f14d3d",
+      "color-charcoal": "#323232",
+      "color-arsenic": "#4b4b4b",
+      "color-mid-grey": "#7d7d7d",
+      "color-dark-grey": "#202020",
+      "color-silver": "#afafaf",
+      "color-light-grey": "#cdcdcd",
+      "color-off-white": "#eee",
+      "color-off-white20": "hsla(0,0%,93%,.2)",
+      "color-off-white40": "hsla(0,0%,93%,.4)"
+    },
+    "size_vars": {
+      "pattern-size": "25vw",
+      "grid-gutter": "1.6vw",
+      "grid-outer-gutter": "4.2666666667vw"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 38,
+    "clamp()": 126,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 4,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 20,
+    "aspect-ratio": 8,
+    "grid-template": 11,
+    "mix-blend-mode": 0,
+    "filter:": 24,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 29
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 1,
+      "section": 9,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 2,
+    "video_count": 2,
+    "picture_count": 15,
+    "script_count": 3,
+    "link_count": 37,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 806560,
+  "css_chars": 51926,
+  "corpus_chars": 858488,
+  "snippet_libs": []
+}

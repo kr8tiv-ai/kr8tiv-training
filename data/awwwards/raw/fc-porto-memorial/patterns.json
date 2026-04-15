@@ -1,0 +1,101 @@
+{
+  "slug": "fc-porto-memorial",
+  "tech_stack": [
+    "Astro"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "GT Super Display",
+      "Inter"
+    ],
+    "declared_stacks": [
+      "var(--font-sans)",
+      "var(--font-mono)",
+      "var(--default-font-family,ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\")",
+      "var(--default-mono-font-family,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace)",
+      "GT Super Display",
+      "Inter",
+      "var(--font-serif)"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "tw-gradient-from": "#0000",
+      "tw-gradient-via": "#0000",
+      "tw-gradient-to": "#0000",
+      "tw-ring-offset-color": "#fff",
+      "color-black": "#000",
+      "color-white": "#fff",
+      "color-blue": "oklch(38.48% .13566 256.828)",
+      "color-background": "oklch(11.72% .026 250.29)",
+      "color-foreground": "oklch(87.57% .0215 88.93/.95)",
+      "color-foreground-secondary": "oklch(87.57% .0215 88.93/.7)",
+      "tw-ring-color": "#dcd6c73a"
+    },
+    "size_vars": {
+      "tw-gradient-from-position": "0%",
+      "tw-gradient-via-position": "50%",
+      "tw-gradient-to-position": "100%",
+      "tw-shadow-alpha": "100%",
+      "tw-inset-shadow-alpha": "100%",
+      "tw-ring-offset-width": "0px",
+      "tw-drop-shadow-alpha": "100%",
+      "blur-sm": "8px",
+      "blur-md": "12px",
+      "text-sans-sm--letter-spacing": "0em",
+      "text-sans-lg--letter-spacing": "0em",
+      "tw-scale-x": "116%",
+      "tw-scale-y": "116%",
+      "tw-scale-z": "116%"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 0,
+    "clamp()": 71,
+    "min()/max()": 2,
+    "oklch()": 4,
+    "oklab()": 0,
+    "color-mix()": 24,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 1,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 4,
+    "aspect-ratio": 17,
+    "grid-template": 8,
+    "mix-blend-mode": 2,
+    "filter:": 5,
+    "mask/clip-path": 6,
+    "@layer": 5,
+    "custom-property": 160
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 1,
+      "section": 5,
+      "article": 18,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 13,
+    "picture_count": 0,
+    "script_count": 17,
+    "link_count": 3,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 53917,
+  "css_chars": 40245,
+  "corpus_chars": 94164,
+  "snippet_libs": []
+}

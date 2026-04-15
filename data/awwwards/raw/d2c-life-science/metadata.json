@@ -1,0 +1,38 @@
+{
+  "slug": "d2c-life-science",
+  "awwwards_url": "https://www.awwwards.com/sites/d2c-life-science",
+  "live_url": "https://www.d2c-lifescience.com/",
+  "title": "D2C Life Science",
+  "agency": "Iron Velvet",
+  "agency_url": "https://www.awwwards.com/IronVelvet/",
+  "tags": [
+    "Animation",
+    "Minimal",
+    "GSAP",
+    "Three.js",
+    "3D",
+    "Startups",
+    "Blender"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 22, 2026",
+  "created_at": 1771718400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/696f6ad2419c2857485128.jpg",
+  "rank": 53,
+  "fetched_at": 1776287821,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 104576,
+  "stylesheets": [
+    {
+      "url": "https://www.d2c-lifescience.com/_astro/index.qaWjSi-_.css",
+      "status": 200,
+      "file": "__astro_index.qaWjSi-_.css",
+      "bytes": 77042
+    }
+  ]
+}

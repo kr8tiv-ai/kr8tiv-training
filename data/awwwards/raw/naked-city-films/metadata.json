@@ -1,0 +1,49 @@
+{
+  "slug": "naked-city-films",
+  "awwwards_url": "https://www.awwwards.com/sites/naked-city-films",
+  "live_url": "https://www.nakedcityfilms.com/",
+  "title": "Naked City Films",
+  "agency": "SavoirFaire©",
+  "agency_url": "https://www.awwwards.com/SavoirFaire/",
+  "tags": [
+    "Film & TV",
+    "Video",
+    "WebGL",
+    "GSAP",
+    "Interaction Design",
+    "Footer Design"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 23, 2026",
+  "created_at": 1769126400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/69430e63617b6983720441.png",
+  "rank": 83,
+  "fetched_at": 1776287830,
+  "content_type": "text/html;charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 959818,
+  "stylesheets": [
+    {
+      "url": "https://www.nakedcityfilms.com/_nuxt/index.BXP4M3oT.css",
+      "status": 200,
+      "file": "__nuxt_index.BXP4M3oT.css",
+      "bytes": 87003
+    },
+    {
+      "url": "https://www.nakedcityfilms.com/_nuxt/Footer.QX1FI_jE.css",
+      "status": 200,
+      "file": "__nuxt_Footer.QX1FI_jE.css",
+      "bytes": 173600
+    },
+    {
+      "url": "https://www.nakedcityfilms.com/_nuxt/FilmsSection.D_6EdCr7.css",
+      "status": 200,
+      "file": "__nuxt_FilmsSection.D_6EdCr7.css",
+      "bytes": 43640
+    }
+  ]
+}

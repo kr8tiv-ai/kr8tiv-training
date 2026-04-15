@@ -1,0 +1,54 @@
+{
+  "slug": "maxima-therapy",
+  "awwwards_url": "https://www.awwwards.com/sites/maxima-therapy",
+  "live_url": "https://maximatherapy.com/",
+  "title": "Maxima Therapy",
+  "agency": "Louis Paquet",
+  "agency_url": "https://www.awwwards.com/louispaquet/",
+  "tags": [
+    "Culture & Education",
+    "Animation",
+    "Colorful",
+    "Flat Design",
+    "Illustration",
+    "Transitions",
+    "GSAP",
+    "React",
+    "404 pages",
+    "Lottie",
+    "Social responsibility"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 07, 2026",
+  "created_at": 1775520000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b4785f54b01083367372.jpg",
+  "rank": 9,
+  "fetched_at": 1776287810,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 195249,
+  "stylesheets": [
+    {
+      "url": "https://maximatherapy.com/assets/entry-DL7IbyIm.css",
+      "status": 200,
+      "file": "_assets_entry-DL7IbyIm.css",
+      "bytes": 32116
+    },
+    {
+      "url": "https://maximatherapy.com/assets/root-C62cwV5F.css",
+      "status": 200,
+      "file": "_assets_root-C62cwV5F.css",
+      "bytes": 62646
+    },
+    {
+      "url": "https://maximatherapy.com/assets/Footer-D3TbztJd.css",
+      "status": 200,
+      "file": "_assets_Footer-D3TbztJd.css",
+      "bytes": 73117
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "nicola-romeitm",
+  "tech_stack": [
+    "Webflow"
+  ],
+  "motion_libs": [
+    "GSAP",
+    "ScrollTrigger",
+    "SplitText",
+    "Lenis",
+    "Three.js"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Array",
+      "Array Wide",
+      "Easegeometricb",
+      "webflow-icons"
+    ],
+    "declared_stacks": [
+      "sans-serif",
+      "monospace",
+      "webflow-icons",
+      "webflow-icons!important",
+      "Arial,sans-serif",
+      "unset",
+      "serif",
+      "Helvetica Neue,Helvetica,Ubuntu,Segoe UI,Verdana,sans-serif",
+      "Array",
+      "Array Wide",
+      "Easegeometricb",
+      "Arial,Helvetica Neue,Helvetica,sans-serif",
+      "helvetica-lt-pro",
+      "Host Grotesk,sans-serif",
+      "Array,Tahoma,sans-serif",
+      "prestige-elite-std,sans-serif",
+      "Easegeometricb,Impact,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "matte-black": "#202020",
+      "soft_grey": "#f3f3f3",
+      "tech-red": "#ff564a"
+    },
+    "size_vars": {
+      "blur": "3rem",
+      "_spacing---padding-xs": "clamp(1em,.5em + 2.1vw,3em)",
+      "_spacing---padding-large": "clamp(6em,3.5em + 10.4vw,16em)",
+      "padding-bottom-huge": "15vw",
+      "_spacing---padding-small": "clamp(2em,1.25em + 3.1vw,5em)",
+      "_spacing---padding-medium": "clamp(4em,2.5em + 6.2vw,10em)",
+      "_spacing---padding-xxs": "clamp(.5em,.26em + 1vw,1.5em)",
+      "_spacing---padding-huge": "70vw",
+      "_spacing---padding-xxl": "0px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 3,
+    "animation:": 3,
+    "transition:": 23,
+    "clamp()": 47,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 2,
+    "scroll-timeline": 0,
+    "backdrop-filter": 56,
+    "aspect-ratio": 22,
+    "grid-template": 81,
+    "mix-blend-mode": 18,
+    "filter:": 72,
+    "mask/clip-path": 28,
+    "@layer": 0,
+    "custom-property": 41
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 0,
+      "main": 1,
+      "section": 1,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 1,
+    "picture_count": 0,
+    "script_count": 32,
+    "link_count": 31,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 34981,
+  "css_chars": 130881,
+  "corpus_chars": 165864,
+  "snippet_libs": [
+    "GSAP",
+    "ScrollTrigger",
+    "SplitText"
+  ]
+}

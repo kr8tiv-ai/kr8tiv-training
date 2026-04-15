@@ -1,0 +1,53 @@
+{
+  "slug": "oceanx-2025",
+  "awwwards_url": "https://www.awwwards.com/sites/oceanx-2025",
+  "live_url": "https://2025.oceanx.org/",
+  "title": "OceanX 2025",
+  "agency": "Unseen Studio",
+  "agency_url": "https://www.awwwards.com/unseenstudio/",
+  "tags": [
+    "Business & Corporate",
+    "Events",
+    "Animation",
+    "Horizontal Layout",
+    "Minimal",
+    "Scrolling",
+    "WebGL",
+    "Three.js",
+    "3D",
+    "Social responsibility",
+    "Blender"
+  ],
+  "award_tags": [
+    "sotd"
+  ],
+  "award_date": "Feb 23, 2026",
+  "created_at": 1771804800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/696fad7d0de30397552248.jpg",
+  "rank": 52,
+  "fetched_at": 1776287822,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 240198,
+  "stylesheets": [
+    {
+      "url": "https://2025.oceanx.org/_nuxt/entry.Cg15Foxi.css",
+      "status": 200,
+      "file": "__nuxt_entry.Cg15Foxi.css",
+      "bytes": 8362
+    },
+    {
+      "url": "https://2025.oceanx.org/_nuxt/ChapterDrawerFrame.B8PhWFDM.css",
+      "status": 200,
+      "file": "__nuxt_ChapterDrawerFrame.B8PhWFDM.css",
+      "bytes": 12336
+    },
+    {
+      "url": "https://2025.oceanx.org/_nuxt/ChapterSwiperButton.DT-K45KZ.css",
+      "status": 200,
+      "file": "__nuxt_ChapterSwiperButton.DT-K45KZ.css",
+      "bytes": 5681
+    }
+  ]
+}

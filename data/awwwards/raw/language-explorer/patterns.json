@@ -1,0 +1,91 @@
+{
+  "slug": "language-explorer",
+  "tech_stack": [],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [
+      "Google Sans Text"
+    ],
+    "font_face_families": [
+      "Google Sans",
+      "Google Sans Display",
+      "Google Sans Mono",
+      "Google Sans Text"
+    ],
+    "declared_stacks": [
+      "Google Sans",
+      "Google Sans Display",
+      "Google Sans Mono",
+      "Google Sans Text",
+      "inherit",
+      "Google Sans,Arial,Helvetica,sans-serif",
+      "Google Sans Text,Arial,Helvetica,sans-serif",
+      "Google Sans Mono,Courier New,Courier,monospace",
+      "var(--font-family-text)"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color-text-default": "#202124"
+    },
+    "size_vars": {
+      "dropdown-max-height": "200px",
+      "blur-amount": "30px",
+      "header-height": "67px",
+      "border-transition-duration": "0s",
+      "logo-width": "172px",
+      "border-radius": "30px",
+      "height": "137px",
+      "intro-extra-y": "10px",
+      "grid-gap": "24px",
+      "grid-max-width": "500px"
+    }
+  },
+  "css_features": {
+    "@keyframes": 10,
+    "animation:": 9,
+    "transition:": 119,
+    "clamp()": 0,
+    "min()/max()": 23,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 1,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 18,
+    "aspect-ratio": 0,
+    "grid-template": 3,
+    "mix-blend-mode": 0,
+    "filter:": 26,
+    "mask/clip-path": 9,
+    "@layer": 72,
+    "custom-property": 51
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 0,
+      "main": 1,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 1,
+    "video_count": 3,
+    "picture_count": 0,
+    "script_count": 10,
+    "link_count": 33,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 139414,
+  "css_chars": 176460,
+  "corpus_chars": 315876,
+  "snippet_libs": []
+}

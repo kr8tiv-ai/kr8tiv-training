@@ -1,0 +1,74 @@
+{
+  "slug": "voku-studiotm",
+  "tech_stack": [],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Archivo",
+      "Fragment Mono",
+      "vokufont"
+    ],
+    "declared_stacks": [
+      "vokufont",
+      "Archivo",
+      "Fragment Mono"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "primary-color": "#0a0a0a",
+      "primary-bg": "#fffdfc",
+      "secondary-color": "#aeaeae",
+      "secondary-bg": "#0a0a0a"
+    },
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 0,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 0,
+    "grid-template": 0,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 50
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 0,
+      "header": 2,
+      "main": 1,
+      "section": 1,
+      "article": 1,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 1,
+    "video_count": 9,
+    "picture_count": 0,
+    "script_count": 6,
+    "link_count": 47,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 84777,
+  "css_chars": 0,
+  "corpus_chars": 84779,
+  "snippet_libs": []
+}

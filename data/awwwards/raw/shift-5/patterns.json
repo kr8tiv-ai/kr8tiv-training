@@ -1,0 +1,114 @@
+{
+  "slug": "shift-5",
+  "tech_stack": [
+    "Astro",
+    "Sanity"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "AuxMono",
+      "NonSans",
+      "PPEditorialNew"
+    ],
+    "declared_stacks": [
+      "NonSans,arial",
+      "AuxMono,monospace",
+      "var(--cc-font-family)",
+      "inherit",
+      "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol",
+      "AuxMono",
+      "NonSans",
+      "PPEditorialNew",
+      "NonSans,sans-serif"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "cc-bg": "#fff",
+      "cc-primary-color": "#2c2f31",
+      "cc-secondary-color": "#5e6266",
+      "cc-btn-primary-bg": "#30363c",
+      "cc-btn-primary-color": "#fff",
+      "cc-btn-primary-hover-bg": "#000",
+      "cc-btn-primary-hover-color": "#fff",
+      "cc-btn-secondary-bg": "#eaeff2",
+      "cc-btn-secondary-hover-bg": "#d4dae0",
+      "cc-btn-secondary-hover-color": "#000",
+      "cc-btn-secondary-hover-border-color": "#d4dae0",
+      "cc-separator-border-color": "#f0f4f7",
+      "cc-toggle-off-bg": "#667481",
+      "cc-toggle-on-knob-bg": "#fff",
+      "cc-toggle-readonly-bg": "#d5dee2",
+      "cc-toggle-readonly-knob-bg": "#fff",
+      "cc-cookie-category-block-bg": "#f0f4f7",
+      "cc-cookie-category-block-border": "#f0f4f7",
+      "cc-cookie-category-block-hover-bg": "#e9eff4",
+      "cc-cookie-category-block-hover-border": "#e9eff4",
+      "cc-cookie-category-expanded-block-hover-bg": "#dee4e9",
+      "cc-overlay-bg": "rgba(0,0,0,.65)",
+      "cc-footer-border-color": "#e4eaed",
+      "cc-section-category-border": "#1e2428",
+      "cc-footer-bg": "#0c0e0f",
+      "cc-btn-primary-border-color": "#b9b9b9",
+      "cc-btn-primary-hover-border-color": "#b9b9b9",
+      "cc-btn-secondary-border-color": "#b9b9b9",
+      "cc-link-color": "#ff5841",
+      "cc-toggle-off-bg-hover": "#4d4d4d",
+      "cc-toggle-on-bg": "#ff5841"
+    },
+    "size_vars": {
+      "cc-modal-margin": "1rem",
+      "cc-pm-toggle-border-radius": "4em",
+      "cc-modal-transition-duration": "0s"
+    }
+  },
+  "css_features": {
+    "@keyframes": 1,
+    "animation:": 1,
+    "transition:": 45,
+    "clamp()": 2,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 1,
+    "grid-template": 39,
+    "mix-blend-mode": 5,
+    "filter:": 2,
+    "mask/clip-path": 1,
+    "@layer": 0,
+    "custom-property": 141
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 1,
+      "section": 4,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 1,
+    "video_count": 1,
+    "picture_count": 2,
+    "script_count": 1,
+    "link_count": 69,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 368104,
+  "css_chars": 164473,
+  "corpus_chars": 532579,
+  "snippet_libs": []
+}

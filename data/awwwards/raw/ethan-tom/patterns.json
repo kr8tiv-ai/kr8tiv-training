@@ -1,0 +1,72 @@
+{
+  "slug": "ethan-tom",
+  "tech_stack": [
+    "Sanity"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Geist Mono",
+      "Switzer"
+    ],
+    "declared_stacks": [
+      "Switzer",
+      "Geist Mono"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {
+      "blur": "1px",
+      "start": "0%"
+    }
+  },
+  "css_features": {
+    "@keyframes": 0,
+    "animation:": 0,
+    "transition:": 6,
+    "clamp()": 2,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 6,
+    "aspect-ratio": 0,
+    "grid-template": 7,
+    "mix-blend-mode": 2,
+    "filter:": 6,
+    "mask/clip-path": 6,
+    "@layer": 0,
+    "custom-property": 32
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 3,
+      "header": 172,
+      "main": 0,
+      "section": 77,
+      "article": 215,
+      "aside": 1,
+      "footer": 3
+    },
+    "canvas_count": 0,
+    "video_count": 259,
+    "picture_count": 0,
+    "script_count": 2,
+    "link_count": 164,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 300359,
+  "css_chars": 26404,
+  "corpus_chars": 326765,
+  "snippet_libs": []
+}

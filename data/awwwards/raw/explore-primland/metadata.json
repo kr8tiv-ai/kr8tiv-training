@@ -1,0 +1,40 @@
+{
+  "slug": "explore-primland",
+  "awwwards_url": "https://www.awwwards.com/sites/explore-primland",
+  "live_url": "https://explore.ownprimland.com/",
+  "title": "Explore Primland",
+  "agency": "Outpost",
+  "agency_url": "https://www.awwwards.com/Outpost/",
+  "tags": [
+    "Hotel / Restaurant",
+    "WebGL",
+    "Storytelling",
+    "GSAP",
+    "3D",
+    "Real Estate",
+    "UI design",
+    "Blender",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 04, 2026",
+  "created_at": 1770163200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/695bcba95e088010113338.jpg",
+  "rank": 71,
+  "fetched_at": 1776287826,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 184355,
+  "stylesheets": [
+    {
+      "url": "https://explore.ownprimland.com/_nuxt/entry.uK9XHSHK.css",
+      "status": 200,
+      "file": "__nuxt_entry.uK9XHSHK.css",
+      "bytes": 53246
+    }
+  ]
+}

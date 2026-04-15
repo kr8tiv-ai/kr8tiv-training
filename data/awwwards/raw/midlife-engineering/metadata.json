@@ -1,0 +1,42 @@
+{
+  "slug": "midlife-engineering",
+  "awwwards_url": "https://www.awwwards.com/sites/midlife-engineering",
+  "live_url": "https://midlife.engineering",
+  "title": "Midlife Engineering",
+  "agency": "Lee Black",
+  "agency_url": "https://www.awwwards.com/lee-black/",
+  "tags": [
+    "Music & Sound",
+    "Web & Interactive",
+    "Clean",
+    "Minimal",
+    "Experimental",
+    "Sound-Audio",
+    "Storytelling",
+    "React",
+    "Interaction Design",
+    "Javascript",
+    "Framer"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Jan 18, 2026",
+  "created_at": 1768694400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/6942d7881db3b957484890.png",
+  "rank": 88,
+  "fetched_at": 1776287830,
+  "content_type": "text/html",
+  "http_status": 200,
+  "html_bytes": 1215266,
+  "stylesheets": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Fragment+Mono:ital,wght@0,400;1,400&amp;display=swap",
+      "status": 200,
+      "file": "_css2.css",
+      "bytes": 2288
+    }
+  ]
+}

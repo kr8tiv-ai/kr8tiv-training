@@ -1,0 +1,76 @@
+{
+  "slug": "gavin-schneider-productions",
+  "tech_stack": [
+    "Next.js",
+    "Sanity"
+  ],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "SuisseAntique",
+      "SuisseMedium",
+      "SuisseRegular"
+    ],
+    "declared_stacks": [
+      "SuisseMedium,sans-serif",
+      "SuisseRegular,sans-serif",
+      "SuisseAntique,sans-serif",
+      "inherit",
+      "SuisseAntique",
+      "SuisseRegular",
+      "SuisseMedium"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {},
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 5,
+    "animation:": 4,
+    "transition:": 100,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 5,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 8,
+    "aspect-ratio": 2,
+    "grid-template": 16,
+    "mix-blend-mode": 12,
+    "filter:": 11,
+    "mask/clip-path": 48,
+    "@layer": 0,
+    "custom-property": 132
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 1,
+      "section": 1,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 23,
+    "script_count": 10,
+    "link_count": 33,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 188930,
+  "css_chars": 67807,
+  "corpus_chars": 256739,
+  "snippet_libs": []
+}

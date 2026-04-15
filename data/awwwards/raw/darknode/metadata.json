@@ -1,0 +1,48 @@
+{
+  "slug": "darknode",
+  "awwwards_url": "https://www.awwwards.com/sites/darknode",
+  "live_url": "https://www.darknode.army/en",
+  "title": "Darknode",
+  "agency": "Qream",
+  "agency_url": "https://www.awwwards.com/qream-design/",
+  "tags": [
+    "Technology",
+    "Web & Interactive",
+    "Animation",
+    "Scrolling",
+    "GSAP",
+    "3D",
+    "UI design",
+    "Microinteractions",
+    "Footer Design",
+    "Webflow",
+    "Social responsibility",
+    "Blender"
+  ],
+  "award_tags": [
+    "sotd"
+  ],
+  "award_date": "Mar 21, 2026",
+  "created_at": 1774051200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/69931ee64f975256592203.jpg",
+  "rank": 26,
+  "fetched_at": 1776287815,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 164318,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/68da9c3644ccc31db134dd0d/css/darknode-834e90.webflow.shared.415d846a9.min.css",
+      "status": 200,
+      "file": "_68da9c3644ccc31db134dd0d_css_darknode-834e90.webflow.shared.415d846a9.min.css",
+      "bytes": 74093
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap",
+      "status": 200,
+      "file": "_css2.css",
+      "bytes": 2308
+    }
+  ]
+}

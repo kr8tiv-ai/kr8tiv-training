@@ -1,0 +1,71 @@
+{
+  "slug": "corentin-bernadou-portfolio",
+  "tech_stack": [],
+  "motion_libs": [],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "H"
+    ],
+    "declared_stacks": []
+  },
+  "css_tokens": {
+    "color_vars": {
+      "document-background-color": "#070304",
+      "cross-color": "#CACACA"
+    },
+    "size_vars": {
+      "vh": "100vh",
+      "vw": "100vw",
+      "gutter": "3rem",
+      "fs-mobile": "2.5vw"
+    }
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 15,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 0,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 11,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 0,
+    "aspect-ratio": 9,
+    "grid-template": 6,
+    "mix-blend-mode": 0,
+    "filter:": 0,
+    "mask/clip-path": 0,
+    "@layer": 0,
+    "custom-property": 10
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 1,
+      "section": 0,
+      "article": 0,
+      "aside": 0,
+      "footer": 0
+    },
+    "canvas_count": 0,
+    "video_count": 0,
+    "picture_count": 0,
+    "script_count": 6,
+    "link_count": 183,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 51545,
+  "css_chars": 27613,
+  "corpus_chars": 79160,
+  "snippet_libs": []
+}

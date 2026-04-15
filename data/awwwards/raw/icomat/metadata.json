@@ -1,0 +1,42 @@
+{
+  "slug": "icomat",
+  "awwwards_url": "https://www.awwwards.com/sites/icomat",
+  "live_url": "https://www.icomat.co.uk/",
+  "title": "ICOMAT",
+  "agency": "REJOUICE®",
+  "agency_url": "https://www.awwwards.com/rejouice/",
+  "tags": [
+    "Business & Corporate",
+    "Technology",
+    "Animation",
+    "Clean",
+    "CSS",
+    "Scrolling",
+    "Storytelling",
+    "UI design",
+    "Vue.js",
+    "Startups",
+    "Vercel"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 09, 2026",
+  "created_at": 1775692800,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b341753ccb2312395532.jpg",
+  "rank": 7,
+  "fetched_at": 1776287810,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 180213,
+  "stylesheets": [
+    {
+      "url": "https://www.icomat.co.uk/_next/static/css/46d6ffd73ec6c2a2.css?dpl=dpl_4JfGxymJBL5Y7AxmNohSRVTUyvRK",
+      "status": 200,
+      "file": "__next_static_css_46d6ffd73ec6c2a2.css",
+      "bytes": 168704
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "art-here-2025-richard-mille",
+  "awwwards_url": "https://www.awwwards.com/sites/art-here-2025-richard-mille",
+  "live_url": "https://artprize-shadows.com/",
+  "title": "Art Here 2025 - Richard Mille",
+  "agency": "Hervé Studio",
+  "agency_url": "https://www.awwwards.com/HerveStudio/",
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "Animation",
+    "Unusual Navigation",
+    "WebGL",
+    "Transitions",
+    "Experimental",
+    "Sound-Audio",
+    "Three.js",
+    "3D",
+    "Interaction Design",
+    "Cinema 4D"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Feb 12, 2026",
+  "created_at": 1770854400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/695e99562d372908427228.png",
+  "rank": 63,
+  "fetched_at": 1776287824,
+  "content_type": "text/html; charset=UTF-8",
+  "http_status": 200,
+  "html_bytes": 43312,
+  "stylesheets": [
+    {
+      "url": "https://artprize-shadows.com/_astro/index.xJIDldPQ.css",
+      "status": 200,
+      "file": "__astro_index.xJIDldPQ.css",
+      "bytes": 31297
+    }
+  ]
+}

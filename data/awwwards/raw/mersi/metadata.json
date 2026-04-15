@@ -1,0 +1,43 @@
+{
+  "slug": "mersi",
+  "awwwards_url": "https://www.awwwards.com/sites/mersi",
+  "live_url": "https://www.mersi-architecture.com",
+  "title": "MERSI",
+  "agency": "FLOT NOIR",
+  "agency_url": "https://www.awwwards.com/flot-noir/",
+  "tags": [
+    "Architecture",
+    "Animation",
+    "Horizontal Layout",
+    "Portfolio",
+    "Transitions",
+    "GSAP",
+    "Real Estate",
+    "Contact Page",
+    "Footer Design",
+    "Webflow",
+    "Figma",
+    "Luxury"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 10, 2026",
+  "created_at": 1775779200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b11a0406d6b617931025.jpg",
+  "rank": 6,
+  "fetched_at": 1776287810,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 79222,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/69689842a40a17ac45e5418a/css/mersiv2.webflow.shared.48daa5886.min.css",
+      "status": 200,
+      "file": "_69689842a40a17ac45e5418a_css_mersiv2.webflow.shared.48daa5886.min.css",
+      "bytes": 94466
+    }
+  ]
+}

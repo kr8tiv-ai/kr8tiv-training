@@ -1,0 +1,46 @@
+{
+  "slug": "vast",
+  "awwwards_url": "https://www.awwwards.com/sites/vast",
+  "live_url": "https://vastspace.com",
+  "title": "Vast",
+  "agency": "Antinomy Studio",
+  "agency_url": "https://www.awwwards.com/antinomy/",
+  "tags": [
+    "Technology",
+    "Web & Interactive",
+    "Typography",
+    "WebGL",
+    "Transitions",
+    "Storytelling",
+    "Three.js",
+    "Photo & Video",
+    "Webflow"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Apr 01, 2026",
+  "created_at": 1775001600,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69a58a2ed0fd9863961931.png",
+  "rank": 15,
+  "fetched_at": 1776287813,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 276145,
+  "stylesheets": [
+    {
+      "url": "https://dcwvv9x5kjsk9.cloudfront.net/index.css",
+      "status": 200,
+      "file": "_index.css",
+      "bytes": 48979
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6685783e25a3393548894173/css/antinomy-vast.webflow.shared.3e047532c.css",
+      "status": 200,
+      "file": "_6685783e25a3393548894173_css_antinomy-vast.webflow.shared.3e047532c.css",
+      "bytes": 207548
+    }
+  ]
+}

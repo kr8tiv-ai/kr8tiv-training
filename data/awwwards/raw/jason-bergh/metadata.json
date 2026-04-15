@@ -1,0 +1,44 @@
+{
+  "slug": "jason-bergh",
+  "awwwards_url": "https://www.awwwards.com/sites/jason-bergh",
+  "live_url": "https://www.jasonbergh.com",
+  "title": "Jason Bergh",
+  "agency": "BL/S®",
+  "agency_url": "https://www.awwwards.com/blacklead/",
+  "tags": [
+    "Film & TV",
+    "Music & Sound",
+    "jQuery",
+    "Portfolio",
+    "Video",
+    "Gallery",
+    "GSAP",
+    "About Page",
+    "Contact Page",
+    "404 pages",
+    "Webflow",
+    "Luxury"
+  ],
+  "award_tags": [
+    "ah",
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 03, 2026",
+  "created_at": 1772496000,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6978ca836413e253177401.png",
+  "rank": 44,
+  "fetched_at": 1776287818,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 941455,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/696e26954ee505294b4b866c/css/jason-bergh-copy.webflow.shared.f0015c926.css",
+      "status": 200,
+      "file": "_696e26954ee505294b4b866c_css_jason-bergh-copy.webflow.shared.f0015c926.css",
+      "bytes": 162674
+    }
+  ]
+}

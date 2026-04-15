@@ -1,0 +1,41 @@
+{
+  "slug": "artem-shcherban-portfolio",
+  "awwwards_url": "https://www.awwwards.com/sites/artem-shcherban-portfolio",
+  "live_url": "https://artemshcherban.com",
+  "title": "Artem Shcherban Portfolio",
+  "agency": "Artem Shcherban",
+  "agency_url": "https://www.awwwards.com/li.artem/",
+  "tags": [
+    "Design Agencies",
+    "Other",
+    "Web & Interactive",
+    "Clean",
+    "Minimal",
+    "Portfolio",
+    "GSAP",
+    "Content architecture",
+    "Interaction Design",
+    "Webflow",
+    "Figma"
+  ],
+  "award_tags": [
+    "sotd"
+  ],
+  "award_date": "Apr 05, 2026",
+  "created_at": 1775347200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b11ccf2555e763147176.jpg",
+  "rank": 11,
+  "fetched_at": 1776287810,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 111721,
+  "stylesheets": [
+    {
+      "url": "https://cdn.prod.website-files.com/68de8a969aba623df9f325cc/css/artem-shcherban-79f658.webflow.shared.e3e35d359.css",
+      "status": 200,
+      "file": "68de8a969aba623df9f325cc_css_artem-shcherban-79f658.webflow.shared.e3e35d359.css",
+      "bytes": 166681
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "fluid-glass",
+  "tech_stack": [
+    "Nuxt",
+    "Vue"
+  ],
+  "motion_libs": [
+    "Framer Motion"
+  ],
+  "fonts": {
+    "google_fonts": [],
+    "font_face_families": [
+      "Aeonik Mono",
+      "Aeonik Pro"
+    ],
+    "declared_stacks": [
+      "Aeonik Mono",
+      "Aeonik Pro",
+      "var(--font-f-aeonik-pro)",
+      "var(--font-f-aeonik-mono)",
+      "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji"
+    ]
+  },
+  "css_tokens": {
+    "color_vars": {
+      "color-black": "#0b1012",
+      "color-white": "#fff",
+      "color-cream": "#f3f0ec",
+      "color-taupe": "#d4cec6",
+      "color-grey": "#212325"
+    },
+    "size_vars": {}
+  },
+  "css_features": {
+    "@keyframes": 2,
+    "animation:": 2,
+    "transition:": 15,
+    "clamp()": 0,
+    "min()/max()": 0,
+    "oklch()": 0,
+    "oklab()": 0,
+    "color-mix()": 165,
+    "hsl()": 0,
+    "container-query": 0,
+    ":has()": 0,
+    "subgrid": 0,
+    "view-transition": 0,
+    "scroll-timeline": 0,
+    "backdrop-filter": 26,
+    "aspect-ratio": 17,
+    "grid-template": 69,
+    "mix-blend-mode": 0,
+    "filter:": 28,
+    "mask/clip-path": 11,
+    "@layer": 0,
+    "custom-property": 26
+  },
+  "structure": {
+    "section_counts": {
+      "nav": 1,
+      "header": 1,
+      "main": 1,
+      "section": 9,
+      "article": 0,
+      "aside": 0,
+      "footer": 1
+    },
+    "canvas_count": 0,
+    "video_count": 2,
+    "picture_count": 0,
+    "script_count": 4,
+    "link_count": 34,
+    "has_webgl_ctx": false,
+    "webgl_ctx_count": 0,
+    "shader_tag_count": 0
+  },
+  "html_chars": 966210,
+  "css_chars": 152554,
+  "corpus_chars": 1118766,
+  "snippet_libs": []
+}

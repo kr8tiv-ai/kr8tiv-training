@@ -1,0 +1,47 @@
+{
+  "slug": "gavin-schneider-productions",
+  "awwwards_url": "https://www.awwwards.com/sites/gavin-schneider-productions",
+  "live_url": "https://www.gsproductions.co.za/",
+  "title": "Gavin Schneider Productions",
+  "agency": "DashDigital",
+  "agency_url": "https://www.awwwards.com/DashDigital/",
+  "tags": [
+    "Fashion",
+    "Film & TV",
+    "Minimal",
+    "Portfolio",
+    "Photography",
+    "Photo & Video",
+    "Next.js",
+    "Sanity",
+    "AWS"
+  ],
+  "award_tags": [
+    "ah",
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 04, 2026",
+  "created_at": 1772582400,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/697898787870b765501229.png",
+  "rank": 43,
+  "fetched_at": 1776287820,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 189013,
+  "stylesheets": [
+    {
+      "url": "https://www.gsproductions.co.za/_next/static/css/3df9972cd7b60d2e.css",
+      "status": 200,
+      "file": "__next_static_css_3df9972cd7b60d2e.css",
+      "bytes": 62765
+    },
+    {
+      "url": "https://www.gsproductions.co.za/_next/static/css/c57bf47eaad69141.css",
+      "status": 200,
+      "file": "__next_static_css_c57bf47eaad69141.css",
+      "bytes": 5040
+    }
+  ]
+}

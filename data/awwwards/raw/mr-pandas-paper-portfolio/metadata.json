@@ -1,0 +1,43 @@
+{
+  "slug": "mr-pandas-paper-portfolio",
+  "awwwards_url": "https://www.awwwards.com/sites/mr-pandas-paper-portfolio",
+  "live_url": "https://www.mr-pandas-psychologically-safe-portfolio.com/",
+  "title": "Mr. Pandas Paper Portfolio",
+  "agency": "Andrew Woan",
+  "agency_url": "https://www.awwwards.com/andrewwoan/",
+  "tags": [
+    "Art & Illustration",
+    "Other",
+    "Web & Interactive",
+    "Colorful",
+    "Infinite Scroll",
+    "Portfolio",
+    "Unusual Navigation",
+    "Storytelling",
+    "GSAP",
+    "Three.js",
+    "3D",
+    "Blender"
+  ],
+  "award_tags": [
+    "dev",
+    "sotd"
+  ],
+  "award_date": "Mar 11, 2026",
+  "created_at": 1773187200,
+  "category": "SOTD",
+  "thumbnail": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/697a6f50393ad534644004.png",
+  "rank": 36,
+  "fetched_at": 1776287817,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "html_bytes": 1264,
+  "stylesheets": [
+    {
+      "url": "https://www.mr-pandas-psychologically-safe-portfolio.com/assets/index-V2LrUlmw.css",
+      "status": 200,
+      "file": "_assets_index-V2LrUlmw.css",
+      "bytes": 4779
+    }
+  ]
+}
