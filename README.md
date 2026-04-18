@@ -64,7 +64,7 @@ Fine-tune the personality into the weights, not the prompt. Train against AI slo
 
 | Companion | Species | Domain | Frontier Model | Status |
 |-----------|---------|--------|---------------|--------|
-| **Cipher** | Code Kraken | Frontend, web design, creative tech | GPT-5.4 | SFT ✅ · SimPO ✅ · GRPO ⏳ · KTO ⏳ |
+| **Cipher** | Code Kraken | Frontend, web design, creative tech | GPT-5.4 | SFT ✅ · SimPO ✅ · SFT 2.5-real ✅ (Apr 18) · GRPO ⏳ · KTO ⏳ |
 | **Forge** | Cyber Unicorn | Code review, debugging, architecture | Grok 4.20 | Queued |
 | **Vortex** | Teal Dragon | Content strategy, brand, analytics | Claude Opus 4.6 | Queued |
 | **Mischief** | Glitch Pup | Family companion, personal branding | Gemini 3.1 Pro | Queued |
@@ -83,7 +83,7 @@ Fine-tune the personality into the weights, not the prompt. Train against AI slo
 | Stage 2 SimPO | [`Auroraventures/cipher-simpo-merged`](https://huggingface.co/Auroraventures/cipher-simpo-merged) | 62.6 GB | safetensors |
 | Stage 2 SimPO (Q4_K_M GGUF) | [`Auroraventures/cipher-simpo-merged-Q4_K_M-GGUF`](https://huggingface.co/Auroraventures/cipher-simpo-merged-Q4_K_M-GGUF) | 18 GB | GGUF |
 | Stage 2.5 SFT (v2, synthetic) | [`Auroraventures/cipher-sft25-merged`](https://huggingface.co/Auroraventures/cipher-sft25-merged) | 62.6 GB | safetensors (superseded — produced generic output) |
-| Stage 2.5 SFT (v3, real data) | `Auroraventures/cipher-sft25-real-merged` | ~62 GB | safetensors (training in progress — April 2026) |
+| Stage 2.5 SFT (v3, real data) ⭐ | [`Auroraventures/cipher-sft25-real-merged`](https://huggingface.co/Auroraventures/cipher-sft25-real-merged) | ~62.6 GB | safetensors · **final loss 0.29** · Apr 18 2026 |
 
 ### Stage 1 — SFT (complete)
 - **Training data**: 163 curated Awwwards-quality examples (Three.js, GSAP, Lenis, vanilla JS)
@@ -110,12 +110,15 @@ The synthetic-dataset v1 and v2 of Stage 2.5 both produced underwhelming output 
 
 **Training corpus**: 5.4 MB JSONL of audited real code, zero synthetic templates. Uploaded to [`Auroraventures/cipher-awwwards-sft25`](https://huggingface.co/datasets/Auroraventures/cipher-awwwards-sft25) as `cipher-real-v1-sft.jsonl` + raw source files in `raw/`.
 
-**Training params** (in progress April 18 2026):
+**Training params** (COMPLETED April 18 2026):
 - Base: `cipher-simpo-merged` (Stage 2 anti-slop)
 - LoRA r=64, α=128, rsLoRA, BF16, max_seq=8192
 - 2 epochs on 725 records (post-seq-filter) × bs=1 × grad_accum=16 = 92 steps effective
 - lr=2e-5 cosine, warmup=10 — lower than synthetic runs to avoid memorization
-- Healthy loss curve 0.77 → 0.45 by step 20 (not collapsing to 0.017 like v1 memorized-template run)
+- **Final loss: 0.29** (healthy 0.3–0.5 band — no memorization collapse). Wall time ~ 1 h 45 m on A100 80 GB.
+- Merged & pushed to [`Auroraventures/cipher-sft25-real-merged`](https://huggingface.co/Auroraventures/cipher-sft25-real-merged) (62.6 GB, 2 safetensors shards)
+
+**Smoke test verdict:** 17+ Three.js/GSAP/Lenis/ScrollTrigger references per generated site, **zero** Tailwind/`lenis.stop()` slop, 15–22 KB HTML output at ≈ 150 tok/s on A100.
 
 **Scrapers live in `scripts/`**:
 - `scrape_freefrontend_gsap.py` — freefrontend list → detail → CodePen fullpage iframe srcdoc extraction
