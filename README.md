@@ -110,6 +110,11 @@ The synthetic-dataset v1 and v2 of Stage 2.5 both produced underwhelming output 
 
 **Training corpus**: 5.4 MB JSONL of audited real code, zero synthetic templates. Uploaded to [`Auroraventures/cipher-awwwards-sft25`](https://huggingface.co/datasets/Auroraventures/cipher-awwwards-sft25) as `cipher-real-v1-sft.jsonl` + raw source files in `raw/`.
 
+**Checked-in reproducibility path**:
+- `companions/cipher/training/stage25_real_sft_colab.py` — Colab cell sequence for the real-data v3 retrain
+- `scripts/audit_real_sft.py` — verifies every assistant payload is source-backed HTML or real code before retraining
+- `companions/cipher/training/stage25_sft_colab.py` — legacy synthetic-data path retained only for reference
+
 **Training params** (COMPLETED April 18 2026):
 - Base: `cipher-simpo-merged` (Stage 2 anti-slop)
 - LoRA r=64, α=128, rsLoRA, BF16, max_seq=8192
@@ -126,6 +131,7 @@ The synthetic-dataset v1 and v2 of Stage 2.5 both produced underwhelming output 
 - `scrape_framer_motion.py` — recursive walk of `motiondivision/motion/dev/react/src/examples`
 - `aura_sitemap_scan.py` + `aura_render_scrape.py` — aura.build subdomain shell fetch
 - `build_sft_from_real.py` — merges the 4 sources into a Gemma-4 chat-format SFT JSONL
+- `audit_real_sft.py` — fast sanity check that the v3 corpus contains only source-backed HTML/module code
 
 ### Stage 3 — GRPO (queued)
 RL with a multi-signal reward function (accessibility, creative quality, personality, exec, craftsmanship). Reward function already implemented in `scripts/slop_detector.py` + `configs/grpo_config.py`.

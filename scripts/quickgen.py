@@ -1,10 +1,10 @@
-"""Generate 3 Awwwards-quality website examples with Cipher SFT (via Unsloth)."""
+"""Generate 3 Awwwards-quality website examples with Cipher v3 real-data SFT (via Unsloth)."""
 import torch, re, os
 from unsloth import FastLanguageModel
 
 print("[1/4] Loading model with Unsloth (60GB - takes ~2min)...", flush=True)
 model, tok = FastLanguageModel.from_pretrained(
-    model_name="/content/cipher-sft-merged",
+    model_name="/content/cipher-sft25-real-merged",
     max_seq_length=8192,
     load_in_4bit=True,
     dtype=None,

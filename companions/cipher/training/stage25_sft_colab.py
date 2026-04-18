@@ -1,19 +1,18 @@
-"""Cipher Stage 2.5 — second SFT on Awwwards-distilled gold data.
+"""LEGACY: Cipher Stage 2.5 synthetic-data SFT on Awwwards-distilled gold data.
 
 Paste this into a fresh Colab A100 cell. Loads cipher-simpo-merged (our
 Stage 2 output), applies LoRA, and fine-tunes on 288 (prompt, completion)
 pairs synthesized from the 96 SOTD patterns.
 
-Why Stage 2.5?
+This file is preserved as historical reference only.
+Use `stage25_real_sft_colab.py` for the real-data retrain that backs
+`Auroraventures/cipher-sft25-real-merged`.
+
+Why this is legacy:
   Stage 1 SFT taught Cipher to write clean HTML.
   Stage 2 SimPO killed the slop (Tailwind fallback, opacity cascade bug, etc.).
-  Current quality: "better than generic AI, but not by much."
-  The remaining gap is DATA CEILING: nothing in training showed Cipher the
-  canonical Awwwards motion stack (Lenis + GSAP + ScrollTrigger + SplitText)
-  as a reliable default. Stage 2.5 fixes that.
-
-After this: Stage 3 (GRPO with Awwwards-rubric reward) has a much stronger
-foundation to optimize from.
+  This synthetic Stage 2.5 path taught the stack, but it also produced
+  template collapse. The real-data v3 path supersedes it.
 """
 
 # ==========================================================================
