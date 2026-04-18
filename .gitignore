@@ -12,14 +12,35 @@ venv/
 checkpoints/
 wandb/
 
-# Raw scraped data (large, not tracked)
-data/raw/*.json
+# Raw scraped data (large HTML/JSON, not tracked) — but JSONL manifests ARE tracked
 data/raw/*.html
 data/raw/*.py
+# Don't ignore .jsonl scraped manifests (small enough to track, needed for reproducibility)
+!data/raw/*.jsonl
 !data/raw/.gitkeep
+# Don't ignore awwwards subdirs with scraped raw HTML — too big, keep out
+data/awwwards/raw/
+data/awwwards/raw/*
 
 # Curated training data IS tracked (this is the product)
 !data/prompts/.gitkeep
+
+# Model artifacts (trained locally)
+outputs/
+cipher-*-merged/
+kin-cipher-*.gguf
+
+# Secrets — NEVER commit
+*.token
+*token*.txt
+.git-credentials
+.hf_token
+.env.*
+secrets/
+!.env.example
+# Token patterns in any file
+**/ghp_*
+**/hf_*
 
 # IDE
 .vscode/

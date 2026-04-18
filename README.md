@@ -81,6 +81,9 @@ Fine-tune the personality into the weights, not the prompt. Train against AI slo
 | Stage 1 SFT | [`Auroraventures/cipher-sft-merged`](https://huggingface.co/Auroraventures/cipher-sft-merged) | 62.5 GB | safetensors |
 | Stage 1 SFT (Q4_K_M GGUF) | [`Auroraventures/cipher-sft-merged-Q4_K_M-GGUF`](https://huggingface.co/Auroraventures/cipher-sft-merged-Q4_K_M-GGUF) | 18.7 GB | GGUF (Ollama-ready) |
 | Stage 2 SimPO | [`Auroraventures/cipher-simpo-merged`](https://huggingface.co/Auroraventures/cipher-simpo-merged) | 62.6 GB | safetensors |
+| Stage 2 SimPO (Q4_K_M GGUF) | [`Auroraventures/cipher-simpo-merged-Q4_K_M-GGUF`](https://huggingface.co/Auroraventures/cipher-simpo-merged-Q4_K_M-GGUF) | 18 GB | GGUF |
+| Stage 2.5 SFT (v2, synthetic) | [`Auroraventures/cipher-sft25-merged`](https://huggingface.co/Auroraventures/cipher-sft25-merged) | 62.6 GB | safetensors (superseded — produced generic output) |
+| Stage 2.5 SFT (v3, real data) | `Auroraventures/cipher-sft25-real-merged` | ~62 GB | safetensors (training in progress — April 2026) |
 
 ### Stage 1 — SFT (complete)
 - **Training data**: 163 curated Awwwards-quality examples (Three.js, GSAP, Lenis, vanilla JS)
@@ -94,8 +97,43 @@ Fine-tune the personality into the weights, not the prompt. Train against AI slo
 - **Duration**: ~60 min on A100
 - **Purpose**: trained model to prefer hand-crafted Awwwards code over Tailwind/template slop at the gradient level
 
+### Stage 2.5 — SFT on real scraped code (v3, April 2026)
+
+The synthetic-dataset v1 and v2 of Stage 2.5 both produced underwhelming output ("same website every time" for v1, "barely better than generic AI" for v2). v3 replaces hand-written templates with **741 real code records scraped from canonical sources**:
+
+| Source | Records | Signal | Notes |
+|---|---|---|---|
+| `mrdoob/three.js/examples/` | 578 | 99.3% use `new THREE.Scene/WebGLRenderer`, 63% have shader/WebGL | Official three.js examples |
+| `motiondivision/motion/dev` | 148 | 99.3% have real `motion.*` usage, 12% use hooks | Canonical Framer Motion playground |
+| `freefrontend.com/gsap-js` | 63 | 79% have direct `gsap.to/from/timeline` calls | Full-render CodePen pens via `cdpn.io/{user}/fullpage/{id}` |
+| `aura.build` (metadata) | 998 | Title + description + OG image for 998 real templates | Reference catalog (brand names + briefs) |
+
+**Training corpus**: 5.4 MB JSONL of audited real code, zero synthetic templates. Uploaded to [`Auroraventures/cipher-awwwards-sft25`](https://huggingface.co/datasets/Auroraventures/cipher-awwwards-sft25) as `cipher-real-v1-sft.jsonl` + raw source files in `raw/`.
+
+**Training params** (in progress April 18 2026):
+- Base: `cipher-simpo-merged` (Stage 2 anti-slop)
+- LoRA r=64, α=128, rsLoRA, BF16, max_seq=8192
+- 2 epochs on 725 records (post-seq-filter) × bs=1 × grad_accum=16 = 92 steps effective
+- lr=2e-5 cosine, warmup=10 — lower than synthetic runs to avoid memorization
+- Healthy loss curve 0.77 → 0.45 by step 20 (not collapsing to 0.017 like v1 memorized-template run)
+
+**Scrapers live in `scripts/`**:
+- `scrape_freefrontend_gsap.py` — freefrontend list → detail → CodePen fullpage iframe srcdoc extraction
+- `scrape_threejs.py` — GitHub contents API over `mrdoob/three.js/examples/*.html`
+- `scrape_framer_motion.py` — recursive walk of `motiondivision/motion/dev/react/src/examples`
+- `aura_sitemap_scan.py` + `aura_render_scrape.py` — aura.build subdomain shell fetch
+- `build_sft_from_real.py` — merges the 4 sources into a Gemma-4 chat-format SFT JSONL
+
 ### Stage 3 — GRPO (queued)
 RL with a multi-signal reward function (accessibility, creative quality, personality, exec, craftsmanship). Reward function already implemented in `scripts/slop_detector.py` + `configs/grpo_config.py`.
+
+**The Kraken Sees runtime harness** is the Stage 3 dependency and is now scoped in `companions/cipher/runtime/`:
+- `render-loop.ts` — Playwright + axe-core + multi-viewport screenshots + quality scoring (pre-existing)
+- `inference.ts` — local Ollama + frontier escalation router (pre-existing)
+- `kraken-sees.ts` — **NEW** orchestrator wiring generator → render → visual critic → iterate
+- `kraken-sees-cli.ts` — **NEW** end-to-end CLI runner
+
+This lets Stage 3 use a REAL reward signal (does the rendered page pass axe-core + score high on design when judged by Claude Vision) instead of the fake text-based reward the earlier attempts used.
 
 ### Stage 4 — KTO (queued)
 Binary feedback collection for production refinement after real-world use.
