@@ -21,6 +21,16 @@
 
 ---
 
+## Update, Apr 18 2026: creative generation has moved to Kraken RAG
+
+The fine-tuning experiments documented in this repo are real and they shipped — but generation tests with the v3 checkpoint confirmed the ceiling described in [`data/awwwards/distilled/CRITICAL-ASSESSMENT.md`](data/awwwards/distilled/CRITICAL-ASSESSMENT.md) (written 2026-04-15): a 31 B local fine-tune on library examples + SOTD metadata produces syntactically correct but aesthetically generic HTML.
+
+The production path for **creative brief → Awwwards-quality single-file HTML** is now the **[Kraken RAG](https://github.com/kr8tiv-ai/kr8tiv-runtime-truth-contracts/tree/main/kraken_rag)** package in the runtime-truth-contracts repo. It retrieves the 3 most stylistically similar winners from the 96-record `awwwards-gold.jsonl` corpus and prompts a frontier model (Claude Opus 4.7 via the Claude Code CLI, or GPT-5.4 via the SDK). Same architecture Vercel's v0 is built around. No fine-tuning, no GPU bills, shippable today.
+
+The fine-tuned Cipher checkpoints retain value as local offline scaffolders, research artifacts, and future reward-model candidates. They are not the creative brain and this repo is not pretending otherwise.
+
+---
+
 ## What This Is
 
 Six locally-runnable AI companion models, each fine-tuned on Gemma 4 31B with a 4-stage alignment pipeline. Every companion has a distinct personality, domain expertise, and voice — trained to beat generic frontier models through specialization and character.
